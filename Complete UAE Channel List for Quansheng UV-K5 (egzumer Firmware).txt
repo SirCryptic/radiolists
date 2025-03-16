@@ -1,0 +1,225 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 446.00625       | FM   | PMR 1         | PMR446 Ch 1, licence-free (0.5W max)       |
+| 1       | 446.01875       | FM   | PMR 2         | PMR446 Ch 2, licence-free (0.5W max)       |
+| 2       | 446.03125       | FM   | PMR 3         | PMR446 Ch 3, licence-free (0.5W max)       |
+| 3       | 446.04375       | FM   | PMR 4         | PMR446 Ch 4, licence-free (0.5W max)       |
+| 4       | 446.05625       | FM   | PMR 5         | PMR446 Ch 5, licence-free (0.5W max)       |
+| 5       | 446.06875       | FM   | PMR 6         | PMR446 Ch 6, licence-free (0.5W max)       |
+| 6       | 446.08125       | FM   | PMR 7         | PMR446 Ch 7, licence-free (0.5W max)       |
+| 7       | 446.09375       | FM   | PMR 8         | PMR446 Ch 8, licence-free (0.5W max)       |
+| 8       | 145.500         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 9       | 145.425         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 10      | 145.625         | FM   | 2M Rptr A71A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 11      | 145.675         | FM   | 2M Rptr A71B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 12      | 433.500         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 13      | 433.400         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 14      | 434.600         | FM   | 70CM Rptr A71C| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 15      | 434.650         | FM   | 70CM Rptr A71D| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 16      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 17      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 18      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 19      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 20      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 21      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 22      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 23      | 118.100         | AM   | DXB TWR       | Dubai Intl Tower example (RX only)         |
+| 24      | 88.0            | FM   | City 101.6    | City 101.6 Dubai (FM preset, RX only)      |
+| 25      | 89.1            | FM   | Dubai Eye     | Dubai Eye 103.8 (FM preset, RX only)       |
+| 26      | 91.4            | FM   | Radio Shoma   | Radio Shoma 93.4 (FM preset, RX only)      |
+| 27      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 28      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 29      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 30      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 31      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 32      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 33      | 144.800         | FM   | APRS EU       | APRS Europe (amateur licence)              |
+| 34      | 145.650         | FM   | 2M Rptr A71E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 35      | 145.700         | FM   | 2M Rptr A71F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 36      | 434.675         | FM   | 70CM Rptr A71G| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 37      | 434.700         | FM   | 70CM Rptr A71H| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 38      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 39      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 40      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 41      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 42      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 43      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 44      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 45      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 46      | 124.525         | AM   | AUH TWR       | Abu Dhabi Intl Tower example (RX only)     |
+| 47      | 119.850         | AM   | SHJ TWR       | Sharjah Intl Tower example (RX only)       |
+| 48      | 92.0            | FM   | Virgin UAE    | Virgin Radio Dubai (FM preset, RX only)    |
+| 49      | 94.0            | FM   | Dubai 92      | Dubai 92 (FM preset, RX only)              |
+| 50      | 95.0            | FM   | Tag 91.1      | Tag 91.1 Dubai (FM preset, RX only)        |
+| 51      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 52      | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 53      | 145.200         | FM   | 2M Alt Call   | 2m alternate calling (amateur licence)     |
+| 54      | 433.425         | FM   | 70CM Alt Call | 70cm alternate calling (amateur licence)   |
+| 55      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 56      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 57      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 58      | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 59      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 60      | 131.725         | AM   | DXB APP       | Dubai Approach example (RX only)           |
+| 61      | 96.7            | FM   | Al Arabiya    | Al Arabiya 99 Dubai (FM preset, RX only)   |
+| 62      | 97.8            | FM   | Hit 96.7      | Hit 96.7 Dubai (FM preset, RX only)        |
+| 63      | 99.3            | FM   | Dubai 104.8   | Channel 4 104.8 Dubai (FM preset, RX only) |
+| 64      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 65      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 66      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 67      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 68      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 69      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 70      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 71      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 72      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 73      | 118.475         | AM   | RKT TWR       | Ras Al Khaimah Tower example (RX only)     |
+| 74      | 124.900         | AM   | AUH APP       | Abu Dhabi Approach example (RX only)       |
+| 75      | 100.5           | FM   | Kris Fade     | Kris Fade Show Dubai (FM preset, RX only)  |
+| 76      | 101.6           | FM   | Dance FM      | Dance FM Dubai (FM preset, RX only)        |
+| 77      | 103.8           | FM   | Dubai Eye Alt | Dubai Eye alternate (FM preset, RX only)   |
+| 78      | 145.725         | FM   | 2M Rptr A71I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 79      | 145.775         | FM   | 2M Rptr A71J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 80      | 434.725         | FM   | 70CM Rptr A71K| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 81      | 434.750         | FM   | 70CM Rptr A71L| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 82      | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 83      | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 84      | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 85      | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 86      | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 87      | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 88      | 119.200         | AM   | FJR TWR       | Fujairah Tower example (RX only)           |
+| 89      | 127.900         | AM   | AAN APP       | Al Ain Approach example (RX only)          |
+| 90      | 87.5            | FM   | Quran Kareem  | Quran Kareem Dubai (FM preset, RX only)    |
+| 91      | 93.4            | FM   | Noor Dubai    | Noor Dubai (FM preset, RX only)            |
+| 92      | 104.1           | FM   | Radio Mirchi  | Radio Mirchi UAE (FM preset, RX only)      |
+| 93      | 145.600         | FM   | 2M Rptr A71M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 94      | 145.650         | FM   | 2M Rptr A71N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 95      | 434.775         | FM   | 70CM Rptr A71O| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 96      | 434.800         | FM   | 70CM Rptr A71P| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 97      | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 98      | 118.650         | AM   | DWC TWR       | Dubai World Central Tower (RX only)        |
+| 99      | 105.2           | FM   | Al Khaleejiya | Al Khaleejiya Dubai (FM preset, RX only)  |
+| 100     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 101     | 52.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 102     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 103     | 146.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 104     | 430.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 105     | 440.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 106     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 107     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 108     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 109     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 110     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 111     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 112     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 113     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 114     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 115     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 116     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 117     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 118     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 119     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 120     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 121     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 122     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 123     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 124     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 125     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 126     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 127     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 128     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 129     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 130     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 131     | 450.000         | FM   | UHF EXP 450   | UHF experimental (TX risky/illegal)        |
+| 132     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 133     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 134     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 135     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 136     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 137     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 138     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 139     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 140     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 141     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 142     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 143     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 144     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 145     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 146     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 147     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 148     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 149     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 150     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 151     | 145.750         | FM   | 2M Rptr A71Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 152     | 145.800         | FM   | 2M Rptr A71R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 153     | 434.825         | FM   | 70CM Rptr A71S| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 154     | 434.850         | FM   | 70CM Rptr A71T| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 155     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 156     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 157     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 118.825         | AM   | ZDY TWR       | Zayed Intl Tower example (RX only)         |
+| 161     | 126.625         | AM   | SHJ APP       | Sharjah Approach example (RX only)         |
+| 162     | 90.8            | FM   | Al Rabia      | Al Rabia FM Dubai (FM preset, RX only)     |
+| 163     | 98.4            | FM   | Abu Dhabi FM  | Abu Dhabi Classic FM (FM preset, RX only)  |
+| 164     | 107.4           | FM   | Emirates RD2  | Emirates Radio 2 (FM preset, RX only)      |
+| 165     | 145.525         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 166     | 433.450         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 167     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 168     | 145.725         | FM   | 2M Rptr A71U  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 169     | 145.850         | FM   | 2M Rptr A71V  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 434.875         | FM   | 70CM Rptr A71W| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 171     | 434.900         | FM   | 70CM Rptr A71X| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 172     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 173     | 119.600         | AM   | DXB GND       | Dubai Ground example (RX only)             |
+| 174     | 102.2           | FM   | Classic FM    | Classic FM Dubai (FM preset, RX only)      |
+| 175     | 106.2           | FM   | Emirates RD1  | Emirates Radio 1 (FM preset, RX only)      |
+| 176     | 145.575         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 177     | 433.475         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 178     | 145.7875        | FM   | 2M Rptr A71Y  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 179     | 145.8125        | FM   | 2M Rptr A71Z  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 180     | 434.925         | FM   | 70CM Rptr A71AA| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 181     | 434.950         | FM   | 70CM Rptr A71AB| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 182     | 118.300         | FM   | FJR APP       | Fujairah Approach example (RX only)        |
+| 183     | 91.1            | FM   | Emirates Holy | Emirates Holy Quran (FM preset, RX only)  |
+| 184     | 94.6            | FM   | Abu Dhabi Cls | Abu Dhabi Classic alternate (FM preset, RX only) |
+| 185     | 95.8            | FM   | Star FM       | Star FM Abu Dhabi (FM preset, RX only)     |
+| 186     | 97.1            | FM   | Emarat FM     | Emarat FM Abu Dhabi (FM preset, RX only)   |
+| 187     | 99.0            | FM   | Abu Dhabi RD  | Abu Dhabi Radio (FM preset, RX only)       |
+| 188     | 100.1           | FM   | Fun Asia      | Fun Asia Radio UAE (FM preset, RX only)    |
+| 189     | 101.3           | FM   | Josh FM       | Josh FM UAE (FM preset, RX only)           |
+| 190     | 103.2           | FM   | Big FM UAE    | Big FM UAE (FM preset, RX only)            |
+| 191     | 104.8           | FM   | Dubai 104.8 Alt | Channel 4 alternate (FM preset, RX only) |
+| 192     | 105.4           | FM   | Radio Spice   | Radio Spice Dubai (FM preset, RX only)     |
+| 193     | 106.8           | FM   | Suno 1024     | Suno 1024 UAE (FM preset, RX only)         |
+| 194     | 107.1           | FM   | Mirchi 1024   | Mirchi 1024 alternate (FM preset, RX only) |
+| 195     | 107.8           | FM   | Hit 96.7 Alt  | Hit 96.7 alternate (FM preset, RX only)    |
+| 196     | 145.525         | FM   | 2M Simplex 4  | 2m simplex (amateur licence)               |
+| 197     | 433.525         | FM   | 70CM Simplex 4| 70cm simplex (amateur licence)             |
+| 198     | 145.850         | FM   | 2M Simplex 5  | 2m simplex (amateur licence)               |
+| 199     | 433.550         | FM   | 70CM Simplex 5| 70cm simplex (amateur licence)             |
+
+Notes
+Legal Status in the UAE (TDRA Regulations)
+Licence-Free:
+PMR446: Channels 0–7 (446.00625–446.09375 MHz, 0.5W max). Harmonized with EU standards, permitted for personal use without a licence under TDRA guidelines.
+LPD433: Not explicitly licence-free in the UAE; usage is restricted and typically requires TDRA approval. Included here for compatibility with nearby regions, but TX may be illegal without a permit.
+Amateur Radio: Requires an amateur radio licence from the Emirates Amateur Radio Society (EARS) or TDRA:
+6m: 27–28, 51–52, 64, 100–101 (50–52 MHz, up to 100W depending on category).
+2m: 8–11, 31, 34–35, 53, 65, 78–79, 93–94, 102–103, 151–152, 165–166, 168–169, 178–179, 196, 198 (144–146 MHz, up to 100W).
+70cm: 12–15, 32, 36–37, 54, 66, 80–81, 95–96, 104–105, 153–154, 166–167, 170–171, 180–181, 197, 199 (430–440 MHz, up to 100W).
+23cm: 29–30, 67, 106–107, 150, 167 (1240–1300 MHz, up to 100W).
+Restricted Bands: RX-only unless specifically licensed (e.g., maritime or aviation permits from TDRA):
+Marine VHF: 16–20, 38–45, 55–58, 68–72, 82–87, 97, 155–159, 172 (156–162 MHz, RX only unless licensed for maritime use).
+Airband: 21–23, 46–47, 59–60, 73–74, 88–89, 160–161, 173, 182 (118–136 MHz, RX only unless licensed for aviation).
+Experimental: 108–150 (50–1300 MHz outside allocated bands, TX illegal without TDRA approval).
+FM Radio: RX-only presets (24–26, 48–50, 61–63, 75–77, 90–92, 99, 162–164, 174–175, 183–194): 87–108 MHz, mostly Dubai/Abu Dhabi-focused.
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) offer ~5W and proper filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, airband): ~2–4W, possible spurious emissions.
+174–400 MHz: Poor sensitivity, TX risky.
+470–1300 MHz (upper UHF, SHF): <1W, hardware-limited (BK4819 chip lacks filtering).
+Programming: Use CHIRP with egzumer driver (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM presets saved in FM mode (F + M).

@@ -1,0 +1,228 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 446.00625       | FM   | PMR 1         | PMR446 licence-free (0.5W max)             |
+| 1       | 446.01875       | FM   | PMR 2         | PMR446 licence-free                        |
+| 2       | 446.03125       | FM   | PMR 3         | PMR446 licence-free                        |
+| 3       | 446.04375       | FM   | PMR 4         | PMR446 licence-free                        |
+| 4       | 446.05625       | FM   | PMR 5         | PMR446 licence-free                        |
+| 5       | 446.06875       | FM   | PMR 6         | PMR446 licence-free                        |
+| 6       | 446.08125       | FM   | PMR 7         | PMR446 licence-free                        |
+| 7       | 446.09375       | FM   | PMR 8         | PMR446 licence-free                        |
+| 8       | 446.10625       | FM   | PMR 9         | PMR446 digital starts here                 |
+| 9       | 446.11875       | FM   | PMR 10        | PMR446 licence-free                        |
+| 10      | 446.13125       | FM   | PMR 11        | PMR446 licence-free                        |
+| 11      | 446.14375       | FM   | PMR 12        | PMR446 licence-free                        |
+| 12      | 446.15625       | FM   | PMR 13        | PMR446 licence-free                        |
+| 13      | 446.16875       | FM   | PMR 14        | PMR446 licence-free                        |
+| 14      | 446.18125       | FM   | PMR 15        | PMR446 licence-free                        |
+| 15      | 446.19375       | FM   | PMR 16        | PMR446 licence-free                        |
+| 16      | 145.500         | FM   | VFO 2M        | 2m calling frequency (amateur licence)     |
+| 17      | 145.425         | FM   | VFO Simplex   | 2m simplex (amateur licence)               |
+| 18      | 145.625         | FM   | R0 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 19      | 145.675         | FM   | R2 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 20      | 433.500         | FM   | U70 Calling   | 70cm calling frequency (amateur licence)   |
+| 21      | 433.400         | FM   | U70 Simplex   | 70cm simplex (amateur licence)             |
+| 22      | 430.900         | FM   | RU72 Rptr     | 70cm repeater out, +7.6 MHz, 94.8 Hz CTCSS |
+| 23      | 156.000         | FM   | MARINE 0      | Marine port ops (RX only unless licensed)  |
+| 24      | 156.050         | FM   | MARINE 1      | Marine (RX only unless licensed)           |
+| 25      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 26      | 156.950         | FM   | MARINE 19     | Marine ship-to-shore (RX only)             |
+| 27      | 157.025         | FM   | MARINE 80     | UK marinas (RX only unless licensed)       |
+| 28      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 29      | 129.900         | AM   | LON APP       | London Approach example (RX only)          |
+| 30      | 118.675         | AM   | MAN TWR       | Manchester Tower example (RX only)         |
+| 31      | 88.1            | FM   | BBC R1        | BBC Radio 1 (FM preset, RX only)           |
+| 32      | 90.1            | FM   | BBC R2        | BBC Radio 2 (FM preset, RX only)           |
+| 33      | 97.7            | FM   | BBC R4        | BBC Radio 4 (FM preset, RX only)           |
+| 34      | 102.2           | FM   | CAP LDN       | Capital FM London (FM preset, RX only)     |
+| 35      | 164.0625        | FM   | UK WX         | Met Office weather (RX only)               |
+| 36      | 433.900         | FM   | LPD433        | Low-power device freq (10mW, licence-free) |
+| 37      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 38      | 70.450          | FM   | 4M Calling    | 4m calling frequency (amateur licence, UK) |
+| 39      | 121.500         | AM   | AIR EMG       | Airband emergency (RX only, TX illegal)    |
+| 40      | 198.000         | FM   | VHF EXP       | Extended VHF experimental (TX risky/illegal) |
+| 41      | 243.000         | AM   | MIL EMG       | Military emergency (RX only, TX illegal)   |
+| 42      | 500.000         | FM   | UHF EXP       | Upper UHF experimental (TX risky/illegal)  |
+| 43      | 1296.200        | FM   | 23CM Call     | 23cm calling frequency (amateur licence)   |
+| 44      | 145.650         | FM   | R1 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 45      | 145.700         | FM   | R3 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 46      | 145.750         | FM   | R5 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 47      | 145.800         | FM   | ISS VHF       | ISS amateur downlink (amateur licence)     |
+| 48      | 430.925         | FM   | RU74 Rptr     | 70cm repeater out, +7.6 MHz, 94.8 Hz CTCSS |
+| 49      | 430.950         | FM   | RU76 Rptr     | 70cm repeater out, +7.6 MHz, 94.8 Hz CTCSS |
+| 50      | 433.450         | FM   | U70 Simplex 2 | 70cm simplex (amateur licence)             |
+| 51      | 156.025         | FM   | MARINE 60     | Marine ship-to-ship (RX only)              |
+| 52      | 156.375         | FM   | MARINE 67     | UK small craft safety (RX only)            |
+| 53      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 54      | 157.000         | FM   | MARINE 20     | Port operations (RX only)                  |
+| 55      | 119.100         | AM   | GLA TWR       | Glasgow Tower example (RX only)            |
+| 56      | 124.850         | AM   | EDI APP       | Edinburgh Approach example (RX only)       |
+| 57      | 118.950         | FM   | BHX TWR       | Birmingham Tower example (RX only)         |
+| 58      | 91.3            | FM   | BBC R3        | BBC Radio 3 (FM preset, RX only)           |
+| 59      | 94.9            | FM   | BBC LDN       | BBC Radio London (FM preset, RX only)      |
+| 60      | 100.0           | FM   | CLASSIC FM    | Classic FM UK (FM preset, RX only)         |
+| 61      | 105.8           | FM   | ABS LDN       | Absolute Radio London (FM preset, RX only) |
+| 62      | 51.360          | FM   | 6M Simplex    | 6m simplex frequency (amateur licence)     |
+| 63      | 70.425          | FM   | 4M Simplex    | 4m simplex frequency (amateur licence, UK) |
+| 64      | 144.300         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 65      | 432.200         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 66      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 67      | 180.000         | FM   | VHF LOW EXP   | Low VHF experimental (TX risky/illegal)    |
+| 68      | 225.000         | FM   | MID VHF EXP   | Mid VHF experimental (RX only, TX illegal) |
+| 69      | 300.000         | FM   | LOW UHF EXP   | Low UHF experimental (RX only, TX illegal) |
+| 70      | 350.000         | FM   | MID UHF EXP   | Mid UHF experimental (RX only, TX illegal) |
+| 71      | 600.000         | FM   | HIGH UHF EXP  | High UHF experimental (TX risky/illegal)   |
+| 72      | 800.000         | FM   | SHF EXP 1     | SHF experimental (TX poor/illegal)         |
+| 73      | 1000.000        | FM   | SHF EXP 2     | SHF experimental (TX poor/illegal)         |
+| 74      | 145.200         | FM   | VFO 2M Alt    | 2m alternate simplex (amateur licence)     |
+| 75      | 433.425         | FM   | U70 Simplex 3 | 70cm alternate simplex (amateur licence)   |
+| 76      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 77      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 78      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 79      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 80      | 135.975         | AM   | AIR INFO      | ATIS example (RX only)                     |
+| 81      | 89.9            | FM   | BBC R Scot    | BBC Radio Scotland (FM preset, RX only)    |
+| 82      | 95.8            | FM   | BBC R Wales   | BBC Radio Wales (FM preset, RX only)       |
+| 83      | 103.2           | FM   | HEART UK      | Heart UK (FM preset, RX only)              |
+| 84      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 85      | 70.000          | FM   | 4M Beacon     | 4m beacon freq example (amateur licence)   |
+| 86      | 144.800         | FM   | APRS EU       | APRS Europe (amateur licence)              |
+| 87      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 88      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 89      | 433.050         | FM   | LPD433 2      | LPD433 channel 2 (10mW, licence-free)      |
+| 90      | 433.075         | FM   | LPD433 3      | LPD433 channel 3 (10mW, licence-free)      |
+| 91      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 92      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 93      | 118.100         | AM   | STN TWR       | Stansted Tower example (RX only)           |
+| 94      | 124.675         | AM   | LGW APP       | Gatwick Approach example (RX only)         |
+| 95      | 97.3            | FM   | LBC UK        | LBC London (FM preset, RX only)            |
+| 96      | 106.2           | FM   | SMOOTH UK     | Smooth Radio UK (FM preset, RX only)       |
+| 97      | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 98      | 70.475          | FM   | 4M Alt Call   | 4m alternate calling (amateur licence)     |
+| 99      | 145.525         | FM   | VFO 2M Alt 2  | 2m alternate simplex (amateur licence)     |
+| 100     | 145.725         | FM   | R4 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 101     | 145.775         | FM   | R6 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 102     | 145.600         | FM   | R7 Repeater   | 2m repeater out, –0.6 MHz, 94.8 Hz CTCSS   |
+| 103     | 430.875         | FM   | RU70 Rptr     | 70cm repeater out, +7.6 MHz, 94.8 Hz CTCSS |
+| 104     | 430.975         | FM   | RU78 Rptr     | 70cm repeater out, +7.6 MHz, 94.8 Hz CTCSS |
+| 105     | 433.475         | FM   | U70 Simplex 4 | 70cm simplex (amateur licence)             |
+| 106     | 156.075         | FM   | MARINE 61     | Marine ship-to-ship (RX only)              |
+| 107     | 156.125         | FM   | MARINE 62     | Marine ship-to-ship (RX only)              |
+| 108     | 156.175         | FM   | MARINE 63     | Marine ship-to-ship (RX only)              |
+| 109     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 110     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 111     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 112     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 113     | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 114     | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 115     | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 116     | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 117     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 118     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 119     | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 120     | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 121     | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 122     | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 123     | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 124     | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 125     | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 126     | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 127     | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 128     | 118.500         | AM   | LHR TWR       | Heathrow Tower example (RX only)           |
+| 129     | 120.625         | AM   | LHR APP       | Heathrow Approach example (RX only)        |
+| 130     | 121.975         | AM   | LPL GND       | Liverpool Ground example (RX only)         |
+| 131     | 126.350         | AM   | BRS APP       | Bristol Approach example (RX only)         |
+| 132     | 119.700         | AM   | NCL TWR       | Newcastle Tower example (RX only)          |
+| 133     | 133.375         | AM   | ABZ APP       | Aberdeen Approach example (RX only)        |
+| 134     | 87.5            | FM   | KISS FM       | Kiss FM UK (FM preset, RX only)            |
+| 135     | 92.5            | FM   | BBC R Cymru   | BBC Radio Cymru (FM preset, RX only)       |
+| 136     | 96.1            | FM   | BBC R Ulster  | BBC Radio Ulster (FM preset, RX only)      |
+| 137     | 98.8            | FM   | BBC R5 Live   | BBC Radio 5 Live (FM preset, RX only)      |
+| 138     | 101.0           | FM   | CAP N West    | Capital North West (FM preset, RX only)    |
+| 139     | 104.9           | FM   | BBC R Leeds   | BBC Radio Leeds (FM preset, RX only)       |
+| 140     | 107.6           | FM   | JACK FM       | Jack FM Oxford (FM preset, RX only)        |
+| 141     | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 142     | 70.200          | FM   | 4M SSB Call   | 4m SSB calling (amateur licence, UK)       |
+| 143     | 144.600         | FM   | 2M Data       | 2m data freq example (amateur licence)     |
+| 144     | 432.600         | FM   | 70CM Data     | 70cm data freq example (amateur licence)   |
+| 145     | 1296.500        | FM   | 23CM Data     | 23cm data freq example (amateur licence)   |
+| 146     | 51.500          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 147     | 70.4875         | FM   | 4M Alt Simp   | 4m alternate simplex (amateur licence)     |
+| 148     | 145.250         | FM   | VFO 2M Alt 3  | 2m alternate simplex (amateur licence)     |
+| 149     | 433.525         | FM   | U70 Simplex 5 | 70cm alternate simplex (amateur licence)   |
+| 150     | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 151     | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 152     | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 153     | 157.075         | FM   | MARINE 21     | Marine port ops (RX only)                  |
+| 154     | 157.125         | FM   | MARINE 22     | Marine port ops (RX only)                  |
+| 155     | 157.175         | FM   | MARINE 23     | Marine public correspondence (RX only)     |
+| 156     | 120.950         | AM   | LUT TWR       | Luton Tower example (RX only)              |
+| 157     | 125.750         | AM   | EMA APP       | East Midlands Approach example (RX only)   |
+| 158     | 93.2            | FM   | BBC R Sheff   | BBC Radio Sheffield (FM preset, RX only)   |
+| 159     | 99.7            | FM   | BBC R Brist   | BBC Radio Bristol (FM preset, RX only)     |
+| 160     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 161     | 52.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 162     | 70.000          | FM   | 4M Low Edge   | 4m band edge (amateur licence, UK)         |
+| 163     | 70.500          | FM   | 4M High Edge  | 4m band edge (amateur licence, UK)         |
+| 164     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 165     | 146.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 166     | 430.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 167     | 440.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 168     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 169     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 170     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 171     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 172     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 173     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 174     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 175     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 176     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 177     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 178     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 179     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 180     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 181     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 182     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 183     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 184     | 450.000         | FM   | UHF EXP 450   | UHF experimental (TX risky/illegal)        |
+| 185     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 186     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 187     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 188     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 189     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 190     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 191     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 192     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 193     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 194     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 195     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 196     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 197     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 198     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 199     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+
+
+Notes
+Legal Status in the UK
+Licence-Free:
+PMR446 (0–15, 446.0–446.2 MHz, 0.5W).
+LPD433 (36, 89–90, 433–434 MHz, 10mW).
+Amateur Radio: Requires an Ofcom amateur licence:
+6m (37, 62, 84, 97, 141, 146, 160–161): 50–52 MHz.
+4m (38, 63, 85, 98, 142, 147, 162–163): 70–70.5 MHz (UK only).
+2m (16–19, 44–47, 64, 74, 86, 99–102, 143, 148, 164–165): 144–146 MHz.
+70cm (20–22, 48–50, 65, 75, 87, 103–105, 144, 149, 166–167): 430–440 MHz.
+23cm (43, 66, 88, 145, 168–169, 199): 1240–1300 MHz.
+Restricted Bands: RX-only unless specifically licensed (e.g., Ship Radio Licence for marine):
+Marine VHF (23–27, 51–54, 76–78, 91–92, 106–127, 150–155): 156–162 MHz.
+Airband (28–30, 39, 55–57, 79–80, 93–94, 128–133, 156–157): 118–136 MHz.
+Military (41): e.g., 243 MHz.
+Experimental (40, 42, 67–73, 170–198): Outside amateur bands, TX illegal without special permission.
+FM Radio: RX-only presets (31–34, 58–61, 81–83, 95–96, 134–140, 158–159): 87–108 MHz.
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) provide optimal power (~5W) and filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, 4m, airband): ~2–4W, spurious emissions possible.
+174–400 MHz: Poor sensitivity, TX risky.
+470–1300 MHz (upper UHF, SHF): Very low power (<1W), hardware-limited (BK4819 chip and no filtering).
+Programming: Use CHIRP (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM radio presets (31–34, etc.) are saved in FM mode (F + M).

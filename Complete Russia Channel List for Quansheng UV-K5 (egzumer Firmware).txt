@@ -1,0 +1,226 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 433.075         | FM   | LPD 1         | LPD Ch 1, licence-free (10mW max)          |
+| 1       | 433.100         | FM   | LPD 2         | LPD Ch 2, licence-free (10mW max)          |
+| 2       | 433.125         | FM   | LPD 3         | LPD Ch 3, licence-free (10mW max)          |
+| 3       | 433.150         | FM   | LPD 4         | LPD Ch 4, licence-free (10mW max)          |
+| 4       | 433.175         | FM   | LPD 5         | LPD Ch 5, licence-free (10mW max)          |
+| 5       | 433.200         | FM   | LPD 6         | LPD Ch 6, licence-free (10mW max)          |
+| 6       | 433.225         | FM   | LPD 7         | LPD Ch 7, licence-free (10mW max)          |
+| 7       | 433.250         | FM   | LPD 8         | LPD Ch 8, licence-free (10mW max)          |
+| 8       | 433.275         | FM   | LPD 9         | LPD Ch 9, licence-free (10mW max)          |
+| 9       | 433.300         | FM   | LPD 10        | LPD Ch 10, licence-free (10mW max)         |
+| 10      | 433.325         | FM   | LPD 11        | LPD Ch 11, licence-free (10mW max)         |
+| 11      | 433.350         | FM   | LPD 12        | LPD Ch 12, licence-free (10mW max)         |
+| 12      | 433.375         | FM   | LPD 13        | LPD Ch 13, licence-free (10mW max)         |
+| 13      | 433.400         | FM   | LPD 14        | LPD Ch 14, licence-free (10mW max)         |
+| 14      | 433.425         | FM   | LPD 15        | LPD Ch 15, licence-free (10mW max)         |
+| 15      | 433.450         | FM   | LPD 16        | LPD Ch 16, licence-free (10mW max)         |
+| 16      | 446.00625       | FM   | PMR 1         | PMR446 Ch 1, licence-free (0.5W max)       |
+| 17      | 446.01875       | FM   | PMR 2         | PMR446 Ch 2, licence-free (0.5W max)       |
+| 18      | 446.03125       | FM   | PMR 3         | PMR446 Ch 3, licence-free (0.5W max)       |
+| 19      | 446.04375       | FM   | PMR 4         | PMR446 Ch 4, licence-free (0.5W max)       |
+| 20      | 446.05625       | FM   | PMR 5         | PMR446 Ch 5, licence-free (0.5W max)       |
+| 21      | 446.06875       | FM   | PMR 6         | PMR446 Ch 6, licence-free (0.5W max)       |
+| 22      | 446.08125       | FM   | PMR 7         | PMR446 Ch 7, licence-free (0.5W max)       |
+| 23      | 446.09375       | FM   | PMR 8         | PMR446 Ch 8, licence-free (0.5W max)       |
+| 24      | 145.500         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 25      | 145.425         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 26      | 145.625         | FM   | 2M Rptr 1     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 27      | 145.675         | FM   | 2M Rptr 2     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 28      | 433.500         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 29      | 433.400         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 30      | 434.600         | FM   | 70CM Rptr 1   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 31      | 434.650         | FM   | 70CM Rptr 2   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 32      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 33      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 34      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 35      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 36      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 37      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 38      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 39      | 119.000         | AM   | SVO TWR       | Sheremetyevo Tower example (RX only)       |
+| 40      | 87.5            | FM   | Radio Rossii  | Radio Rossii Moscow (FM preset, RX only)   |
+| 41      | 91.2            | FM   | Avtoradio     | Avtoradio Moscow (FM preset, RX only)      |
+| 42      | 92.0            | FM   | Europa Plus   | Europa Plus Moscow (FM preset, RX only)    |
+| 43      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 44      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 45      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 46      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 47      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 48      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 49      | 144.800         | FM   | APRS EU       | APRS Europe (amateur licence)              |
+| 50      | 145.650         | FM   | 2M Rptr 3     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 51      | 145.700         | FM   | 2M Rptr 4     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 52      | 434.675         | FM   | 70CM Rptr 3   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 53      | 434.700         | FM   | 70CM Rptr 4   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 54      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 55      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 56      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 57      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 58      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 59      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 60      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 61      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 62      | 118.300         | AM   | DME TWR       | Domodedovo Tower example (RX only)         |
+| 63      | 124.000         | AM   | VKO APP       | Vnukovo Approach example (RX only)         |
+| 64      | 93.2            | FM   | Russkoe Radio | Russkoe Radio Moscow (FM preset, RX only)  |
+| 65      | 95.2            | FM   | Hit FM        | Hit FM Moscow (FM preset, RX only)         |
+| 66      | 97.2            | FM   | DFM           | DFM Moscow (FM preset, RX only)            |
+| 67      | 433.475         | FM   | LPD 17        | LPD Ch 17, licence-free (10mW max)         |
+| 68      | 433.500         | FM   | LPD 18        | LPD Ch 18, licence-free (10mW max)         |
+| 69      | 433.525         | FM   | LPD 19        | LPD Ch 19, licence-free (10mW max)         |
+| 70      | 433.550         | FM   | LPD 20        | LPD Ch 20, licence-free (10mW max)         |
+| 71      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 72      | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 73      | 145.200         | FM   | 2M Alt Call   | 2m alternate calling (amateur licence)     |
+| 74      | 433.425         | FM   | 70CM Alt Call | 70cm alternate calling (amateur licence)   |
+| 75      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 76      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 77      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 78      | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 79      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 80      | 131.600         | AM   | SVO APP       | Sheremetyevo Approach example (RX only)    |
+| 81      | 98.0            | FM   | NRJ Moscow    | NRJ Moscow (FM preset, RX only)            |
+| 82      | 99.6            | FM   | Retro FM      | Retro FM Moscow (FM preset, RX only)       |
+| 83      | 101.2           | FM   | Dorozhnoe     | Dorozhnoe Radio Moscow (FM preset, RX only)|
+| 84      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 85      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 86      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 87      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 88      | 433.575         | FM   | LPD 21        | LPD Ch 21, licence-free (10mW max)         |
+| 89      | 433.600         | FM   | LPD 22        | LPD Ch 22, licence-free (10mW max)         |
+| 90      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 91      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 92      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 93      | 120.000         | AM   | DME APP       | Domodedovo Approach example (RX only)      |
+| 94      | 129.150         | AM   | VKO TWR       | Vnukovo Tower example (RX only)            |
+| 95      | 102.2           | FM   | Relax FM      | Relax FM Moscow (FM preset, RX only)       |
+| 96      | 103.7           | FM   | Max FM        | Maximum FM Moscow (FM preset, RX only)     |
+| 97      | 145.725         | FM   | 2M Rptr 5     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 98      | 145.775         | FM   | 2M Rptr 6     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 99      | 434.725         | FM   | 70CM Rptr 5   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 100     | 434.750         | FM   | 70CM Rptr 6   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 101     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 102     | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 103     | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 104     | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 105     | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 106     | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 107     | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 108     | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 109     | 118.100         | AM   | LED TWR       | Pulkovo Tower example (RX only)            |
+| 110     | 127.400         | AM   | KJA APP       | Krasnoyarsk Approach example (RX only)     |
+| 111     | 88.0            | FM   | Humor FM      | Humor FM Moscow (FM preset, RX only)       |
+| 112     | 90.8            | FM   | Radio 7       | Radio 7 Moscow (FM preset, RX only)        |
+| 113     | 105.7           | FM   | Nashe Radio   | Nashe Radio Moscow (FM preset, RX only)    |
+| 114     | 433.625         | FM   | LPD 23        | LPD Ch 23, licence-free (10mW max)         |
+| 115     | 433.650         | FM   | LPD 24        | LPD Ch 24, licence-free (10mW max)         |
+| 116     | 433.675         | FM   | LPD 25        | LPD Ch 25, licence-free (10mW max)         |
+| 117     | 433.700         | FM   | LPD 26        | LPD Ch 26, licence-free (10mW max)         |
+| 118     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 119     | 52.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 120     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 121     | 146.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 122     | 430.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 123     | 440.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 124     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 125     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 126     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 127     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 128     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 129     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 130     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 131     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 132     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 133     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 134     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 135     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 136     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 137     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 138     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 139     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 140     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 141     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 142     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 143     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 144     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 145     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 146     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 147     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 148     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 149     | 450.000         | FM   | UHF EXP 450   | UHF experimental (TX risky/illegal)        |
+| 150     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 151     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 152     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 153     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 154     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 155     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 156     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 157     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 158     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 159     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 160     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 161     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 162     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 163     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 164     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 165     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 166     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 167     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 168     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 169     | 145.750         | FM   | 2M Rptr 7     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 145.800         | FM   | 2M Rptr 8     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 171     | 434.775         | FM   | 70CM Rptr 7   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 172     | 434.800         | FM   | 70CM Rptr 8   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 173     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 174     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 175     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 176     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 177     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 178     | 121.650         | AM   | KZN TWR       | Kazan Tower example (RX only)              |
+| 179     | 129.400         | AM   | SVX APP       | Sochi Approach example (RX only)           |
+| 180     | 89.4            | FM   | Radio Kultura | Radio Kultura Moscow (FM preset, RX only)  |
+| 181     | 94.0            | FM   | Radio Record  | Radio Record Moscow (FM preset, RX only)   |
+| 182     | 100.1           | FM   | Love Radio    | Love Radio Moscow (FM preset, RX only)     |
+| 183     | 106.2           | FM   | Radio Energy  | Radio Energy Moscow (FM preset, RX only)   |
+| 184     | 433.725         | FM   | LPD 27        | LPD Ch 27, licence-free (10mW max)         |
+| 185     | 433.750         | FM   | LPD 28        | LPD Ch 28, licence-free (10mW max)         |
+| 186     | 433.775         | FM   | LPD 29        | LPD Ch 29, licence-free (10mW max)         |
+| 187     | 433.800         | FM   | LPD 30        | LPD Ch 30, licence-free (10mW max)         |
+| 188     | 145.525         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 189     | 433.450         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 190     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 191     | 145.600         | FM   | 2M Rptr 9     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 192     | 145.850         | FM   | 2M Rptr 10    | 2m repeater out, –0.6 MHz (amateur licence)|
+| 193     | 434.825         | FM   | 70CM Rptr 9   | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 194     | 434.850         | FM   | 70CM Rptr 10  | 70cm repeater out, –1.6 MHz (amateur licence) |
+| 195     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 196     | 118.700         | AM   | UFA TWR       | Ufa Tower example (RX only)                |
+| 197     | 124.600         | AM   | OMS APP       | Omsk Approach example (RX only)            |
+| 198     | 96.2            | FM   | Radio Mayak   | Radio Mayak Moscow (FM preset, RX only)    |
+| 199     | 107.0           | FM   | Vesti FM      | Vesti FM Moscow (FM preset, RX only)       |
+
+
+Notes
+Legal Status in Russia (GKRCh and Roskomnadzor Regulations)
+Licence-Free:
+LPD: Channels 0–15, 67–70, 88–89, 114–117, 184–187 (433.075–433.800 MHz, 10mW max, 25 kHz steps). Used for personal short-range communication.
+PMR446: Channels 16–23 (446.00625–446.09375 MHz, 0.5W max). Officially harmonized with EU standards, but usage is less common in Russia; licence-free within limits.
+Amateur Radio: Requires a Russian amateur radio licence (Category 1–4, issued by Roskomnadzor):
+6m: 43–44, 71–72, 84, 118–119 (50–52 MHz, up to 100W depending on category).
+2m: 24–27, 47, 50–51, 73, 85, 97–98, 120–121, 169–170, 188, 191–192 (144–146 MHz, up to 100W).
+70cm: 28–31, 48, 52–53, 74, 86, 99–100, 122–123, 171–172, 189, 193–194 (430–440 MHz, up to 100W).
+23cm: 45–46, 87, 124–125, 168, 190 (1240–1300 MHz, up to 100W).
+Restricted Bands: RX-only unless specifically licensed (e.g., marine or aviation permits):
+Marine VHF: 32–36, 54–61, 75–78, 90–92, 101–108, 173–177, 195 (156–162 MHz, RX only unless licensed for maritime use).
+Airband: 37–39, 62–63, 79–80, 93–94, 109–110, 178–179, 196–197 (118–136 MHz, RX only unless licensed for aviation).
+Experimental: 126–168 (50–1300 MHz outside allocated bands, TX illegal without special permission).
+FM Radio: RX-only presets (40–42, 64–66, 81–83, 95–96, 111–113, 180–183, 198–199): 87–108 MHz, varies by region.
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) offer ~5W and proper filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, airband): ~2–4W, possible spurious emissions.
+174–400 MHz: Poor sensitivity, TX risky.
+470–1300 MHz (upper UHF, SHF): <1W, hardware-limited (BK4819 chip lacks filtering).
+Programming: Use CHIRP with egzumer driver (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM presets saved in FM mode (F + M).

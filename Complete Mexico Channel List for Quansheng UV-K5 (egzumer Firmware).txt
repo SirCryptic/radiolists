@@ -1,0 +1,226 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 462.5625        | FM   | FRS 1         | FRS/GMRS Ch 1, licence-free (2W max)       |
+| 1       | 462.5875        | FM   | FRS 2         | FRS/GMRS Ch 2, licence-free (2W max)       |
+| 2       | 462.6125        | FM   | FRS 3         | FRS/GMRS Ch 3, licence-free (2W max)       |
+| 3       | 462.6375        | FM   | FRS 4         | FRS/GMRS Ch 4, licence-free (2W max)       |
+| 4       | 462.6625        | FM   | FRS 5         | FRS/GMRS Ch 5, licence-free (2W max)       |
+| 5       | 462.6875        | FM   | FRS 6         | FRS/GMRS Ch 6, licence-free (2W max)       |
+| 6       | 462.7125        | FM   | FRS 7         | FRS/GMRS Ch 7, licence-free (2W max)       |
+| 7       | 467.5625        | FM   | FRS 8         | FRS Ch 8, licence-free (0.5W max)          |
+| 8       | 467.5875        | FM   | FRS 9         | FRS Ch 9, licence-free (0.5W max)          |
+| 9       | 467.6125        | FM   | FRS 10        | FRS Ch 10, licence-free (0.5W max)         |
+| 10      | 467.6375        | FM   | FRS 11        | FRS Ch 11, licence-free (0.5W max)         |
+| 11      | 467.6625        | FM   | FRS 12        | FRS Ch 12, licence-free (0.5W max)         |
+| 12      | 467.6875        | FM   | FRS 13        | FRS Ch 13, licence-free (0.5W max)         |
+| 13      | 467.7125        | FM   | FRS 14        | FRS Ch 14, licence-free (0.5W max)         |
+| 14      | 462.5500        | FM   | GMRS 15       | GMRS Ch 15, licence req (5W handheld)      |
+| 15      | 462.5750        | FM   | GMRS 16       | GMRS Ch 16, licence req (5W handheld)      |
+| 16      | 462.6000        | FM   | GMRS 17       | GMRS Ch 17, licence req (5W handheld)      |
+| 17      | 462.6250        | FM   | GMRS 18       | GMRS Ch 18, licence req (5W handheld)      |
+| 18      | 462.6500        | FM   | GMRS 19       | GMRS Ch 19, licence req (5W handheld)      |
+| 19      | 462.6750        | FM   | GMRS 20       | GMRS Ch 20, licence req (5W handheld)      |
+| 20      | 462.7000        | FM   | GMRS 21       | GMRS Ch 21, licence req (5W handheld)      |
+| 21      | 462.7250        | FM   | GMRS 22       | GMRS Ch 22, licence req (5W handheld)      |
+| 22      | 146.520         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 23      | 146.550         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 24      | 145.230         | FM   | 2M Rptr XE1   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 25      | 145.290         | FM   | 2M Rptr XE2   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 26      | 446.000         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 27      | 446.050         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 28      | 444.100         | FM   | 70CM Rptr XE1 | 70cm repeater out, +5 MHz (amateur licence)|
+| 29      | 444.200         | FM   | 70CM Rptr XE2 | 70cm repeater out, +5 MHz (amateur licence)|
+| 30      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 31      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 32      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 33      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 34      | 157.100         | FM   | MARINE 22A    | Marine coastal liaison (RX only)           |
+| 35      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 36      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 37      | 118.000         | AM   | MEX TWR       | Mexico City Tower example (RX only)        |
+| 38      | 88.1            | FM   | XHDFM         | Radio Formula Mexico City (FM preset, RX only) |
+| 39      | 90.5            | FM   | XHIMR         | Imagen Radio Mexico City (FM preset, RX only) |
+| 40      | 92.1            | FM   | XHRM          | RMX Mexico City (FM preset, RX only)       |
+| 41      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 42      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 43      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 44      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 45      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 46      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 47      | 144.390         | FM   | APRS NA       | APRS North America (amateur licence)       |
+| 48      | 145.350         | FM   | 2M Rptr XE3   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 49      | 145.410         | FM   | 2M Rptr XE4   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 50      | 444.300         | FM   | 70CM Rptr XE3 | 70cm repeater out, +5 MHz (amateur licence)|
+| 51      | 444.400         | FM   | 70CM Rptr XE4 | 70cm repeater out, +5 MHz (amateur licence)|
+| 52      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 53      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 54      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 55      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 56      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 57      | 156.925         | FM   | MARINE 78A    | Marine non-commercial (RX only)            |
+| 58      | 157.050         | FM   | MARINE 81A    | Marine coastal (RX only)                   |
+| 59      | 157.150         | FM   | MARINE 83A    | Marine coastal (RX only)                   |
+| 60      | 118.100         | AM   | GDL TWR       | Guadalajara Tower example (RX only)        |
+| 61      | 124.900         | AM   | MTY APP       | Monterrey Approach example (RX only)       |
+| 62      | 94.9            | FM   | XHFAJ         | Alfa Radio Mexico City (FM preset, RX only)|
+| 63      | 96.9            | FM   | XHEXA         | Exa FM Mexico City (FM preset, RX only)    |
+| 64      | 98.5            | FM   | XHMVS         | MVS Radio Mexico City (FM preset, RX only) |
+| 65      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 66      | 52.525          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 67      | 145.790         | FM   | ISS Downlink  | ISS amateur downlink (amateur licence)     |
+| 68      | 144.600         | FM   | 2M Data       | 2m data freq example (amateur licence)     |
+| 69      | 432.600         | FM   | 70CM Data     | 70cm data freq example (amateur licence)   |
+| 70      | 1296.500        | FM   | 23CM Data     | 23cm data freq example (amateur licence)   |
+| 71      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 72      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 73      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 74      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 75      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 76      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 77      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 78      | 157.025         | FM   | MARINE 80A    | Marine non-commercial (RX only)            |
+| 79      | 157.075         | FM   | MARINE 21A    | Marine coastal (RX only)                   |
+| 80      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 81      | 122.800         | AM   | UNICOM        | Unicom general aviation (RX only)          |
+| 82      | 119.250         | AM   | CUN TWR       | Cancun Tower example (RX only)             |
+| 83      | 125.100         | AM   | TIJ APP       | Tijuana Approach example (RX only)         |
+| 84      | 100.9           | FM   | XHPRS         | Los 40 Mexico City (FM preset, RX only)    |
+| 85      | 101.7           | FM   | XHRMX         | Universal Mexico City (FM preset, RX only) |
+| 86      | 104.1           | FM   | XHMX          | Mix FM Mexico City (FM preset, RX only)    |
+| 87      | 145.170         | FM   | 2M Rptr XE5   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 88      | 145.430         | FM   | 2M Rptr XE6   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 89      | 444.500         | FM   | 70CM Rptr XE5 | 70cm repeater out, +5 MHz (amateur licence)|
+| 90      | 444.600         | FM   | 70CM Rptr XE6 | 70cm repeater out, +5 MHz (amateur licence)|
+| 91      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 92      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 93      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 94      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 95      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 96      | 157.200         | FM   | MARINE 24     | Marine public correspondence (RX only)     |
+| 97      | 157.250         | FM   | MARINE 25     | Marine public correspondence (RX only)     |
+| 98      | 157.300         | FM   | MARINE 26     | Marine public correspondence (RX only)     |
+| 99      | 157.350         | FM   | MARINE 27     | Marine public correspondence (RX only)     |
+| 100     | 157.400         | FM   | MARINE 28     | Marine public correspondence (RX only)     |
+| 101     | 118.900         | AM   | PVR TWR       | Puerto Vallarta Tower example (RX only)    |
+| 102     | 124.300         | AM   | QRO APP       | Queretaro Approach example (RX only)       |
+| 103     | 89.9            | FM   | XHEPO         | La Z Mexico City (FM preset, RX only)      |
+| 104     | 93.7            | FM   | XHRED         | Red FM Mexico City (FM preset, RX only)    |
+| 105     | 97.7            | FM   | XERC          | Radio Centro Mexico City (FM preset, RX only) |
+| 106     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 107     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 108     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 109     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 110     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 111     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 112     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 113     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 114     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 115     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 116     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 117     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 118     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 119     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 120     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 121     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 122     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 123     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 124     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 125     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 126     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 127     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 128     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 129     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 130     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 131     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 132     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 133     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 134     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 135     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 136     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 137     | 450.000         | FM   | UHF EXP 450   | UHF experimental (TX risky/illegal)        |
+| 138     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 139     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 140     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 141     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 142     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 143     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 144     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 145     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 146     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 147     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 148     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 149     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 150     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 151     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 152     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 153     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 154     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 155     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 156     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 157     | 145.490         | FM   | 2M Rptr XE7   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 158     | 145.510         | FM   | 2M Rptr XE8   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 159     | 444.700         | FM   | 70CM Rptr XE7 | 70cm repeater out, +5 MHz (amateur licence)|
+| 160     | 444.800         | FM   | 70CM Rptr XE8 | 70cm repeater out, +5 MHz (amateur licence)|
+| 161     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 162     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 163     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 164     | 118.500         | AM   | ACA TWR       | Acapulco Tower example (RX only)           |
+| 165     | 126.900         | AM   | MID APP       | Merida Approach example (RX only)          |
+| 166     | 99.7            | FM   | XHSRD         | Sabrosita Mexico City (FM preset, RX only) |
+| 167     | 102.5           | FM   | XHMVS         | Noticias MVS Mexico City (FM preset, RX only) |
+| 168     | 103.3           | FM   | XHSRO         | La Comadre Mexico City (FM preset, RX only)|
+| 169     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 170     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 171     | 446.100         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 172     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 173     | 145.670         | FM   | 2M Rptr XE9   | 2m repeater out, –0.6 MHz (amateur licence)|
+| 174     | 145.710         | FM   | 2M Rptr XE10  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 175     | 444.900         | FM   | 70CM Rptr XE9 | 70cm repeater out, +5 MHz (amateur licence)|
+| 176     | 445.000         | FM   | 70CM Rptr XE10| 70cm repeater out, +5 MHz (amateur licence)|
+| 177     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 178     | 119.900         | AM   | CJS TWR       | Ciudad Juarez Tower example (RX only)      |
+| 179     | 123.900         | AM   | ZIH APP       | Zihuatanejo Approach example (RX only)     |
+| 180     | 91.5            | FM   | XHUAH         | Radio Universidad Mexico City (FM preset, RX only) |
+| 181     | 94.5            | FM   | XHMG          | Radio Gallito Mexico City (FM preset, RX only) |
+| 182     | 95.7            | FM   | XHSC          | La Bestia Mexico City (FM preset, RX only) |
+| 183     | 106.5           | FM   | XHDL          | Reactor 105 Mexico City (FM preset, RX only) |
+| 184     | 146.600         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 185     | 446.200         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 186     | 145.190         | FM   | 2M Rptr XE11  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 187     | 145.270         | FM   | 2M Rptr XE12  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 188     | 444.150         | FM   | 70CM Rptr XE11| 70cm repeater out, +5 MHz (amateur licence)|
+| 189     | 444.250         | FM   | 70CM Rptr XE12| 70cm repeater out, +5 MHz (amateur licence)|
+| 190     | 118.700         | AM   | BJX TWR       | Leon/Bajio Tower example (RX only)         |
+| 191     | 120.400         | AM   | LAP APP       | La Paz Approach example (RX only)          |
+| 192     | 87.7            | FM   | XHJC          | La Jefa Mexico City (FM preset, RX only)   |
+| 193     | 101.1           | FM   | XHSON         | Sonar FM Mexico City (FM preset, RX only)  |
+| 194     | 105.7           | FM   | XHPOP         | Pop FM Mexico City (FM preset, RX only)    |
+| 195     | 145.310         | FM   | 2M Rptr XE13  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 196     | 145.390         | FM   | 2M Rptr XE14  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 197     | 444.350         | FM   | 70CM Rptr XE13| 70cm repeater out, +5 MHz (amateur licence)|
+| 198     | 444.450         | FM   | 70CM Rptr XE14| 70cm repeater out, +5 MHz (amateur licence)|
+| 199     | 107.9           | FM   | XHEPO         | La Ranchera Mexico City (FM preset, RX only) |
+
+
+Notes
+Legal Status in Mexico (IFT Regulations)
+Licence-Free:
+FRS: Channels 0–13 (462.5625–467.7125 MHz, 2W max for 1–7, 0.5W max for 8–14). Harmonized with US standards, no licence required for FRS power levels.
+GMRS: Channels 14–21 (462.5500–462.7250 MHz, 5W max handheld). Requires an IFT permit (similar to US GMRS licence), though enforcement varies near the border.
+Amateur Radio: Requires an amateur radio licence from the Mexican Federation of Radio Amateurs (FMRE) or IFT:
+6m: 41–42, 65–66, 71, 106–107, 169 (50–54 MHz, up to 200W depending on category).
+2m: 22–25, 45, 48–49, 68, 72, 87–88, 108–109, 157–158, 170, 173–174, 184, 186–187, 195–196 (144–148 MHz, up to 200W).
+70cm: 26–29, 46, 50–51, 69, 73, 89–90, 110–111, 159–160, 171, 175–176, 185, 188–189, 197–198 (420–450 MHz, up to 200W).
+23cm: 43–44, 70, 74, 112–113, 156, 172 (1240–1300 MHz, up to 200W).
+Restricted Bands: RX-only unless specifically licensed (e.g., maritime or aviation permits):
+Marine VHF: 30–34, 52–59, 75–79, 91–100, 161–163, 177 (156–162 MHz, RX only unless licensed for maritime use).
+Airband: 35–37, 60–61, 80–83, 101–102, 164–165, 178–179, 190–191 (118–136 MHz, RX only unless licensed for aviation).
+Experimental: 114–156 (50–1300 MHz outside allocated bands, TX illegal without IFT approval).
+FM Radio: RX-only presets (38–40, 62–64, 84–86, 103–105, 166–168, 180–183, 192–194, 199): 87–108 MHz, mostly Mexico City-focused.
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) offer ~5W and proper filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, airband): ~2–4W, possible spurious emissions.
+174–400 MHz: Poor sensitivity, TX risky.
+470–1300 MHz (upper UHF, SHF): <1W, hardware-limited (BK4819 chip lacks filtering).
+Programming: Use CHIRP with egzumer driver (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM presets saved in FM mode (F + M).

@@ -1,0 +1,218 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 446.00625       | FM   | PMR 1         | PMR446 Ch 1, licence-free (0.5W max)       |
+| 1       | 446.01875       | FM   | PMR 2         | PMR446 Ch 2, licence-free (0.5W max)       |
+| 2       | 446.03125       | FM   | PMR 3         | PMR446 Ch 3, licence-free (0.5W max)       |
+| 3       | 446.04375       | FM   | PMR 4         | PMR446 Ch 4, licence-free (0.5W max)       |
+| 4       | 446.05625       | FM   | PMR 5         | PMR446 Ch 5, licence-free (0.5W max)       |
+| 5       | 446.06875       | FM   | PMR 6         | PMR446 Ch 6, licence-free (0.5W max)       |
+| 6       | 446.08125       | FM   | PMR 7         | PMR446 Ch 7, licence-free (0.5W max)       |
+| 7       | 446.09375       | FM   | PMR 8         | PMR446 Ch 8, licence-free (0.5W max)       |
+| 8       | 145.500         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 9       | 145.425         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 10      | 145.625         | FM   | 2M Rptr LU1A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 11      | 145.675         | FM   | 2M Rptr LU1B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 12      | 433.500         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 13      | 433.400         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 14      | 434.600         | FM   | 70CM Rptr LU1C| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 15      | 434.650         | FM   | 70CM Rptr LU1D| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 16      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 17      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 18      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 19      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 20      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 21      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 22      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 23      | 118.100         | AM   | SAEZ TWR      | Buenos Aires Ezeiza Tower (RX only)        |
+| 24      | 87.5            | FM   | Radio La Red  | Radio La Red Buenos Aires (FM preset, RX only) |
+| 25      | 89.9            | FM   | FM Metro      | FM Metro Buenos Aires (FM preset, RX only) |
+| 26      | 91.1            | FM   | Radio Mitre   | Radio Mitre Buenos Aires (FM preset, RX only) |
+| 27      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 28      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 29      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 30      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 31      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 32      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 33      | 144.800         | FM   | APRS AR       | APRS Argentina (amateur licence)           |
+| 34      | 145.700         | FM   | 2M Rptr LU1E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 35      | 145.750         | FM   | 2M Rptr LU1F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 36      | 434.675         | FM   | 70CM Rptr LU1G| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 37      | 434.700         | FM   | 70CM Rptr LU1H| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 38      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 39      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 40      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 41      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 42      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 43      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 44      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 45      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 46      | 118.900         | AM   | SABE TWR      | Buenos Aires Aeroparque Tower (RX only)    |
+| 47      | 125.200         | AM   | SACO APP      | Córdoba Approach (RX only)                 |
+| 48      | 92.5            | FM   | Radio Continental | Radio Continental BA (FM preset, RX only) |
+| 49      | 93.7            | FM   | Los 40        | Los 40 Buenos Aires (FM preset, RX only)   |
+| 50      | 95.1            | FM   | Radio Nacional| Radio Nacional BA (FM preset, RX only)     |
+| 51      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 52      | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 53      | 145.200         | FM   | 2M Alt Call   | 2m alternate calling (amateur licence)     |
+| 54      | 433.425         | FM   | 70CM Alt Call | 70cm alternate calling (amateur licence)   |
+| 55      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 56      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 57      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 58      | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 59      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 60      | 126.200         | AM   | SASA APP      | Salta Approach (RX only)                   |
+| 61      | 96.3            | FM   | Vale FM       | Vale FM Buenos Aires (FM preset, RX only)  |
+| 62      | 97.1            | FM   | Aspen FM      | Aspen FM Buenos Aires (FM preset, RX only) |
+| 63      | 98.3            | FM   | Mega FM       | Mega FM Buenos Aires (FM preset, RX only)  |
+| 64      | 50.800          | FM   | 6M Beacon     | 6m beacon (amateur licence)                |
+| 65      | 144.250         | FM   | 2M Beacon     | 2m beacon (amateur licence)                |
+| 66      | 432.500         | FM   | 70CM Beacon   | 70cm beacon (amateur licence)              |
+| 67      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon (amateur licence)              |
+| 68      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 69      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 70      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 71      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 72      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 73      | 119.500         | AM   | SARI TWR      | Iguazú Tower (RX only)                     |
+| 74      | 125.100         | AM   | SAME APP      | Mendoza Approach (RX only)                 |
+| 75      | 99.5            | FM   | FM Pop        | FM Pop Buenos Aires (FM preset, RX only)   |
+| 76      | 100.7           | FM   | Radio Del Plata | Radio Del Plata BA (FM preset, RX only)    |
+| 77      | 101.5           | FM   | FM Rock & Pop | Rock & Pop BA (FM preset, RX only)         |
+| 78      | 145.775         | FM   | 2M Rptr LU1I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 79      | 145.800         | FM   | 2M Rptr LU1J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 80      | 434.725         | FM   | 70CM Rptr LU1K| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 81      | 434.750         | FM   | 70CM Rptr LU1L| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 82      | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 83      | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 84      | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 85      | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 86      | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 87      | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 88      | 119.900         | AM   | SANT TWR      | Tucumán Tower (RX only)                    |
+| 89      | 125.500         | AM   | SARE APP      | Resistencia Approach (RX only)             |
+| 90      | 102.3           | FM   | FM La 100     | La 100 Buenos Aires (FM preset, RX only)   |
+| 91      | 103.1           | FM   | FM TKM        | TKM Buenos Aires (FM preset, RX only)      |
+| 92      | 104.3           | FM   | FM Blue       | Blue FM Buenos Aires (FM preset, RX only)  |
+| 93      | 145.825         | FM   | 2M Rptr LU1M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 94      | 145.850         | FM   | 2M Rptr LU1N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 95      | 434.825         | FM   | 70CM Rptr LU1O| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 96      | 434.850         | FM   | 70CM Rptr LU1P| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 97      | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 98      | 119.300         | AM   | SASJ TWR      | San Salvador de Jujuy Tower (RX only)      |
+| 99      | 105.5           | FM   | Radio Disney  | Radio Disney BA (FM preset, RX only)       |
+| 100     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 101     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 102     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 103     | 146.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 104     | 430.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 105     | 440.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 106     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 107     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 108     | 60.000          | FM   | VHF EXP 60    | Experimental (TX requires permit)          |
+| 109     | 70.000          | FM   | VHF EXP 70    | Experimental (TX requires permit)          |
+| 110     | 80.000          | FM   | VHF EXP 80    | Experimental (TX requires permit)          |
+| 111     | 90.000          | FM   | VHF EXP 90    | Experimental (TX requires permit)          |
+| 112     | 100.000         | FM   | VHF EXP 100   | Experimental (TX requires permit)          |
+| 113     | 110.000         | FM   | VHF EXP 110   | Experimental (TX requires permit)          |
+| 114     | 120.000         | FM   | VHF EXP 120   | Experimental (TX requires permit)          |
+| 115     | 130.000         | FM   | VHF EXP 130   | Experimental (TX requires permit)          |
+| 116     | 150.000         | FM   | VHF EXP 150   | Experimental (TX requires permit)          |
+| 117     | 160.000         | FM   | VHF EXP 160   | Experimental (TX requires permit)          |
+| 118     | 170.000         | FM   | VHF EXP 170   | Experimental (TX requires permit)          |
+| 119     | 180.000         | FM   | VHF EXP 180   | Experimental (TX requires permit)          |
+| 120     | 190.000         | FM   | VHF EXP 190   | Experimental (TX requires permit)          |
+| 121     | 200.000         | FM   | VHF EXP 200   | Experimental (TX requires permit)          |
+| 122     | 225.000         | FM   | MID EXP 225   | Experimental (TX requires permit)          |
+| 123     | 250.000         | FM   | MID EXP 250   | Experimental (TX requires permit)          |
+| 124     | 275.000         | FM   | MID EXP 275   | Experimental (TX requires permit)          |
+| 125     | 300.000         | FM   | MID EXP 300   | Experimental (TX requires permit)          |
+| 126     | 325.000         | FM   | MID EXP 325   | Experimental (TX requires permit)          |
+| 127     | 350.000         | FM   | MID EXP 350   | Experimental (TX requires permit)          |
+| 128     | 375.000         | FM   | MID EXP 375   | Experimental (TX requires permit)          |
+| 129     | 400.000         | FM   | UHF EXP 400   | Experimental (TX requires permit)          |
+| 130     | 425.000         | FM   | UHF EXP 425   | Experimental (TX requires permit)          |
+| 131     | 450.000         | FM   | UHF EXP 450   | Experimental (TX requires permit)          |
+| 132     | 475.000         | FM   | UHF EXP 475   | Experimental (TX requires permit)          |
+| 133     | 500.000         | FM   | UHF EXP 500   | Experimental (TX requires permit)          |
+| 134     | 525.000         | FM   | UHF EXP 525   | Experimental (TX requires permit)          |
+| 135     | 550.000         | FM   | UHF EXP 550   | Experimental (TX requires permit)          |
+| 136     | 575.000         | FM   | UHF EXP 575   | Experimental (TX requires permit)          |
+| 137     | 600.000         | FM   | UHF EXP 600   | Experimental (TX requires permit)          |
+| 138     | 650.000         | FM   | UHF EXP 650   | Experimental (TX requires permit)          |
+| 139     | 700.000         | FM   | UHF EXP 700   | Experimental (TX requires permit)          |
+| 140     | 750.000         | FM   | SHF EXP 750   | Experimental (TX requires permit)          |
+| 141     | 800.000         | FM   | SHF EXP 800   | Experimental (TX requires permit)          |
+| 142     | 850.000         | FM   | SHF EXP 850   | Experimental (TX requires permit)          |
+| 143     | 900.000         | FM   | SHF EXP 900   | Experimental (TX requires permit)          |
+| 144     | 950.000         | FM   | SHF EXP 950   | Experimental (TX requires permit)          |
+| 145     | 1000.000        | FM   | SHF EXP 1000  | Experimental (TX requires permit)          |
+| 146     | 1050.000        | FM   | SHF EXP 1050  | Experimental (TX requires permit)          |
+| 147     | 1100.000        | FM   | SHF EXP 1100  | Experimental (TX requires permit)          |
+| 148     | 1150.000        | FM   | SHF EXP 1150  | Experimental (TX requires permit)          |
+| 149     | 1200.000        | FM   | SHF EXP 1200  | Experimental (TX requires permit)          |
+| 150     | 1250.000        | FM   | 23CM Alt 2    | 23cm alternate freq (amateur licence)      |
+| 151     | 145.875         | FM   | 2M Rptr LU1Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 152     | 145.900         | FM   | 2M Rptr LU1R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 153     | 434.875         | FM   | 70CM Rptr LU1S| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 154     | 434.900         | FM   | 70CM Rptr LU1T| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 155     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 156     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 157     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 119.650         | AM   | SASL TWR      | San Luis Tower (RX only)                   |
+| 161     | 125.050         | AM   | SAAR APP      | Rosario Approach (RX only)                 |
+| 162     | 106.1           | FM   | FM Latina     | FM Latina Buenos Aires (FM preset, RX only)|
+| 163     | 107.1           | FM   | Radio Uno     | Radio Uno Buenos Aires (FM preset, RX only)|
+| 164     | 107.9           | FM   | FM Amadeus    | FM Amadeus BA (FM preset, RX only)         |
+| 165     | 145.525         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 166     | 433.450         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 167     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 168     | 145.925         | FM   | 2M Rptr LU1U  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 169     | 145.950         | FM   | 2M Rptr LU1V  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 434.925         | FM   | 70CM Rptr LU1W| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 171     | 434.950         | FM   | 70CM Rptr LU1X| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 172     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 173     | 119.450         | AM   | SADP TWR      | Posadas Tower (RX only)                    |
+| 174     | 88.5            | FM   | Radio Palermo | Radio Palermo BA (FM preset, RX only)      |
+| 175     | 145.575         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 176     | 433.475         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 177     | 145.975         | FM   | 2M Rptr LU1Y  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 178     | 146.000         | FM   | 2M Rptr LU1Z  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 179     | 435.000         | FM   | 70CM Rptr LU1AA| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 180     | 435.050         | FM   | 70CM Rptr LU1AB| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 181     | 119.200         | AM   | SANU TWR      | Neuquén Tower (RX only)                    |
+| 182     | 90.1            | FM   | FM Tiempo     | FM Tiempo Buenos Aires (FM preset, RX only)|
+| 183     | 145.850         | FM   | 2M Simplex 4  | 2m simplex (amateur licence)               |
+| 184     | 433.525         | FM   | 70CM Simplex 4| 70cm simplex (amateur licence)             |
+| 185     | 145.525         | FM   | 2M Simplex 5  | 2m simplex (amateur licence)               |
+| 186     | 433.550         | FM   | 70CM Simplex 5| 70cm simplex (amateur licence)             |
+| 187     | 145.875         | FM   | 2M Simplex 6  | 2m simplex (amateur licence)               |
+| 188     | 433.575         | FM   | 70CM Simplex 6| 70cm simplex (amateur licence)             |
+| 189     | 145.900         | FM   | 2M Simplex 7  | 2m simplex (amateur licence)               |
+| 190     | 433.600         | FM   | 70CM Simplex 7| 70cm simplex (amateur licence)             |
+| 191     | 145.925         | FM   | 2M Simplex 8  | 2m simplex (amateur licence)               |
+| 192     | 433.625         | FM   | 70CM Simplex 8| 70cm simplex (amateur licence)             |
+| 193     | 145.950         | FM   | 2M Simplex 9  | 2m simplex (amateur licence)               |
+| 194     | 433.650         | FM   | 70CM Simplex 9| 70cm simplex (amateur licence)             |
+| 195     | 145.975         | FM   | 2M Simplex 10 | 2m simplex (amateur licence)               |
+| 196     | 433.675         | FM   | 70CM Simplex 10| 70cm simplex (amateur licence)             |
+| 197     | 146.000         | FM   | 2M Simplex 11 | 2m simplex (amateur licence)               |
+| 198     | 433.700         | FM   | 70CM Simplex 11| 70cm simplex (amateur licence)             |
+| 199     | 94.3            | FM   | Radio Rivadavia | Radio Rivadavia BA (FM preset, RX only)    |
+
+
+
+Notes for Argentina
+Licence-Free Bands:
+PMR446: Channels 0–7 (446.00625–446.09375 MHz, 0.5W max). Regulated under ENACOM Resolution 1/2018, harmonized with EU standards, no licence required for personal use. Argentina does not have a widespread CB band like 27 MHz or UHF CB as in other countries, making PMR446 the primary licence-free option.
+Amateur Radio: Requires a licence from RCA or ENACOM (callsign prefix LU):
+6m: 27–28, 51–52, 64, 100–101 (50–54 MHz, up to 100W Category 2, 200W Category 1).
+2m: 8–11, 31, 34–35, 53, 65, 78–79, 93–94, 102–103, 151–152, 165–166, 168–169, 175, 177–179, 183, 185–198 (144–146 MHz, up to 100W Category 2, 200W Category 1).
+70cm: 12–15, 32, 36–37, 54, 66, 80–81, 95–96, 104–105, 153–154, 166–167, 170–171, 176, 179–180, 184, 186–199 (430–440 MHz, up to 100W Category 2, 200W Category 1).
+23cm: 29–30, 67, 106–107, 150, 167 (1240–1300 MHz, up to 100W Category 2, 200W Category 1).
+Marine VHF: Channels 16–20, 38–45, etc., are standard international maritime frequencies (RX-only unless licensed, typically for maritime operators).
+Airband: Channels 21–23, 46–47, etc., are international aviation frequencies (RX-only).
+FM Presets: Channels 24–26, 48–50, etc., reflect popular Argentine stations (e.g., Radio La Red, FM Metro), mostly Buenos Aires-based (RX-only).
+Experimental: Channels 108–149 (50–1300 MHz) require ENACOM permits for TX, per Argentine Telecommunications Law (No. 27,078).
+Technical Considerations: Stock TX bands (136–174 MHz, 400–470 MHz) are optimal; unlocked bands (50–136 MHz, 470–1300 MHz) require permits for TX due to ENACOM regulations.

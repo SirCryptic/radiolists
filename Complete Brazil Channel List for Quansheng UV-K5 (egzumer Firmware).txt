@@ -1,0 +1,226 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 27.015          | AM   | CB 4          | Citizen Band Ch 4, licence-free (4W max)   |
+| 1       | 27.045          | AM   | CB 6          | Citizen Band Ch 6, licence-free (4W max)   |
+| 2       | 27.075          | AM   | CB 8          | Citizen Band Ch 8, licence-free (4W max)   |
+| 3       | 27.105          | AM   | CB 10         | Citizen Band Ch 10, licence-free (4W max)  |
+| 4       | 27.135          | AM   | CB 12         | Citizen Band Ch 12, licence-free (4W max)  |
+| 5       | 27.165          | AM   | CB 14         | Citizen Band Ch 14, licence-free (4W max)  |
+| 6       | 27.205          | AM   | CB 17         | Citizen Band Ch 17, licence-free (4W max)  |
+| 7       | 27.245          | AM   | CB 20         | Citizen Band Ch 20, licence-free (4W max)  |
+| 8       | 446.00625       | FM   | PMR 1         | PMR446 Ch 1, licence-free (0.5W max)       |
+| 9       | 446.01875       | FM   | PMR 2         | PMR446 Ch 2, licence-free (0.5W max)       |
+| 10      | 446.03125       | FM   | PMR 3         | PMR446 Ch 3, licence-free (0.5W max)       |
+| 11      | 446.04375       | FM   | PMR 4         | PMR446 Ch 4, licence-free (0.5W max)       |
+| 12      | 446.05625       | FM   | PMR 5         | PMR446 Ch 5, licence-free (0.5W max)       |
+| 13      | 446.06875       | FM   | PMR 6         | PMR446 Ch 6, licence-free (0.5W max)       |
+| 14      | 446.08125       | FM   | PMR 7         | PMR446 Ch 7, licence-free (0.5W max)       |
+| 15      | 446.09375       | FM   | PMR 8         | PMR446 Ch 8, licence-free (0.5W max)       |
+| 16      | 146.520         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 17      | 146.550         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 18      | 145.230         | FM   | 2M Rptr PY2A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 19      | 145.290         | FM   | 2M Rptr PY2B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 20      | 446.000         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 21      | 446.050         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 22      | 444.100         | FM   | 70CM Rptr PY2C| 70cm repeater out, +5 MHz (amateur licence)|
+| 23      | 444.200         | FM   | 70CM Rptr PY2D| 70cm repeater out, +5 MHz (amateur licence)|
+| 24      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 25      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 26      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 27      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 28      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 29      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 30      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 31      | 118.100         | AM   | GRU TWR       | São Paulo Guarulhos Tower (RX only)        |
+| 32      | 88.1            | FM   | Jovem Pan     | Jovem Pan São Paulo (FM preset, RX only)   |
+| 33      | 89.1            | FM   | Alpha FM      | Alpha FM São Paulo (FM preset, RX only)    |
+| 34      | 90.5            | FM   | Nativa FM     | Nativa FM São Paulo (FM preset, RX only)   |
+| 35      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 36      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 37      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 38      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 39      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 40      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 41      | 144.390         | FM   | APRS NA       | APRS North America (amateur licence)       |
+| 42      | 145.350         | FM   | 2M Rptr PY2E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 43      | 145.410         | FM   | 2M Rptr PY2F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 44      | 444.300         | FM   | 70CM Rptr PY2G| 70cm repeater out, +5 MHz (amateur licence)|
+| 45      | 444.400         | FM   | 70CM Rptr PY2H| 70cm repeater out, +5 MHz (amateur licence)|
+| 46      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 47      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 48      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 49      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 50      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 51      | 156.925         | FM   | MARINE 78A    | Marine non-commercial (RX only)            |
+| 52      | 157.050         | FM   | MARINE 81A    | Marine coastal (RX only)                   |
+| 53      | 157.150         | FM   | MARINE 83A    | Marine coastal (RX only)                   |
+| 54      | 118.900         | AM   | GIG TWR       | Rio de Janeiro Galeão Tower (RX only)      |
+| 55      | 125.200         | AM   | CNF APP       | Belo Horizonte Approach (RX only)          |
+| 56      | 91.5            | FM   | Mix FM        | Mix FM São Paulo (FM preset, RX only)      |
+| 57      | 92.5            | FM   | Nova Brasil   | Nova Brasil FM São Paulo (FM preset, RX only) |
+| 58      | 93.7            | FM   | 93 FM         | 93 FM São Paulo (FM preset, RX only)       |
+| 59      | 27.085          | AM   | CB 9          | CB Ch 9, emergency channel (4W max)        |
+| 60      | 27.185          | AM   | CB 16         | Citizen Band Ch 16, licence-free (4W max)  |
+| 61      | 27.265          | AM   | CB 21         | Citizen Band Ch 21, licence-free (4W max)  |
+| 62      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 63      | 52.525          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 64      | 145.790         | FM   | ISS Downlink  | ISS amateur downlink (amateur licence)     |
+| 65      | 144.600         | FM   | 2M Data       | 2m data freq example (amateur licence)     |
+| 66      | 432.600         | FM   | 70CM Data     | 70cm data freq example (amateur licence)   |
+| 67      | 1296.500        | FM   | 23CM Data     | 23cm data freq example (amateur licence)   |
+| 68      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 69      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 70      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 71      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 72      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 73      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 74      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 75      | 157.025         | FM   | MARINE 80A    | Marine non-commercial (RX only)            |
+| 76      | 157.075         | FM   | MARINE 21A    | Marine coastal (RX only)                   |
+| 77      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 78      | 122.800         | AM   | UNICOM        | Unicom general aviation (RX only)          |
+| 79      | 119.100         | AM   | BSB TWR       | Brasília Tower example (RX only)           |
+| 80      | 125.900         | AM   | SSA APP       | Salvador Approach example (RX only)        |
+| 81      | 94.7            | FM   | CBN SP        | CBN São Paulo (FM preset, RX only)         |
+| 82      | 95.9            | FM   | Band FM       | Band FM São Paulo (FM preset, RX only)     |
+| 83      | 96.9            | FM   | Trans FM      | Transcontinental FM SP (FM preset, RX only)|
+| 84      | 145.170         | FM   | 2M Rptr PY2I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 85      | 145.430         | FM   | 2M Rptr PY2J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 86      | 444.500         | FM   | 70CM Rptr PY2K| 70cm repeater out, +5 MHz (amateur licence)|
+| 87      | 444.600         | FM   | 70CM Rptr PY2L| 70cm repeater out, +5 MHz (amateur licence)|
+| 88      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 89      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 90      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 91      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 92      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 93      | 157.200         | FM   | MARINE 24     | Marine public correspondence (RX only)     |
+| 94      | 157.250         | FM   | MARINE 25     | Marine public correspondence (RX only)     |
+| 95      | 157.300         | FM   | MARINE 26     | Marine public correspondence (RX only)     |
+| 96      | 157.350         | FM   | MARINE 27     | Marine public correspondence (RX only)     |
+| 97      | 157.400         | FM   | MARINE 28     | Marine public correspondence (RX only)     |
+| 98      | 118.700         | AM   | VCP TWR       | Campinas Viracopos Tower (RX only)         |
+| 99      | 124.400         | AM   | REC APP       | Recife Approach example (RX only)          |
+| 100     | 97.7            | FM   | Gazeta FM     | Gazeta FM São Paulo (FM preset, RX only)   |
+| 101     | 98.1            | FM   | Kiss FM       | Kiss FM São Paulo (FM preset, RX only)     |
+| 102     | 99.1            | FM   | Eldorado FM   | Eldorado FM São Paulo (FM preset, RX only) |
+| 103     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 104     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 105     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 106     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 107     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 108     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 109     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 110     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 111     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 112     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 113     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 114     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 115     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 116     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 117     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 118     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 119     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 120     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 121     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 122     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 123     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 124     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 125     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 126     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 127     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 128     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 129     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 130     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 131     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 132     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 133     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 134     | 450.000         | FM   | UHF EXP 450   | UHF experimental (TX risky/illegal)        |
+| 135     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 136     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 137     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 138     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 139     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 140     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 141     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 142     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 143     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 144     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 145     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 146     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 147     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 148     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 149     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 150     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 151     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 152     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 153     | 145.490         | FM   | 2M Rptr PY2M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 154     | 145.510         | FM   | 2M Rptr PY2N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 155     | 444.700         | FM   | 70CM Rptr PY2O| 70cm repeater out, +5 MHz (amateur licence)|
+| 156     | 444.800         | FM   | 70CM Rptr PY2P| 70cm repeater out, +5 MHz (amateur licence)|
+| 157     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 119.650         | AM   | FOR TWR       | Fortaleza Tower example (RX only)          |
+| 161     | 125.050         | AM   | MAO APP       | Manaus Approach example (RX only)          |
+| 162     | 100.1           | FM   | Antena 1      | Antena 1 São Paulo (FM preset, RX only)    |
+| 163     | 101.3           | FM   | Energia 97    | Energia 97 São Paulo (FM preset, RX only)  |
+| 164     | 102.1           | FM   | Cultura FM    | Cultura FM São Paulo (FM preset, RX only)  |
+| 165     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 166     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 167     | 446.100         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 168     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 169     | 145.670         | FM   | 2M Rptr PY2Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 145.710         | FM   | 2M Rptr PY2R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 171     | 444.900         | FM   | 70CM Rptr PY2S| 70cm repeater out, +5 MHz (amateur licence)|
+| 172     | 445.000         | FM   | 70CM Rptr PY2T| 70cm repeater out, +5 MHz (amateur licence)|
+| 173     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 174     | 118.300         | AM   | CGH TWR       | São Paulo Congonhas Tower (RX only)        |
+| 175     | 123.900         | AM   | POA APP       | Porto Alegre Approach (RX only)            |
+| 176     | 103.1           | FM   | 89 FM         | 89 FM A Rádio Rock SP (FM preset, RX only) |
+| 177     | 104.5           | FM   | Metropolitana | Metropolitana FM SP (FM preset, RX only)   |
+| 178     | 105.1           | FM   | Nova FM       | Nova FM São Paulo (FM preset, RX only)     |
+| 179     | 146.600         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 180     | 446.200         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 181     | 145.190         | FM   | 2M Rptr PY2U  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 182     | 145.270         | FM   | 2M Rptr PY2V  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 183     | 444.150         | FM   | 70CM Rptr PY2W| 70cm repeater out, +5 MHz (amateur licence)|
+| 184     | 444.250         | FM   | 70CM Rptr PY2X| 70cm repeater out, +5 MHz (amateur licence)|
+| 185     | 119.800         | AM   | CWB TWR       | Curitiba Tower example (RX only)           |
+| 186     | 125.400         | AM   | FLN APP       | Florianópolis Approach (RX only)           |
+| 187     | 106.1           | FM   | Dumont FM     | Dumont FM São Paulo (FM preset, RX only)   |
+| 188     | 107.1           | FM   | Top FM        | Top FM São Paulo (FM preset, RX only)      |
+| 189     | 107.9           | FM   | USP FM        | Rádio USP São Paulo (FM preset, RX only)   |
+| 190     | 27.055          | AM   | CB 7          | Citizen Band Ch 7, licence-free (4W max)   |
+| 191     | 27.145          | AM   | CB 13         | Citizen Band Ch 13, licence-free (4W max)  |
+| 192     | 27.225          | AM   | CB 18         | Citizen Band Ch 18, licence-free (4W max)  |
+| 193     | 145.310         | FM   | 2M Rptr PY2Y  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 194     | 145.390         | FM   | 2M Rptr PY2Z  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 195     | 444.350         | FM   | 70CM Rptr PY2AA| 70cm repeater out, +5 MHz (amateur licence)|
+| 196     | 444.450         | FM   | 70CM Rptr PY2AB| 70cm repeater out, +5 MHz (amateur licence)|
+| 197     | 118.500         | AM   | BEL TWR       | Belém Tower example (RX only)              |
+| 198     | 123.650         | AM   | NAT APP       | Natal Approach example (RX only)           |
+| 199     | 101.7           | FM   | Itapema FM    | Itapema FM São Paulo (FM preset, RX only)  |
+
+
+Notes
+Legal Status in Brazil (ANATEL Regulations)
+Licence-Free:
+Citizen Band (CB): Channels 0–7, 59–61, 190–192 (27.015–27.265 MHz, 4W max AM, 25 kHz steps). Regulated under Resolution 680/2017, no licence required for personal use.
+PMR446: Channels 8–15 (446.00625–446.09375 MHz, 0.5W max). Harmonized with EU standards, permitted for personal use without a licence since 2017 (Resolution 697).
+Amateur Radio: Requires an amateur radio licence from LABRE or ANATEL (Class A, B, or C):
+6m: 35–36, 62–63, 68, 103–104, 165 (50–54 MHz, up to 200W depending on class).
+2m: 16–19, 39, 42–43, 65, 69, 84–85, 105–106, 153–154, 166, 169–170, 179, 181–182, 193–194 (144–148 MHz, up to 200W).
+70cm: 20–23, 40, 44–45, 66, 70, 86–87, 107–108, 155–156, 167, 171–172, 180, 183–184, 195–196 (420–450 MHz, up to 200W).
+23cm: 37–38, 71, 109–110, 152, 168 (1240–1300 MHz, up to 200W).
+Restricted Bands: RX-only unless specifically licensed (e.g., maritime or aviation permits from ANATEL):
+Marine VHF: 24–28, 46–53, 72–76, 88–97, 157–159, 173 (156–162 MHz, RX only unless licensed for maritime use).
+Airband: 29–31, 54–55, 77–80, 98–99, 160–161, 174–175, 185–186, 197–198 (118–136 MHz, RX only unless licensed for aviation).
+Experimental: 111–151 (50–1300 MHz outside allocated bands, TX illegal without ANATEL approval).
+FM Radio: RX-only presets (32–34, 56–58, 81–83, 100–102, 162–164, 176–178, 187–189, 199): 87–108 MHz, mostly São Paulo-focused.
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) offer ~5W and proper filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, CB, airband): ~2–4W, possible spurious emissions (CB limited to 27 MHz band).
+174–400 MHz: Poor sensitivity, TX risky.
+470–1300 MHz (upper UHF, SHF): <1W, hardware-limited (BK4819 chip lacks filtering).
+Programming: Use CHIRP with egzumer driver (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM presets saved in FM mode (F + M).

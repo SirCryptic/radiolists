@@ -1,0 +1,212 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 657.0           | AM   | KCBS Pyongyang| Main state radio, medium wave (RX only)    |
+| 1       | 720.0           | AM   | KCBS Wiwon    | Regional relay, medium wave (RX only)      |
+| 2       | 819.0           | AM   | KCBS Pyongyang| Main state radio, medium wave (RX only)    |
+| 3       | 882.0           | AM   | KCBS Haeju    | Regional relay, medium wave (RX only)      |
+| 4       | 1080.0          | AM   | KCBS Haeju    | Regional relay, medium wave (RX only)      |
+| 5       | 90.5            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 6       | 93.8            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 7       | 96.1            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 8       | 145.500         | FM   | 2M Calling    | Amateur calling (RX/TX illegal w/o permit) |
+| 9       | 145.425         | FM   | 2M Simplex    | Amateur simplex (RX/TX illegal w/o permit) |
+| 10      | 145.625         | FM   | 2M Rptr BD5A  | Hypothetical repeater (RX/TX illegal)      |
+| 11      | 145.675         | FM   | 2M Rptr BD5B  | Hypothetical repeater (RX/TX illegal)      |
+| 12      | 433.500         | FM   | 70CM Calling  | Amateur calling (RX/TX illegal w/o permit) |
+| 13      | 433.400         | FM   | 70CM Simplex  | Amateur simplex (RX/TX illegal w/o permit) |
+| 14      | 434.600         | FM   | 70CM Rptr BD5C| Hypothetical repeater (RX/TX illegal)      |
+| 15      | 434.650         | FM   | 70CM Rptr BD5D| Hypothetical repeater (RX/TX illegal)      |
+| 16      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 17      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 18      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 19      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 20      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 21      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 22      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 23      | 118.100         | AM   | FNJ TWR       | Pyongyang Sunan Tower (RX only)            |
+| 24      | 88.5            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 25      | 91.9            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 26      | 94.5            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 27      | 50.500          | FM   | 6M Calling    | Amateur calling (RX/TX illegal w/o permit) |
+| 28      | 51.500          | FM   | 6M Simplex    | Amateur simplex (RX/TX illegal w/o permit) |
+| 29      | 1296.200        | FM   | 23CM Calling  | Amateur calling (RX/TX illegal w/o permit) |
+| 30      | 1296.000        | FM   | 23CM Simplex  | Amateur simplex (RX/TX illegal w/o permit) |
+| 31      | 144.200         | SSB  | 2M SSB Call   | Amateur SSB (RX/TX illegal w/o permit)     |
+| 32      | 432.100         | SSB  | 70CM SSB Call | Amateur SSB (RX/TX illegal w/o permit)     |
+| 33      | 144.800         | FM   | APRS EU       | APRS (RX/TX illegal w/o permit)            |
+| 34      | 145.650         | FM   | 2M Rptr BD5E  | Hypothetical repeater (RX/TX illegal)      |
+| 35      | 145.700         | FM   | 2M Rptr BD5F  | Hypothetical repeater (RX/TX illegal)      |
+| 36      | 434.675         | FM   | 70CM Rptr BD5G| Hypothetical repeater (RX/TX illegal)      |
+| 37      | 434.700         | FM   | 70CM Rptr BD5H| Hypothetical repeater (RX/TX illegal)      |
+| 38      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 39      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 40      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 41      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 42      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 43      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 44      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 45      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 46      | 118.300         | AM   | KJI TWR       | Kaesong Tower (RX only, hypothetical)      |
+| 47      | 125.900         | AM   | FNJ APP       | Pyongyang Approach (RX only)               |
+| 48      | 97.5            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 49      | 99.0            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 50      | 101.5           | FM   | Pyongyang FM  | State music network (RX only)              |
+| 51      | 50.200          | FM   | 6M SSB Call   | Amateur SSB (RX/TX illegal w/o permit)     |
+| 52      | 51.000          | FM   | 6M Alt Call   | Amateur alternate (RX/TX illegal w/o permit)|
+| 53      | 145.200         | FM   | 2M Alt Call   | Amateur alternate (RX/TX illegal w/o permit)|
+| 54      | 433.425         | FM   | 70CM Alt Call | Amateur alternate (RX/TX illegal w/o permit)|
+| 55      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 56      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 57      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 58      | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 59      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 60      | 118.500         | AM   | WON TWR       | Wonsan Tower (RX only)                     |
+| 61      | 103.0           | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 62      | 105.0           | FM   | Pyongyang FM  | State music network (RX only)              |
+| 63      | 107.0           | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 64      | 50.800          | FM   | 6M Beacon     | Amateur beacon (RX/TX illegal w/o permit)  |
+| 65      | 144.250         | FM   | 2M Beacon     | Amateur beacon (RX/TX illegal w/o permit)  |
+| 66      | 432.500         | FM   | 70CM Beacon   | Amateur beacon (RX/TX illegal w/o permit)  |
+| 67      | 1297.000        | FM   | 23CM Beacon   | Amateur beacon (RX/TX illegal w/o permit)  |
+| 68      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 69      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 70      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 71      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 72      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 73      | 119.700         | AM   | SIN TWR       | Sinuiju Tower (RX only)                    |
+| 74      | 125.500         | AM   | HAE APP       | Haeju Approach (RX only, hypothetical)     |
+| 75      | 88.0            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 76      | 92.0            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 77      | 95.0            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 78      | 145.725         | FM   | 2M Rptr BD5I  | Hypothetical repeater (RX/TX illegal)      |
+| 79      | 145.775         | FM   | 2M Rptr BD5J  | Hypothetical repeater (RX/TX illegal)      |
+| 80      | 434.725         | FM   | 70CM Rptr BD5K| Hypothetical repeater (RX/TX illegal)      |
+| 81      | 434.750         | FM   | 70CM Rptr BD5L| Hypothetical repeater (RX/TX illegal)      |
+| 82      | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 83      | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 84      | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 85      | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 86      | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 87      | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 88      | 119.300         | AM   | CHG TWR       | Chongjin Tower (RX only)                   |
+| 89      | 98.0            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 90      | 100.0           | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 91      | 102.0           | FM   | Pyongyang FM  | State music network (RX only)              |
+| 92      | 104.0           | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 93      | 145.600         | FM   | 2M Rptr BD5M  | Hypothetical repeater (RX/TX illegal)      |
+| 94      | 145.650         | FM   | 2M Rptr BD5N  | Hypothetical repeater (RX/TX illegal)      |
+| 95      | 434.775         | FM   | 70CM Rptr BD5O| Hypothetical repeater (RX/TX illegal)      |
+| 96      | 434.800         | FM   | 70CM Rptr BD5P| Hypothetical repeater (RX/TX illegal)      |
+| 97      | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 98      | 119.500         | AM   | HSN TWR       | Hamhung Tower (RX only)                    |
+| 99      | 106.0           | FM   | Pyongyang FM  | State music network (RX only)              |
+| 100     | 50.000          | FM   | 6M Low Edge   | 6m band edge (RX/TX illegal w/o permit)    |
+| 101     | 52.000          | FM   | 6M High Edge  | 6m band edge (RX/TX illegal w/o permit)    |
+| 102     | 144.000         | FM   | 2M Low Edge   | 2m band edge (RX/TX illegal w/o permit)    |
+| 103     | 146.000         | FM   | 2M High Edge  | 2m band edge (RX/TX illegal w/o permit)    |
+| 104     | 430.000         | FM   | 70CM Low Edge | 70cm band edge (RX/TX illegal w/o permit)  |
+| 105     | 440.000         | FM   | 70CM High Edge| 70cm band edge (RX/TX illegal w/o permit)  |
+| 106     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (RX/TX illegal w/o permit)  |
+| 107     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (RX/TX illegal w/o permit)  |
+| 108     | 60.000          | FM   | VHF EXP 60    | Experimental (TX illegal w/o permit)       |
+| 109     | 70.000          | FM   | VHF EXP 70    | Experimental (TX illegal w/o permit)       |
+| 110     | 80.000          | FM   | VHF EXP 80    | Experimental (TX illegal w/o permit)       |
+| 111     | 90.000          | FM   | VHF EXP 90    | Experimental (TX illegal w/o permit)       |
+| 112     | 100.000         | FM   | VHF EXP 100   | Experimental (TX illegal w/o permit)       |
+| 113     | 110.000         | FM   | VHF EXP 110   | Experimental (TX illegal w/o permit)       |
+| 114     | 120.000         | FM   | VHF EXP 120   | Experimental (TX illegal w/o permit)       |
+| 115     | 130.000         | FM   | VHF EXP 130   | Experimental (TX illegal w/o permit)       |
+| 116     | 150.000         | FM   | VHF EXP 150   | Experimental (TX illegal w/o permit)       |
+| 117     | 160.000         | FM   | VHF EXP 160   | Experimental (TX illegal w/o permit)       |
+| 118     | 170.000         | FM   | VHF EXP 170   | Experimental (TX illegal w/o permit)       |
+| 119     | 180.000         | FM   | VHF EXP 180   | Experimental (TX illegal w/o permit)       |
+| 120     | 190.000         | FM   | VHF EXP 190   | Experimental (TX illegal w/o permit)       |
+| 121     | 200.000         | FM   | VHF EXP 200   | Experimental (TX illegal w/o permit)       |
+| 122     | 225.000         | FM   | MID EXP 225   | Experimental (TX illegal w/o permit)       |
+| 123     | 250.000         | FM   | MID EXP 250   | Experimental (TX illegal w/o permit)       |
+| 124     | 275.000         | FM   | MID EXP 275   | Experimental (TX illegal w/o permit)       |
+| 125     | 300.000         | FM   | MID EXP 300   | Experimental (TX illegal w/o permit)       |
+| 126     | 325.000         | FM   | MID EXP 325   | Experimental (TX illegal w/o permit)       |
+| 127     | 350.000         | FM   | MID EXP 350   | Experimental (TX illegal w/o permit)       |
+| 128     | 375.000         | FM   | MID EXP 375   | Experimental (TX illegal w/o permit)       |
+| 129     | 400.000         | FM   | UHF EXP 400   | Experimental (TX illegal w/o permit)       |
+| 130     | 425.000         | FM   | UHF EXP 425   | Experimental (TX illegal w/o permit)       |
+| 131     | 450.000         | FM   | UHF EXP 450   | Experimental (TX illegal w/o permit)       |
+| 132     | 475.000         | FM   | UHF EXP 475   | Experimental (TX illegal w/o permit)       |
+| 133     | 500.000         | FM   | UHF EXP 500   | Experimental (TX illegal w/o permit)       |
+| 134     | 525.000         | FM   | UHF EXP 525   | Experimental (TX illegal w/o permit)       |
+| 135     | 550.000         | FM   | UHF EXP 550   | Experimental (TX illegal w/o permit)       |
+| 136     | 575.000         | FM   | UHF EXP 575   | Experimental (TX illegal w/o permit)       |
+| 137     | 600.000         | FM   | UHF EXP 600   | Experimental (TX illegal w/o permit)       |
+| 138     | 650.000         | FM   | UHF EXP 650   | Experimental (TX illegal w/o permit)       |
+| 139     | 700.000         | FM   | UHF EXP 700   | Experimental (TX illegal w/o permit)       |
+| 140     | 750.000         | FM   | SHF EXP 750   | Experimental (TX illegal w/o permit)       |
+| 141     | 800.000         | FM   | SHF EXP 800   | Experimental (TX illegal w/o permit)       |
+| 142     | 850.000         | FM   | SHF EXP 850   | Experimental (TX illegal w/o permit)       |
+| 143     | 900.000         | FM   | SHF EXP 900   | Experimental (TX illegal w/o permit)       |
+| 144     | 950.000         | FM   | SHF EXP 950   | Experimental (TX illegal w/o permit)       |
+| 145     | 1000.000        | FM   | SHF EXP 1000  | Experimental (TX illegal w/o permit)       |
+| 146     | 1050.000        | FM   | SHF EXP 1050  | Experimental (TX illegal w/o permit)       |
+| 147     | 1100.000        | FM   | SHF EXP 1100  | Experimental (TX illegal w/o permit)       |
+| 148     | 1150.000        | FM   | SHF EXP 1150  | Experimental (TX illegal w/o permit)       |
+| 149     | 1200.000        | FM   | SHF EXP 1200  | Experimental (TX illegal w/o permit)       |
+| 150     | 1250.000        | FM   | 23CM Alt 2    | Amateur alternate (RX/TX illegal w/o permit)|
+| 151     | 145.750         | FM   | 2M Rptr BD5Q  | Hypothetical repeater (RX/TX illegal)      |
+| 152     | 145.800         | FM   | 2M Rptr BD5R  | Hypothetical repeater (RX/TX illegal)      |
+| 153     | 434.825         | FM   | 70CM Rptr BD5S| Hypothetical repeater (RX/TX illegal)      |
+| 154     | 434.850         | FM   | 70CM Rptr BD5T| Hypothetical repeater (RX/TX illegal)      |
+| 155     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 156     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 157     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 118.600         | AM   | DLC TWR       | Dalian Tower (RX only)                     |
+| 161     | 125.700         | AM   | HAK APP       | Haikou Approach (RX only)                  |
+| 162     | 89.5            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 163     | 93.0            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 164     | 108.0           | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 165     | 145.525         | FM   | 2M Simplex 2  | Amateur simplex (RX/TX illegal w/o permit) |
+| 166     | 433.450         | FM   | 70CM Simplex 2| Amateur simplex (RX/TX illegal w/o permit) |
+| 167     | 1296.300        | FM   | 23CM Alt Call | Amateur alternate (RX/TX illegal w/o permit)|
+| 168     | 145.725         | FM   | 2M Rptr BD5U  | Hypothetical repeater (RX/TX illegal)      |
+| 169     | 145.850         | FM   | 2M Rptr BD5V  | Hypothetical repeater (RX/TX illegal)      |
+| 170     | 434.875         | FM   | 70CM Rptr BD5W| Hypothetical repeater (RX/TX illegal)      |
+| 171     | 434.900         | FM   | 70CM Rptr BD5X| Hypothetical repeater (RX/TX illegal)      |
+| 172     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 173     | 119.450         | AM   | HLD TWR       | Huludao Tower (RX only, hypothetical)      |
+| 174     | 96.0            | FM   | Pyongyang FM  | State music network (RX only)              |
+| 175     | 145.575         | FM   | 2M Simplex 3  | Amateur simplex (RX/TX illegal w/o permit) |
+| 176     | 433.475         | FM   | 70CM Simplex 3| Amateur simplex (RX/TX illegal w/o permit) |
+| 177     | 145.7875        | FM   | 2M Rptr BD5Y  | Hypothetical repeater (RX/TX illegal)      |
+| 178     | 145.8125        | FM   | 2M Rptr BD5Z  | Hypothetical repeater (RX/TX illegal)      |
+| 179     | 434.925         | FM   | 70CM Rptr BD5AA| Hypothetical repeater (RX/TX illegal)      |
+| 180     | 434.950         | FM   | 70CM Rptr BD5AB| Hypothetical repeater (RX/TX illegal)      |
+| 181     | 118.950         | AM   | SHE TWR       | Shenyang Tower (RX only)                   |
+| 182     | 99.5            | FM   | KCBS FM       | State radio FM relay (RX only)             |
+| 183     | 145.850         | FM   | 2M Simplex 4  | Amateur simplex (RX/TX illegal w/o permit) |
+| 184     | 433.525         | FM   | 70CM Simplex 4| Amateur simplex (RX/TX illegal w/o permit) |
+| 185     | 145.525         | FM   | 2M Simplex 5  | Amateur simplex (RX/TX illegal w/o permit) |
+| 186     | 433.550         | FM   | 70CM Simplex 5| Amateur simplex (RX/TX illegal w/o permit) |
+| 187     | 145.875         | FM   | 2M Simplex 6  | Amateur simplex (RX/TX illegal w/o permit) |
+| 188     | 433.575         | FM   | 70CM Simplex 6| Amateur simplex (RX/TX illegal w/o permit) |
+| 189     | 145.900         | FM   | 2M Simplex 7  | Amateur simplex (RX/TX illegal w/o permit) |
+| 190     | 433.600         | FM   | 70CM Simplex 7| Amateur simplex (RX/TX illegal w/o permit) |
+| 191     | 145.925         | FM   | 2M Simplex 8  | Amateur simplex (RX/TX illegal w/o permit) |
+| 192     | 433.625         | FM   | 70CM Simplex 8| Amateur simplex (RX/TX illegal w/o permit) |
+| 193     | 145.950         | FM   | 2M Simplex 9  | Amateur simplex (RX/TX illegal w/o permit) |
+| 194     | 433.650         | FM   | 70CM Simplex 9| Amateur simplex (RX/TX illegal w/o permit) |
+| 195     | 145.975         | FM   | 2M Simplex 10 | Amateur simplex (RX/TX illegal w/o permit) |
+| 196     | 433.675         | FM   | 70CM Simplex 10| Amateur simplex (RX/TX illegal w/o permit) |
+| 197     | 146.000         | FM   | 2M Simplex 11 | Amateur simplex (RX/TX illegal w/o permit) |
+| 198     | 433.700         | FM   | 70CM Simplex 11| Amateur simplex (RX/TX illegal w/o permit) |
+| 199     | 101.0           | FM   | Pyongyang FM  | State music network (RX only)              |
+
+Notes for North Korea
+Licence-Free Bands: North Korea has no official licence-free bands for public use. PMR446 is not recognized domestically, and all radio usage is state-controlled. Channels 0–7 are included for theoretical compatibility with external standards but are not legally usable within the country without permits.
+State Radio: Channels 0–4 (AM) and 5–7, 24–26, etc. (FM) reflect KCBS and Pyongyang FM, the only legal broadcasts, operating on medium wave (MW) and FM. These are RX-only as private transmission is prohibited.
+Amateur Radio: Amateur radio is virtually non-existent in North Korea due to strict government control. Channels 8–15, 27–37, etc., use the BD5 prefix (hypothetical, based on North Korean callsign format) but are marked as RX/TX illegal without a permit, which is nearly impossible to obtain.
+Marine VHF: Channels 16–20, 38–45, etc., are standard international maritime frequencies, included for monitoring purposes (RX-only unless licensed, which is restricted to state entities).
+Airband: Channels 21–23, 46–47, etc., are international aviation frequencies, included for monitoring (RX-only).
+FM Presets: Channels 24–26, 48–50, etc., reflect state-controlled FM stations, typically KCBS relays or Pyongyang FM, with frequencies based on known broadcasts (RX-only).
+Experimental: Channels 108–149 cover 50–1300 MHz, marked as TX illegal without MIIT-equivalent approval, which is not granted to civilians.
+Technical Considerations: The UV-K5’s stock TX bands (136–174 MHz, 400–470 MHz) align with amateur and marine use, but firmware-unlocked bands (e.g., 50–136 MHz, 470–1300 MHz) are illegal to transmit on without state authorization.

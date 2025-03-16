@@ -1,0 +1,219 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 29.710          | FM   | 29MHz CB 1    | 29 MHz CB Ch 1, licence-free (4W max)      |
+| 1       | 29.720          | FM   | 29MHz CB 2    | 29 MHz CB Ch 2, licence-free (4W max)      |
+| 2       | 29.730          | FM   | 29MHz CB 3    | 29 MHz CB Ch 3, licence-free (4W max)      |
+| 3       | 29.740          | FM   | 29MHz CB 4    | 29 MHz CB Ch 4, licence-free (4W max)      |
+| 4       | 29.750          | FM   | 29MHz CB 5    | 29 MHz CB Ch 5, emergency (4W max)         |
+| 5       | 29.760          | FM   | 29MHz CB 6    | 29 MHz CB Ch 6, licence-free (4W max)      |
+| 6       | 29.770          | FM   | 29MHz CB 7    | 29 MHz CB Ch 7, licence-free (4W max)      |
+| 7       | 29.780          | FM   | 29MHz CB 8    | 29 MHz CB Ch 8, calling (4W max)           |
+| 8       | 446.00625       | FM   | PMR 1         | PMR446 Ch 1, licence-free (0.5W max)       |
+| 9       | 446.01875       | FM   | PMR 2         | PMR446 Ch 2, licence-free (0.5W max)       |
+| 10      | 446.03125       | FM   | PMR 3         | PMR446 Ch 3, licence-free (0.5W max)       |
+| 11      | 446.04375       | FM   | PMR 4         | PMR446 Ch 4, licence-free (0.5W max)       |
+| 12      | 446.05625       | FM   | PMR 5         | PMR446 Ch 5, licence-free (0.5W max)       |
+| 13      | 446.06875       | FM   | PMR 6         | PMR446 Ch 6, licence-free (0.5W max)       |
+| 14      | 446.08125       | FM   | PMR 7         | PMR446 Ch 7, licence-free (0.5W max)       |
+| 15      | 446.09375       | FM   | PMR 8         | PMR446 Ch 8, licence-free (0.5W max)       |
+| 16      | 145.500         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 17      | 145.425         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 18      | 145.625         | FM   | 2M Rptr ZS1A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 19      | 145.675         | FM   | 2M Rptr ZS1B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 20      | 433.500         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 21      | 433.400         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 22      | 434.600         | FM   | 70CM Rptr ZS1C| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 23      | 434.650         | FM   | 70CM Rptr ZS1D| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 24      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 25      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 26      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 27      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 28      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 29      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 30      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 31      | 118.100         | AM   | FAOR TWR      | Johannesburg OR Tambo Tower (RX only)      |
+| 32      | 87.6            | FM   | Metro FM      | Metro FM Johannesburg (FM preset, RX only) |
+| 33      | 89.2            | FM   | 5FM           | 5FM Johannesburg (FM preset, RX only)      |
+| 34      | 90.4            | FM   | Jacaranda FM  | Jacaranda FM Pretoria (FM preset, RX only) |
+| 35      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 36      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 37      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 38      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 39      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 40      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 41      | 144.800         | FM   | APRS ZA       | APRS South Africa (amateur licence)        |
+| 42      | 145.700         | FM   | 2M Rptr ZS1E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 43      | 145.750         | FM   | 2M Rptr ZS1F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 44      | 434.675         | FM   | 70CM Rptr ZS1G| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 45      | 434.700         | FM   | 70CM Rptr ZS1H| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 46      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 47      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 48      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 49      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 50      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 51      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 52      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 53      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 54      | 118.900         | AM   | FACT TWR      | Cape Town Tower (RX only)                  |
+| 55      | 125.200         | AM   | FADN APP      | Durban Approach (RX only)                  |
+| 56      | 91.9            | FM   | YFM           | YFM Johannesburg (FM preset, RX only)      |
+| 57      | 93.0            | FM   | Kaya FM       | Kaya FM Johannesburg (FM preset, RX only)  |
+| 58      | 94.2            | FM   | 702           | 702 Johannesburg (FM preset, RX only)      |
+| 59      | 29.790          | FM   | 29MHz CB 9    | 29 MHz CB Ch 9, emergency (4W max)         |
+| 60      | 29.800          | FM   | 29MHz CB 10   | 29 MHz CB Ch 10, calling (4W max)          |
+| 61      | 29.810          | FM   | 29MHz CB 11   | 29 MHz CB Ch 11, licence-free (4W max)     |
+| 62      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 63      | 52.525          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 64      | 145.790         | FM   | ISS Downlink  | ISS amateur downlink (amateur licence)     |
+| 65      | 144.600         | FM   | 2M Data       | 2m data freq (amateur licence)             |
+| 66      | 432.600         | FM   | 70CM Data     | 70cm data freq (amateur licence)           |
+| 67      | 1296.500        | FM   | 23CM Data     | 23cm data freq (amateur licence)           |
+| 68      | 50.800          | FM   | 6M Beacon     | 6m beacon (amateur licence)                |
+| 69      | 144.250         | FM   | 2M Beacon     | 2m beacon (amateur licence)                |
+| 70      | 432.500         | FM   | 70CM Beacon   | 70cm beacon (amateur licence)              |
+| 71      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon (amateur licence)              |
+| 72      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 73      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 74      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 75      | 157.025         | FM   | MARINE 80A    | Marine non-commercial (RX only)            |
+| 76      | 157.075         | FM   | MARINE 21A    | Marine coastal (RX only)                   |
+| 77      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 78      | 122.800         | AM   | UNICOM        | Unicom general aviation (RX only)          |
+| 79      | 119.100         | AM   | FAEL TWR      | East London Tower (RX only)                |
+| 80      | 125.900         | AM   | FAPE APP      | Port Elizabeth Approach (RX only)          |
+| 81      | 95.6            | FM   | KFM           | KFM Cape Town (FM preset, RX only)         |
+| 82      | 96.7            | FM   | Heart FM      | Heart FM Cape Town (FM preset, RX only)    |
+| 83      | 97.8            | FM   | 947           | 947 Johannesburg (FM preset, RX only)      |
+| 84      | 145.775         | FM   | 2M Rptr ZS1I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 85      | 145.800         | FM   | 2M Rptr ZS1J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 86      | 434.725         | FM   | 70CM Rptr ZS1K| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 87      | 434.750         | FM   | 70CM Rptr ZS1L| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 88      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 89      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 90      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 91      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 92      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 93      | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 94      | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 95      | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 96      | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 97      | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 98      | 119.650         | AM   | FABL TWR      | Bloemfontein Tower (RX only)               |
+| 99      | 124.400         | AM   | FAPM APP      | Pietermaritzburg Approach (RX only)        |
+| 100     | 98.9            | FM   | Good Hope FM  | Good Hope FM Cape Town (FM preset, RX only)|
+| 101     | 99.7            | FM   | East Coast    | East Coast Radio Durban (FM preset, RX only)|
+| 102     | 100.3           | FM   | SABC 1        | SABC Radio 1 Johannesburg (FM preset, RX only) |
+| 103     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 104     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 105     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 106     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 107     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 108     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 109     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 110     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 111     | 60.000          | FM   | VHF EXP 60    | Experimental (TX requires permit)          |
+| 112     | 70.000          | FM   | VHF EXP 70    | Experimental (TX requires permit)          |
+| 113     | 80.000          | FM   | VHF EXP 80    | Experimental (TX requires permit)          |
+| 114     | 90.000          | FM   | VHF EXP 90    | Experimental (TX requires permit)          |
+| 115     | 100.000         | FM   | VHF EXP 100   | Experimental (TX requires permit)          |
+| 116     | 110.000         | FM   | VHF EXP 110   | Experimental (TX requires permit)          |
+| 117     | 120.000         | FM   | VHF EXP 120   | Experimental (TX requires permit)          |
+| 118     | 130.000         | FM   | VHF EXP 130   | Experimental (TX requires permit)          |
+| 119     | 150.000         | FM   | VHF EXP 150   | Experimental (TX requires permit)          |
+| 120     | 160.000         | FM   | VHF EXP 160   | Experimental (TX requires permit)          |
+| 121     | 170.000         | FM   | VHF EXP 170   | Experimental (TX requires permit)          |
+| 122     | 180.000         | FM   | VHF EXP 180   | Experimental (TX requires permit)          |
+| 123     | 190.000         | FM   | VHF EXP 190   | Experimental (TX requires permit)          |
+| 124     | 200.000         | FM   | VHF EXP 200   | Experimental (TX requires permit)          |
+| 125     | 225.000         | FM   | MID EXP 225   | Experimental (TX requires permit)          |
+| 126     | 250.000         | FM   | MID EXP 250   | Experimental (TX requires permit)          |
+| 127     | 275.000         | FM   | MID EXP 275   | Experimental (TX requires permit)          |
+| 128     | 300.000         | FM   | MID EXP 300   | Experimental (TX requires permit)          |
+| 129     | 325.000         | FM   | MID EXP 325   | Experimental (TX requires permit)          |
+| 130     | 350.000         | FM   | MID EXP 350   | Experimental (TX requires permit)          |
+| 131     | 375.000         | FM   | MID EXP 375   | Experimental (TX requires permit)          |
+| 132     | 400.000         | FM   | UHF EXP 400   | Experimental (TX requires permit)          |
+| 133     | 425.000         | FM   | UHF EXP 425   | Experimental (TX requires permit)          |
+| 134     | 450.000         | FM   | UHF EXP 450   | Experimental (TX requires permit)          |
+| 135     | 475.000         | FM   | UHF EXP 475   | Experimental (TX requires permit)          |
+| 136     | 500.000         | FM   | UHF EXP 500   | Experimental (TX requires permit)          |
+| 137     | 525.000         | FM   | UHF EXP 525   | Experimental (TX requires permit)          |
+| 138     | 550.000         | FM   | UHF EXP 550   | Experimental (TX requires permit)          |
+| 139     | 575.000         | FM   | UHF EXP 575   | Experimental (TX requires permit)          |
+| 140     | 600.000         | FM   | UHF EXP 600   | Experimental (TX requires permit)          |
+| 141     | 650.000         | FM   | UHF EXP 650   | Experimental (TX requires permit)          |
+| 142     | 700.000         | FM   | UHF EXP 700   | Experimental (TX requires permit)          |
+| 143     | 750.000         | FM   | SHF EXP 750   | Experimental (TX requires permit)          |
+| 144     | 800.000         | FM   | SHF EXP 800   | Experimental (TX requires permit)          |
+| 145     | 850.000         | FM   | SHF EXP 850   | Experimental (TX requires permit)          |
+| 146     | 900.000         | FM   | SHF EXP 900   | Experimental (TX requires permit)          |
+| 147     | 950.000         | FM   | SHF EXP 950   | Experimental (TX requires permit)          |
+| 148     | 1000.000        | FM   | SHF EXP 1000  | Experimental (TX requires permit)          |
+| 149     | 1050.000        | FM   | SHF EXP 1050  | Experimental (TX requires permit)          |
+| 150     | 1150.000        | FM   | SHF EXP 1150  | Experimental (TX requires permit)          |
+| 151     | 1200.000        | FM   | SHF EXP 1200  | Experimental (TX requires permit)          |
+| 152     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 153     | 145.825         | FM   | 2M Rptr ZS1M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 154     | 145.850         | FM   | 2M Rptr ZS1N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 155     | 434.825         | FM   | 70CM Rptr ZS1O| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 156     | 434.850         | FM   | 70CM Rptr ZS1P| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 157     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 119.800         | AM   | FAGG TWR      | George Tower (RX only)                     |
+| 161     | 125.050         | AM   | FALA APP      | Lanseria Approach (RX only)                |
+| 162     | 101.7           | FM   | Highveld      | Highveld Stereo Pretoria (FM preset, RX only) |
+| 163     | 102.7           | FM   | Classic FM    | Classic FM Johannesburg (FM preset, RX only) |
+| 164     | 103.2           | FM   | RSG           | Radio Sonder Grense (FM preset, RX only)   |
+| 165     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 166     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 167     | 433.450         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 168     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 169     | 145.875         | FM   | 2M Rptr ZS1Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 145.900         | FM   | 2M Rptr ZS1R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 171     | 434.875         | FM   | 70CM Rptr ZS1S| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 172     | 434.900         | FM   | 70CM Rptr ZS1T| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 173     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 174     | 119.450         | AM   | FALW TWR      | Wonderboom Tower (RX only)                 |
+| 175     | 104.2           | FM   | Cape Talk     | Cape Talk Cape Town (FM preset, RX only)   |
+| 176     | 145.575         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 177     | 433.475         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 178     | 145.925         | FM   | 2M Rptr ZS1U  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 179     | 145.950         | FM   | 2M Rptr ZS1V  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 180     | 434.925         | FM   | 70CM Rptr ZS1W| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 181     | 434.950         | FM   | 70CM Rptr ZS1X| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 182     | 119.200         | AM   | FAPN TWR      | Polokwane Tower (RX only)                  |
+| 183     | 105.2           | FM   | LM Radio      | LM Radio Johannesburg (FM preset, RX only) |
+| 184     | 145.850         | FM   | 2M Simplex 4  | 2m simplex (amateur licence)               |
+| 185     | 433.525         | FM   | 70CM Simplex 4| 70cm simplex (amateur licence)             |
+| 186     | 145.525         | FM   | 2M Simplex 5  | 2m simplex (amateur licence)               |
+| 187     | 433.550         | FM   | 70CM Simplex 5| 70cm simplex (amateur licence)             |
+| 188     | 145.875         | FM   | 2M Simplex 6  | 2m simplex (amateur licence)               |
+| 189     | 433.575         | FM   | 70CM Simplex 6| 70cm simplex (amateur licence)             |
+| 190     | 145.900         | FM   | 2M Simplex 7  | 2m simplex (amateur licence)               |
+| 191     | 433.600         | FM   | 70CM Simplex 7| 70cm simplex (amateur licence)             |
+| 192     | 145.925         | FM   | 2M Simplex 8  | 2m simplex (amateur licence)               |
+| 193     | 433.625         | FM   | 70CM Simplex 8| 70cm simplex (amateur licence)             |
+| 194     | 145.950         | FM   | 2M Simplex 9  | 2m simplex (amateur licence)               |
+| 195     | 433.650         | FM   | 70CM Simplex 9| 70cm simplex (amateur licence)             |
+| 196     | 145.975         | FM   | 2M Simplex 10 | 2m simplex (amateur licence)               |
+| 197     | 433.675         | FM   | 70CM Simplex 10| 70cm simplex (amateur licence)             |
+| 198     | 146.000         | FM   | 2M Simplex 11 | 2m simplex (amateur licence)               |
+| 199     | 433.700         | FM   | 70CM Simplex 11| 70cm simplex (amateur licence)             |
+
+
+
+Notes for South Africa
+Licence-Free Bands:
+29 MHz CB: Channels 0–7, 59–61 (29.710–29.810 MHz, 4W max FM). Regulated under ICASA’s Radio Frequency Spectrum Regulations (2015), no licence required. Ch 5 and 9 are designated for emergencies, Ch 8 and 10 for calling.
+PMR446: Channels 8–15 (446.00625–446.09375 MHz, 0.5W max). Introduced by ICASA in 2018, harmonized with EU standards, licence-free for personal use.
+Amateur Radio: Requires a licence from SARL or ICASA (callsign prefix ZS):
+6m: 35–36, 62–63, 68, 103–104, 165 (50–54 MHz, up to 100W Class B, 400W Class A).
+2m: 16–19, 39, 42–43, 65, 69, 84–85, 105–106, 153–154, 166–167, 169–170, 176, 178–179, 184, 186–198 (144–146 MHz, up to 100W Class B, 400W Class A).
+70cm: 20–23, 40, 44–45, 66, 70, 86–87, 107–108, 155–156, 167–168, 171–172, 177, 180–181, 185, 187–199 (420–450 MHz, up to 100W Class B, 400W Class A).
+23cm: 37–38, 71, 109–110, 152, 168 (1240–1300 MHz, up to 100W Class B, 400W Class A).
+Marine VHF: Channels 24–28, 46–53, etc., are standard international maritime frequencies (RX-only unless licensed, typically for maritime operators).
+Airband: Channels 29–31, 54–55, etc., are international aviation frequencies (RX-only).
+FM Presets: Channels 32–34, 56–58, etc., reflect popular South African stations (e.g., Metro FM, 5FM), mostly Johannesburg/Cape Town-based (RX-only).
+Experimental: Channels 111–151 (50–1300 MHz) require ICASA permits for TX, per Electronic Communications Act (2005).
+Technical Considerations: Stock TX bands (136–174 MHz, 400–470 MHz) are optimal; unlocked bands (50–136 MHz, 470–1300 MHz) require permits for TX due to ICASA regulations.

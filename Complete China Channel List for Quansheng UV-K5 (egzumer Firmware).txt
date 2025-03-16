@@ -1,0 +1,226 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 446.00625       | FM   | PMR 1         | PMR446 Ch 1, licence-free (0.5W max)       |
+| 1       | 446.01875       | FM   | PMR 2         | PMR446 Ch 2, licence-free (0.5W max)       |
+| 2       | 446.03125       | FM   | PMR 3         | PMR446 Ch 3, licence-free (0.5W max)       |
+| 3       | 446.04375       | FM   | PMR 4         | PMR446 Ch 4, licence-free (0.5W max)       |
+| 4       | 446.05625       | FM   | PMR 5         | PMR446 Ch 5, licence-free (0.5W max)       |
+| 5       | 446.06875       | FM   | PMR 6         | PMR446 Ch 6, licence-free (0.5W max)       |
+| 6       | 446.08125       | FM   | PMR 7         | PMR446 Ch 7, licence-free (0.5W max)       |
+| 7       | 446.09375       | FM   | PMR 8         | PMR446 Ch 8, licence-free (0.5W max)       |
+| 8       | 145.500         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 9       | 145.425         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 10      | 145.625         | FM   | 2M Rptr BG2A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 11      | 145.675         | FM   | 2M Rptr BG2B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 12      | 433.500         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 13      | 433.400         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 14      | 434.600         | FM   | 70CM Rptr BG2C| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 15      | 434.650         | FM   | 70CM Rptr BG2D| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 16      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 17      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 18      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 19      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 20      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 21      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 22      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 23      | 118.100         | AM   | PEK TWR       | Beijing Capital Tower (RX only)            |
+| 24      | 87.5            | FM   | CNR 1         | China National Radio 1 (FM preset, RX only)|
+| 25      | 89.1            | FM   | CNR Music     | CNR Music Radio Beijing (FM preset, RX only)|
+| 26      | 90.0            | FM   | Beijing Music | Beijing Music Radio (FM preset, RX only)   |
+| 27      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 28      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 29      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 30      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 31      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 32      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 33      | 144.800         | FM   | APRS EU       | APRS Europe (amateur licence)              |
+| 34      | 145.650         | FM   | 2M Rptr BG2E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 35      | 145.700         | FM   | 2M Rptr BG2F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 36      | 434.675         | FM   | 70CM Rptr BG2G| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 37      | 434.700         | FM   | 70CM Rptr BG2H| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 38      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 39      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 40      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 41      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 42      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 43      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 44      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 45      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 46      | 118.300         | AM   | PVG TWR       | Shanghai Pudong Tower (RX only)            |
+| 47      | 124.900         | AM   | CAN APP       | Guangzhou Approach (RX only)               |
+| 48      | 91.5            | FM   | CNR News      | CNR News Radio Beijing (FM preset, RX only)|
+| 49      | 93.7            | FM   | Beijing News  | Beijing News Radio (FM preset, RX only)    |
+| 50      | 95.8            | FM   | CNR Economic  | CNR Economic Voice (FM preset, RX only)    |
+| 51      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 52      | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 53      | 145.200         | FM   | 2M Alt Call   | 2m alternate calling (amateur licence)     |
+| 54      | 433.425         | FM   | 70CM Alt Call | 70cm alternate calling (amateur licence)   |
+| 55      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 56      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 57      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 58      | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 59      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 60      | 130.000         | AM   | SHA APP       | Shanghai Hongqiao Approach (RX only)       |
+| 61      | 97.4            | FM   | Beijing Lit   | Beijing Literature Radio (FM preset, RX only) |
+| 62      | 99.0            | FM   | CNR Culture   | CNR Culture Radio Beijing (FM preset, RX only) |
+| 63      | 100.6           | FM   | Beijing Sports| Beijing Sports Radio (FM preset, RX only)  |
+| 64      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 65      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 66      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 67      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 68      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 69      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 70      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 71      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 72      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 73      | 118.900         | AM   | CTU TWR       | Chengdu Tower example (RX only)            |
+| 74      | 125.100         | AM   | SZX APP       | Shenzhen Approach (RX only)                |
+| 75      | 101.7           | FM   | Beijing Traffic | Beijing Traffic Radio (FM preset, RX only) |
+| 76      | 103.9           | FM   | CNR China     | CNR Voice of China (FM preset, RX only)    |
+| 77      | 105.1           | FM   | CNR Classics  | CNR Classics Beijing (FM preset, RX only)  |
+| 78      | 145.725         | FM   | 2M Rptr BG2I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 79      | 145.775         | FM   | 2M Rptr BG2J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 80      | 434.725         | FM   | 70CM Rptr BG2K| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 81      | 434.750         | FM   | 70CM Rptr BG2L| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 82      | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 83      | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 84      | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 85      | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 86      | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 87      | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 88      | 119.700         | AM   | XIY TWR       | Xi’an Tower example (RX only)              |
+| 89      | 124.200         | AM   | CKG APP       | Chongqing Approach (RX only)               |
+| 90      | 106.1           | FM   | CNR Huaxia    | CNR Huaxia Beijing (FM preset, RX only)    |
+| 91      | 107.0           | FM   | Beijing Intl  | Beijing International Radio (FM preset, RX only) |
+| 92      | 107.9           | FM   | CNR Ethnic    | CNR Ethnic Radio Beijing (FM preset, RX only) |
+| 93      | 145.600         | FM   | 2M Rptr BG2M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 94      | 145.650         | FM   | 2M Rptr BG2N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 95      | 434.775         | FM   | 70CM Rptr BG2O| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 96      | 434.800         | FM   | 70CM Rptr BG2P| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 97      | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 98      | 118.500         | AM   | SHA TWR       | Shanghai Hongqiao Tower (RX only)          |
+| 99      | 88.7            | FM   | Beijing Story | Beijing Story Radio (FM preset, RX only)   |
+| 100     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 101     | 52.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 102     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 103     | 146.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 104     | 430.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 105     | 440.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 106     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 107     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 108     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 109     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 110     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 111     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 112     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 113     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 114     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 115     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 116     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 117     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 118     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 119     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 120     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 121     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 122     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 123     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 124     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 125     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 126     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 127     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 128     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 129     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 130     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 131     | 450.000         | FM   | UHF EXP 450   | UHF experimental (TX risky/illegal)        |
+| 132     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 133     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 134     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 135     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 136     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 137     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 138     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 139     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 140     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 141     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 142     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 143     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 144     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 145     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 146     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 147     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 148     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 149     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 150     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 151     | 145.750         | FM   | 2M Rptr BG2Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 152     | 145.800         | FM   | 2M Rptr BG2R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 153     | 434.825         | FM   | 70CM Rptr BG2S| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 154     | 434.850         | FM   | 70CM Rptr BG2T| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 155     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 156     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 157     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 118.600         | AM   | KMG TWR       | Kunming Tower example (RX only)            |
+| 161     | 125.700         | AM   | HGH APP       | Hangzhou Approach (RX only)                |
+| 162     | 88.9            | FM   | CNR Business  | CNR Business Radio Beijing (FM preset, RX only) |
+| 163     | 94.5            | FM   | Beijing Easy  | Beijing Easy FM (FM preset, RX only)       |
+| 164     | 106.6           | FM   | CNR Tibetan   | CNR Tibetan Radio (FM preset, RX only)     |
+| 165     | 145.525         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 166     | 433.450         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 167     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 168     | 145.725         | FM   | 2M Rptr BG2U  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 169     | 145.850         | FM   | 2M Rptr BG2V  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 434.875         | FM   | 70CM Rptr BG2W| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 171     | 434.900         | FM   | 70CM Rptr BG2X| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 172     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 173     | 119.450         | AM   | SYX TWR       | Sanya Tower example (RX only)              |
+| 174     | 88.3            | FM   | CNR Uyghur    | CNR Uyghur Radio Beijing (FM preset, RX only) |
+| 175     | 92.5            | FM   | Beijing Joy   | Beijing Joy FM (FM preset, RX only)        |
+| 176     | 145.575         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 177     | 433.475         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 178     | 145.7875        | FM   | 2M Rptr BG2Y  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 179     | 145.8125        | FM   | 2M Rptr BG2Z  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 180     | 434.925         | FM   | 70CM Rptr BG2AA| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 181     | 434.950         | FM   | 70CM Rptr BG2AB| 70cm repeater out, –1.6 MHz (amateur licence) |
+| 182     | 118.950         | AM   | WUH TWR       | Wuhan Tower example (RX only)              |
+| 183     | 96.2            | FM   | Beijing Arts  | Beijing Arts Radio (FM preset, RX only)    |
+| 184     | 98.2            | FM   | CNR Senior    | CNR Senior Radio Beijing (FM preset, RX only) |
+| 185     | 102.6           | FM   | CNR Health    | CNR Health Radio Beijing (FM preset, RX only) |
+| 186     | 104.2           | FM   | Beijing Youth | Beijing Youth Radio (FM preset, RX only)   |
+| 187     | 105.5           | FM   | CNR Kazakh    | CNR Kazakh Radio Beijing (FM preset, RX only) |
+| 188     | 145.850         | FM   | 2M Simplex 4  | 2m simplex (amateur licence)               |
+| 189     | 433.525         | FM   | 70CM Simplex 4| 70cm simplex (amateur licence)             |
+| 190     | 145.525         | FM   | 2M Simplex 5  | 2m simplex (amateur licence)               |
+| 191     | 433.550         | FM   | 70CM Simplex 5| 70cm simplex (amateur licence)             |
+| 192     | 145.875         | FM   | 2M Simplex 6  | 2m simplex (amateur licence)               |
+| 193     | 433.575         | FM   | 70CM Simplex 6| 70cm simplex (amateur licence)             |
+| 194     | 145.900         | FM   | 2M Simplex 7  | 2m simplex (amateur licence)               |
+| 195     | 433.600         | FM   | 70CM Simplex 7| 70cm simplex (amateur licence)             |
+| 196     | 145.925         | FM   | 2M Simplex 8  | 2m simplex (amateur licence)               |
+| 197     | 433.625         | FM   | 70CM Simplex 8| 70cm simplex (amateur licence)             |
+| 198     | 145.950         | FM   | 2M Simplex 9  | 2m simplex (amateur licence)               |
+| 199     | 433.650         | FM   | 70CM Simplex 9| 70cm simplex (amateur licence)             |
+
+Notes
+Legal Status in China (MIIT Regulations)
+Licence-Free:
+PMR446: Channels 0–7 (446.00625–446.09375 MHz, 0.5W max). Officially permitted for personal use without a licence under MIIT’s “Technical Requirements for Micro Power (Short Range) Radio Equipment” (2017), though usage is tightly controlled and less common than in Europe.
+Other Bands: China has no equivalent to CB or FRS/GMRS for widespread licence-free use. Most VHF/UHF bands require permits.
+Amateur Radio: Requires an amateur radio licence from the Chinese Radio Amateurs Club (CRAC) or MIIT (Class A or B):
+6m: 27–28, 51–52, 64, 100–101 (50–52 MHz, up to 25W, restricted allocation).
+2m: 8–11, 31, 34–35, 53, 65, 78–79, 93–94, 102–103, 151–152, 165–166, 168–169, 178–179, 188, 190, 192, 194, 196, 198 (144–146 MHz, up to 25W).
+70cm: 12–15, 32, 36–37, 54, 66, 80–81, 95–96, 104–105, 153–154, 166–167, 170–171, 180–181, 189, 191, 193, 195, 197, 199 (430–440 MHz, up to 25W).
+23cm: 29–30, 67, 106–107, 150, 167 (1240–1300 MHz, up to 25W).
+Amateur radio is heavily regulated; licences are rare, and enforcement is strict.
+Restricted Bands: RX-only unless specifically licensed (e.g., maritime or aviation permits from MIIT):
+Marine VHF: 16–20, 38–45, 55–58, 68–72, 82–87, 97, 155–159, 172 (156–162 MHz, RX only unless licensed for maritime use).
+Airband: 21–23, 46–47, 59–60, 73–74, 88–89, 160–161, 173, 182 (118–136 MHz, RX only unless licensed for aviation).
+Experimental: 108–149 (50–1300 MHz outside allocated bands, TX illegal without MIIT approval).
+FM Radio: RX-only presets (24–26, 48–50, 61–63, 75–77, 90–92, 99, 162–164, 174–175, 183–187): 87–108 MHz, mostly Beijing-focused.
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) offer ~5W and proper filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, airband): ~2–4W, possible spurious emissions; TX restricted by law.
+174–400 MHz: Poor sensitivity, TX risky and illegal without permit.
+470–1300 MHz (upper UHF, SHF): <1W, hardware-limited (BK4819 chip lacks filtering), TX illegal.
+Programming: Use CHIRP with egzumer driver (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM presets saved in FM mode (F + M).

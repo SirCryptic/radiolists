@@ -1,0 +1,219 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 462.5625        | FM   | FRS 1         | FRS/GMRS Ch 1, licence-free (2W max)       |
+| 1       | 462.5875        | FM   | FRS 2         | FRS/GMRS Ch 2, licence-free (2W max)       |
+| 2       | 462.6125        | FM   | FRS 3         | FRS/GMRS Ch 3, licence-free (2W max)       |
+| 3       | 462.6375        | FM   | FRS 4         | FRS/GMRS Ch 4, licence-free (2W max)       |
+| 4       | 462.6625        | FM   | FRS 5         | FRS/GMRS Ch 5, licence-free (2W max)       |
+| 5       | 462.6875        | FM   | FRS 6         | FRS/GMRS Ch 6, licence-free (2W max)       |
+| 6       | 462.7125        | FM   | FRS 7         | FRS/GMRS Ch 7, licence-free (2W max)       |
+| 7       | 467.5625        | FM   | FRS 8         | FRS Ch 8, licence-free (0.5W max)          |
+| 8       | 467.5875        | FM   | FRS 9         | FRS Ch 9, licence-free (0.5W max)          |
+| 9       | 467.6125        | FM   | FRS 10        | FRS Ch 10, licence-free (0.5W max)         |
+| 10      | 467.6375        | FM   | FRS 11        | FRS Ch 11, licence-free (0.5W max)         |
+| 11      | 467.6625        | FM   | FRS 12        | FRS Ch 12, licence-free (0.5W max)         |
+| 12      | 467.6875        | FM   | FRS 13        | FRS Ch 13, licence-free (0.5W max)         |
+| 13      | 467.7125        | FM   | FRS 14        | FRS Ch 14, licence-free (0.5W max)         |
+| 14      | 462.5500        | FM   | GMRS 15       | GMRS Ch 15, licence req (5W handheld)      |
+| 15      | 462.5750        | FM   | GMRS 16       | GMRS Ch 16, licence req (5W handheld)      |
+| 16      | 462.6000        | FM   | GMRS 17       | GMRS Ch 17, licence req (5W handheld)      |
+| 17      | 462.6250        | FM   | GMRS 18       | GMRS Ch 18, licence req (5W handheld)      |
+| 18      | 462.6500        | FM   | GMRS 19       | GMRS Ch 19, licence req (5W handheld)      |
+| 19      | 462.6750        | FM   | GMRS 20       | GMRS Ch 20, emergency (5W handheld)        |
+| 20      | 462.7000        | FM   | GMRS 21       | GMRS Ch 21, licence req (5W handheld)      |
+| 21      | 462.7250        | FM   | GMRS 22       | GMRS Ch 22, licence req (5W handheld)      |
+| 22      | 146.520         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 23      | 146.550         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 24      | 146.625         | FM   | 2M Rptr VE3A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 25      | 146.675         | FM   | 2M Rptr VE3B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 26      | 446.000         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 27      | 446.050         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 28      | 444.100         | FM   | 70CM Rptr VE3C| 70cm repeater out, +5 MHz (amateur licence)|
+| 29      | 444.200         | FM   | 70CM Rptr VE3D| 70cm repeater out, +5 MHz (amateur licence)|
+| 30      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 31      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 32      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 33      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 34      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 35      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 36      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 37      | 118.100         | AM   | YYZ TWR       | Toronto Pearson Tower (RX only)            |
+| 38      | 88.1            | FM   | CBC Radio 2   | CBC Radio 2 Toronto (FM preset, RX only)   |
+| 39      | 89.5            | FM   | CHUM FM       | CHUM FM Toronto (FM preset, RX only)       |
+| 40      | 90.3            | FM   | CKFM          | Virgin Radio Toronto (FM preset, RX only)  |
+| 41      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 42      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 43      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 44      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 45      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 46      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 47      | 144.390         | FM   | APRS NA       | APRS North America (amateur licence)       |
+| 48      | 146.750         | FM   | 2M Rptr VE3E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 49      | 146.875         | FM   | 2M Rptr VE3F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 50      | 444.300         | FM   | 70CM Rptr VE3G| 70cm repeater out, +5 MHz (amateur licence)|
+| 51      | 444.400         | FM   | 70CM Rptr VE3H| 70cm repeater out, +5 MHz (amateur licence)|
+| 52      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 53      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 54      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 55      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 56      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 57      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 58      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 59      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 60      | 118.900         | AM   | YVR TWR       | Vancouver Tower (RX only)                  |
+| 61      | 125.200         | FM   | YUL APP       | Montreal Approach (RX only)                |
+| 62      | 91.5            | FM   | CBC Radio 1   | CBC Radio 1 Toronto (FM preset, RX only)   |
+| 63      | 92.5            | FM   | CJEZ          | Jack FM Toronto (FM preset, RX only)       |
+| 64      | 93.5            | FM   | CFXJ          | Flow 93.5 Toronto (FM preset, RX only)     |
+| 65      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 66      | 52.525          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 67      | 145.790         | FM   | ISS Downlink  | ISS amateur downlink (amateur licence)     |
+| 68      | 144.600         | FM   | 2M Data       | 2m data freq (amateur licence)             |
+| 69      | 432.600         | FM   | 70CM Data     | 70cm data freq (amateur licence)           |
+| 70      | 1296.500        | FM   | 23CM Data     | 23cm data freq (amateur licence)           |
+| 71      | 50.800          | FM   | 6M Beacon     | 6m beacon (amateur licence)                |
+| 72      | 144.250         | FM   | 2M Beacon     | 2m beacon (amateur licence)                |
+| 73      | 432.500         | FM   | 70CM Beacon   | 70cm beacon (amateur licence)              |
+| 74      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon (amateur licence)              |
+| 75      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 76      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 77      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 78      | 157.025         | FM   | MARINE 80A    | Marine non-commercial (RX only)            |
+| 79      | 157.075         | FM   | MARINE 21A    | Marine coastal (RX only)                   |
+| 80      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 81      | 122.800         | AM   | UNICOM        | Unicom general aviation (RX only)          |
+| 82      | 119.100         | AM   | YYC TWR       | Calgary Tower (RX only)                    |
+| 83      | 125.900         | AM   | YEG APP       | Edmonton Approach (RX only)                |
+| 84      | 94.5            | FM   | CHFI          | CHFI Toronto (FM preset, RX only)          |
+| 85      | 95.9            | FM   | CJKR          | Power 97 Winnipeg (FM preset, RX only)     |
+| 86      | 96.9            | FM   | CFPL          | CFPL London (FM preset, RX only)           |
+| 87      | 147.000         | FM   | 2M Rptr VE3I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 88      | 147.150         | FM   | 2M Rptr VE3J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 89      | 444.500         | FM   | 70CM Rptr VE3K| 70cm repeater out, +5 MHz (amateur licence)|
+| 90      | 444.600         | FM   | 70CM Rptr VE3L| 70cm repeater out, +5 MHz (amateur licence)|
+| 91      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 92      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 93      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 94      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 95      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 96      | 157.200         | FM   | MARINE 24     | Marine public correspondence (RX only)     |
+| 97      | 157.250         | FM   | MARINE 25     | Marine public correspondence (RX only)     |
+| 98      | 157.300         | FM   | MARINE 26     | Marine public correspondence (RX only)     |
+| 99      | 157.350         | FM   | MARINE 27     | Marine public correspondence (RX only)     |
+| 100     | 157.400         | FM   | MARINE 28     | Marine public correspondence (RX only)     |
+| 101     | 119.650         | AM   | YOW TWR       | Ottawa Tower (RX only)                     |
+| 102     | 124.400         | AM   | YWG APP       | Winnipeg Approach (RX only)                |
+| 103     | 97.5            | FM   | CHQM          | QMFM Vancouver (FM preset, RX only)        |
+| 104     | 98.1            | FM   | CHFI Alt      | CHFI alternate (FM preset, RX only)        |
+| 105     | 99.1            | FM   | CKFM Alt      | Virgin Radio alternate (FM preset, RX only)|
+| 106     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 107     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 108     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 109     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 110     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 111     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 112     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 113     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 114     | 60.000          | FM   | VHF EXP 60    | Experimental (TX requires permit)          |
+| 115     | 70.000          | FM   | VHF EXP 70    | Experimental (TX requires permit)          |
+| 116     | 80.000          | FM   | VHF EXP 80    | Experimental (TX requires permit)          |
+| 117     | 90.000          | FM   | VHF EXP 90    | Experimental (TX requires permit)          |
+| 118     | 100.000         | FM   | VHF EXP 100   | Experimental (TX requires permit)          |
+| 119     | 110.000         | FM   | VHF EXP 110   | Experimental (TX requires permit)          |
+| 120     | 120.000         | FM   | VHF EXP 120   | Experimental (TX requires permit)          |
+| 121     | 130.000         | FM   | VHF EXP 130   | Experimental (TX requires permit)          |
+| 122     | 150.000         | FM   | VHF EXP 150   | Experimental (TX requires permit)          |
+| 123     | 160.000         | FM   | VHF EXP 160   | Experimental (TX requires permit)          |
+| 124     | 170.000         | FM   | VHF EXP 170   | Experimental (TX requires permit)          |
+| 125     | 180.000         | FM   | VHF EXP 180   | Experimental (TX requires permit)          |
+| 126     | 190.000         | FM   | VHF EXP 190   | Experimental (TX requires permit)          |
+| 127     | 200.000         | FM   | VHF EXP 200   | Experimental (TX requires permit)          |
+| 128     | 225.000         | FM   | MID EXP 225   | Experimental (TX requires permit)          |
+| 129     | 250.000         | FM   | MID EXP 250   | Experimental (TX requires permit)          |
+| 130     | 275.000         | FM   | MID EXP 275   | Experimental (TX requires permit)          |
+| 131     | 300.000         | FM   | MID EXP 300   | Experimental (TX requires permit)          |
+| 132     | 325.000         | FM   | MID EXP 325   | Experimental (TX requires permit)          |
+| 133     | 350.000         | FM   | MID EXP 350   | Experimental (TX requires permit)          |
+| 134     | 375.000         | FM   | MID EXP 375   | Experimental (TX requires permit)          |
+| 135     | 400.000         | FM   | UHF EXP 400   | Experimental (TX requires permit)          |
+| 136     | 425.000         | FM   | UHF EXP 425   | Experimental (TX requires permit)          |
+| 137     | 450.000         | FM   | UHF EXP 450   | Experimental (TX requires permit)          |
+| 138     | 475.000         | FM   | UHF EXP 475   | Experimental (TX requires permit)          |
+| 139     | 500.000         | FM   | UHF EXP 500   | Experimental (TX requires permit)          |
+| 140     | 525.000         | FM   | UHF EXP 525   | Experimental (TX requires permit)          |
+| 141     | 550.000         | FM   | UHF EXP 550   | Experimental (TX requires permit)          |
+| 142     | 575.000         | FM   | UHF EXP 575   | Experimental (TX requires permit)          |
+| 143     | 600.000         | FM   | UHF EXP 600   | Experimental (TX requires permit)          |
+| 144     | 650.000         | FM   | UHF EXP 650   | Experimental (TX requires permit)          |
+| 145     | 700.000         | FM   | UHF EXP 700   | Experimental (TX requires permit)          |
+| 146     | 750.000         | FM   | SHF EXP 750   | Experimental (TX requires permit)          |
+| 147     | 800.000         | FM   | SHF EXP 800   | Experimental (TX requires permit)          |
+| 148     | 850.000         | FM   | SHF EXP 850   | Experimental (TX requires permit)          |
+| 149     | 900.000         | FM   | SHF EXP 900   | Experimental (TX requires permit)          |
+| 150     | 950.000         | FM   | SHF EXP 950   | Experimental (TX requires permit)          |
+| 151     | 1000.000        | FM   | SHF EXP 1000  | Experimental (TX requires permit)          |
+| 152     | 1050.000        | FM   | SHF EXP 1050  | Experimental (TX requires permit)          |
+| 153     | 1100.000        | FM   | SHF EXP 1100  | Experimental (TX requires permit)          |
+| 154     | 1150.000        | FM   | SHF EXP 1150  | Experimental (TX requires permit)          |
+| 155     | 1200.000        | FM   | SHF EXP 1200  | Experimental (TX requires permit)          |
+| 156     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 157     | 147.300         | FM   | 2M Rptr VE3M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 158     | 147.375         | FM   | 2M Rptr VE3N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 159     | 444.700         | FM   | 70CM Rptr VE3O| 70cm repeater out, +5 MHz (amateur licence)|
+| 160     | 444.800         | FM   | 70CM Rptr VE3P| 70cm repeater out, +5 MHz (amateur licence)|
+| 161     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 162     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 163     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 164     | 162.400         | FM   | WX 1          | Weatheradio Canada Ch 1 (RX only)          |
+| 165     | 162.425         | FM   | WX 2          | Weatheradio Canada Ch 2 (RX only)          |
+| 166     | 162.450         | FM   | WX 3          | Weatheradio Canada Ch 3 (RX only)          |
+| 167     | 162.475         | FM   | WX 4          | Weatheradio Canada Ch 4 (RX only)          |
+| 168     | 162.500         | FM   | WX 5          | Weatheradio Canada Ch 5 (RX only)          |
+| 169     | 162.525         | FM   | WX 6          | Weatheradio Canada Ch 6 (RX only)          |
+| 170     | 162.550         | FM   | WX 7          | Weatheradio Canada Ch 7 (RX only)          |
+| 171     | 119.800         | AM   | YHZ TWR       | Halifax Tower (RX only)                    |
+| 172     | 125.050         | AM   | YQB APP       | Quebec City Approach (RX only)             |
+| 173     | 99.9            | FM   | CHIN          | CHIN Toronto (FM preset, RX only)          |
+| 174     | 100.7           | FM   | CILQ          | Q107 Toronto (FM preset, RX only)          |
+| 175     | 101.3           | FM   | CJMX          | CJMX Sudbury (FM preset, RX only)          |
+| 176     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 177     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 178     | 446.100         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 179     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 180     | 147.450         | FM   | 2M Rptr VE3Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 181     | 147.525         | FM   | 2M Rptr VE3R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 182     | 444.900         | FM   | 70CM Rptr VE3S| 70cm repeater out, +5 MHz (amateur licence)|
+| 183     | 445.000         | FM   | 70CM Rptr VE3T| 70cm repeater out, +5 MHz (amateur licence)|
+| 184     | 119.450         | AM   | YQM TWR       | Moncton Tower (RX only)                    |
+| 185     | 102.1           | FM   | CFNY          | Edge 102 Toronto (FM preset, RX only)      |
+| 186     | 145.850         | FM   | 2M Simplex 4  | 2m simplex (amateur licence)               |
+| 187     | 433.525         | FM   | 70CM Simplex 4| 70cm simplex (amateur licence)             |
+| 188     | 145.525         | FM   | 2M Simplex 5  | 2m simplex (amateur licence)               |
+| 189     | 433.550         | FM   | 70CM Simplex 5| 70cm simplex (amateur licence)             |
+| 190     | 145.875         | FM   | 2M Simplex 6  | 2m simplex (amateur licence)               |
+| 191     | 433.575         | FM   | 70CM Simplex 6| 70cm simplex (amateur licence)             |
+| 192     | 145.900         | FM   | 2M Simplex 7  | 2m simplex (amateur licence)               |
+| 193     | 433.600         | FM   | 70CM Simplex 7| 70cm simplex (amateur licence)             |
+| 194     | 145.925         | FM   | 2M Simplex 8  | 2m simplex (amateur licence)               |
+| 195     | 433.625         | FM   | 70CM Simplex 8| 70cm simplex (amateur licence)             |
+| 196     | 145.950         | FM   | 2M Simplex 9  | 2m simplex (amateur licence)               |
+| 197     | 433.650         | FM   | 70CM Simplex 9| 70cm simplex (amateur licence)             |
+| 198     | 145.975         | FM   | 2M Simplex 10 | 2m simplex (amateur licence)               |
+| 199     | 433.675         | FM   | 70CM Simplex 10| 70cm simplex (amateur licence)             |
+
+
+Notes for Canada
+Licence-Free Bands:
+FRS: Channels 0–13 (462.5625–467.7125 MHz, 2W max for 1–7, 0.5W max for 8–14). Regulated under ISED’s RSS-210, no licence required for FRS power levels, harmonized with US standards.
+GMRS: Channels 14–21 (462.5500–462.7250 MHz, 5W max handheld). Requires a basic ISED permit (no exam, $70 CAD fee), similar to US GMRS but with Canadian-specific rules (e.g., Ch 20 often used for emergencies).
+Amateur Radio: Requires a licence from RAC or ISED (callsign prefix VE):
+6m: 41–42, 65–66, 71, 106–107, 176 (50–54 MHz, up to 100W Basic, 250W Advanced).
+2m: 22–25, 45, 48–49, 68, 72, 87–88, 108–109, 157–158, 177–178, 180–181, 184, 186–198 (144–148 MHz, up to 100W Basic, 250W Advanced).
+70cm: 26–29, 46, 50–51, 69, 73, 89–90, 110–111, 159–160, 178–179, 182–183, 185, 187–199 (420–450 MHz, up to 100W Basic, 250W Advanced).
+23cm: 43–44, 70, 112–113, 156, 179 (1240–1300 MHz, up to 100W Basic, 250W Advanced).
+Marine VHF: Channels 30–34, 52–59, etc., are standard international maritime frequencies (RX-only unless licensed, typically for maritime operators).
+Airband: Channels 35–37, 60–61, etc., are international aviation frequencies (RX-only).
+Weatheradio Canada: Channels 164–170 (162.400–162.550 MHz) are Weatheradio Canada frequencies, operated by Environment Canada (RX-only).
+FM Presets: Channels 38–40, 62–64, etc., reflect popular Canadian stations (e.g., CBC, CHUM), mostly Toronto-based with some regional (RX-only).
+Experimental: Channels 114–155 (50–1300 MHz) require ISED permits for TX, per Radiocommunication Regulations.
+Technical Considerations: Stock TX bands (136–174 MHz, 400–470 MHz) are optimal; unlocked bands (50–136 MHz, 470–1300 MHz) require permits for TX due to ISED rules.

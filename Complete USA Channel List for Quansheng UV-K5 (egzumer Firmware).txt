@@ -1,0 +1,443 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 462.5625        | FM   | FRS 1         | FRS/GMRS Ch 1, licence-free (2W max)       |
+| 1       | 462.5875        | FM   | FRS 2         | FRS/GMRS Ch 2, licence-free (2W max)       |
+| 2       | 462.6125        | FM   | FRS 3         | FRS/GMRS Ch 3, licence-free (2W max)       |
+| 3       | 462.6375        | FM   | FRS 4         | FRS/GMRS Ch 4, licence-free (2W max)       |
+| 4       | 462.6625        | FM   | FRS 5         | FRS/GMRS Ch 5, licence-free (2W max)       |
+| 5       | 462.6875        | FM   | FRS 6         | FRS/GMRS Ch 6, licence-free (2W max)       |
+| 6       | 462.7125        | FM   | FRS 7         | FRS/GMRS Ch 7, licence-free (2W max)       |
+| 7       | 467.5625        | FM   | FRS 8         | FRS Ch 8, licence-free (0.5W max)          |
+| 8       | 467.5875        | FM   | FRS 9         | FRS Ch 9, licence-free (0.5W max)          |
+| 9       | 467.6125        | FM   | FRS 10        | FRS Ch 10, licence-free (0.5W max)         |
+| 10      | 467.6375        | FM   | FRS 11        | FRS Ch 11, licence-free (0.5W max)         |
+| 11      | 467.6625        | FM   | FRS 12        | FRS Ch 12, licence-free (0.5W max)         |
+| 12      | 467.6875        | FM   | FRS 13        | FRS Ch 13, licence-free (0.5W max)         |
+| 13      | 467.7125        | FM   | FRS 14        | FRS Ch 14, licence-free (0.5W max)         |
+| 14      | 462.5500        | FM   | GMRS 15       | GMRS Ch 15, licence req (5W handheld)      |
+| 15      | 462.5750        | FM   | GMRS 16       | GMRS Ch 16, licence req (5W handheld)      |
+| 16      | 462.6000        | FM   | GMRS 17       | GMRS Ch 17, licence req (5W handheld)      |
+| 17      | 462.6250        | FM   | GMRS 18       | GMRS Ch 18, licence req (5W handheld)      |
+| 18      | 462.6500        | FM   | GMRS 19       | GMRS Ch 19, licence req (5W handheld)      |
+| 19      | 462.6750        | FM   | GMRS 20       | GMRS Ch 20, licence req (5W handheld)      |
+| 20      | 462.7000        | FM   | GMRS 21       | GMRS Ch 21, licence req (5W handheld)      |
+| 21      | 462.7250        | FM   | GMRS 22       | GMRS Ch 22, licence req (5W handheld)      |
+| 22      | 151.820         | FM   | MURS 1        | MURS Ch 1, licence-free (2W max)           |
+| 23      | 151.880         | FM   | MURS 2        | MURS Ch 2, licence-free (2W max)           |
+| 24      | 151.940         | FM   | MURS 3        | MURS Ch 3, licence-free (2W max)           |
+| 25      | 154.570         | FM   | MURS 4        | MURS Ch 4, licence-free (2W max)           |
+| 26      | 154.600         | FM   | MURS 5        | MURS Ch 5, licence-free (2W max)           |
+| 27      | 162.400         | FM   | NOAA 1        | NOAA Weather Channel 1 (RX only)           |
+| 28      | 162.425         | FM   | NOAA 2        | NOAA Weather Channel 2 (RX only)           |
+| 29      | 162.450         | FM   | NOAA 3        | NOAA Weather Channel 3 (RX only)           |
+| 30      | 162.475         | FM   | NOAA 4        | NOAA Weather Channel 4 (RX only)           |
+| 31      | 162.500         | FM   | NOAA 5        | NOAA Weather Channel 5 (RX only)           |
+| 32      | 162.525         | FM   | NOAA 6        | NOAA Weather Channel 6 (RX only)           |
+| 33      | 162.550         | FM   | NOAA 7        | NOAA Weather Channel 7 (RX only)           |
+| 34      | 146.520         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 35      | 146.550         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 36      | 145.230         | FM   | 2M Rptr 1     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 37      | 145.290         | FM   | 2M Rptr 2     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 38      | 446.000         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 39      | 446.050         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 40      | 444.100         | FM   | 70CM Rptr 1   | 70cm repeater out, +5 MHz (amateur licence)|
+| 41      | 444.200         | FM   | 70CM Rptr 2   | 70cm repeater out, +5 MHz (amateur licence)|
+| 42      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 43      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 44      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 45      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 46      | 157.100         | FM   | MARINE 22A    | US Coast Guard liaison (RX only)           |
+| 47      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 48      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 49      | 118.300         | AM   | LAX TWR       | Los Angeles Tower example (RX only)        |
+| 50      | 88.5            | FM   | NPR LA        | NPR Los Angeles (FM preset, RX only)       |
+| 51      | 91.5            | FM   | KUSC          | Classical KUSC LA (FM preset, RX only)     |
+| 52      | 93.5            | FM   | KDAY          | Hip-hop KDAY LA (FM preset, RX only)       |
+| 53      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 54      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 55      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 56      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 57      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 58      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 59      | 144.390         | FM   | APRS US       | APRS North America (amateur licence)       |
+| 60      | 145.350         | FM   | 2M Rptr 3     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 61      | 145.410         | FM   | 2M Rptr 4     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 62      | 444.300         | FM   | 70CM Rptr 3   | 70cm repeater out, +5 MHz (amateur licence)|
+| 63      | 444.400         | FM   | 70CM Rptr 4   | 70cm repeater out, +5 MHz (amateur licence)|
+| 64      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 65      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 66      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 67      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 68      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 69      | 156.925         | FM   | MARINE 78A    | Marine non-commercial (RX only)            |
+| 70      | 157.050         | FM   | MARINE 81A    | Marine USCG (RX only)                      |
+| 71      | 157.150         | FM   | MARINE 83A    | Marine USCG (RX only)                      |
+| 72      | 118.000         | AM   | JFK TWR       | New York JFK Tower example (RX only)       |
+| 73      | 124.400         | AM   | ORD APP       | Chicago O’Hare Approach (RX only)          |
+| 74      | 119.100         | AM   | ATL TWR       | Atlanta Tower example (RX only)            |
+| 75      | 125.900         | AM   | DFW APP       | Dallas/Fort Worth Approach (RX only)       |
+| 76      | 95.5            | FM   | WSB ATL       | WSB Atlanta (FM preset, RX only)           |
+| 77      | 97.1            | FM   | WDRV CHI      | The Drive Chicago (FM preset, RX only)     |
+| 78      | 101.9           | FM   | KQXT SA       | Q101.9 San Antonio (FM preset, RX only)    |
+| 79      | 104.5           | FM   | KFOG SF       | KFOG San Francisco (FM preset, RX only)    |
+| 80      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 81      | 52.525          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 82      | 145.790         | FM   | ISS Downlink  | ISS amateur downlink (amateur licence)     |
+| 83      | 144.600         | FM   | 2M Data       | 2m data freq example (amateur licence)     |
+| 84      | 432.600         | FM   | 70CM Data     | 70cm data freq example (amateur licence)   |
+| 85      | 1296.500        | FM   | 23CM Data     | 23cm data freq example (amateur licence)   |
+| 86      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 87      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 88      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 89      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 90      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 91      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 92      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 93      | 157.025         | FM   | MARINE 80A    | Marine non-commercial (RX only)            |
+| 94      | 157.075         | FM   | MARINE 21A    | Marine USCG (RX only)                      |
+| 95      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 96      | 122.800         | AM   | UNICOM        | Unicom general aviation (RX only)          |
+| 97      | 119.500         | AM   | DEN TWR       | Denver Tower example (RX only)             |
+| 98      | 125.000         | AM   | SEA APP       | Seattle Approach example (RX only)         |
+| 99      | 106.7           | FM   | KROQ LA       | KROQ Los Angeles (FM preset, RX only)      |
+| 100     | 145.170         | FM   | 2M Rptr 5     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 101     | 145.430         | FM   | 2M Rptr 6     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 102     | 444.500         | FM   | 70CM Rptr 5   | 70cm repeater out, +5 MHz (amateur licence)|
+| 103     | 444.600         | FM   | 70CM Rptr 6   | 70cm repeater out, +5 MHz (amateur licence)|
+| 104     | 156.375         | FM   | MARINE 67     | US small craft safety (RX only)            |
+| 105     | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 106     | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 107     | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 108     | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 109     | 157.200         | FM   | MARINE 24     | Marine public correspondence (RX only)     |
+| 110     | 157.250         | FM   | MARINE 25     | Marine public correspondence (RX only)     |
+| 111     | 157.300         | FM   | MARINE 26     | Marine public correspondence (RX only)     |
+| 112     | 157.350         | FM   | MARINE 27     | Marine public correspondence (RX only)     |
+| 113     | 157.400         | FM   | MARINE 28     | Marine public correspondence (RX only)     |
+| 114     | 118.700         | AM   | SFO TWR       | San Francisco Tower example (RX only)      |
+| 115     | 124.900         | AM   | MIA APP       | Miami Approach example (RX only)           |
+| 116     | 89.1            | FM   | WNYC NY       | WNYC New York (FM preset, RX only)         |
+| 117     | 94.7            | FM   | WLS CHI       | WLS Chicago (FM preset, RX only)           |
+| 118     | 98.5            | FM   | KYGO DEN      | KYGO Denver (FM preset, RX only)           |
+| 119     | 102.7           | FM   | KIIS LA       | KIIS-FM Los Angeles (FM preset, RX only)   |
+| 120     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 121     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 122     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 123     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 124     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 125     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 126     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 127     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 128     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 129     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 130     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 131     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 132     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 133     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 134     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 135     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 136     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 137     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 138     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 139     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 140     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 141     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 142     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 143     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 144     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 145     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 146     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 147     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 148     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 149     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 150     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 151     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 152     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 153     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 154     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 155     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 156     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 157     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 158     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 159     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 160     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 161     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 162     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 163     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 164     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 165     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 166     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 167     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 168     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 169     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 170     | 145.490         | FM   | 2M Rptr 7     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 171     | 145.510         | FM   | 2M Rptr 8     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 172     | 444.700         | FM   | 70CM Rptr 7   | 70cm repeater out, +5 MHz (amateur licence)|
+| 173     | 444.800         | FM   | 70CM Rptr 8   | 70cm repeater out, +5 MHz (amateur licence)|
+| 174     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 175     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 176     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 177     | 157.175         | FM   | MARINE 23A    | Marine USCG (RX only)                      |
+| 178     | 120.200         | AM   | PHX TWR       | Phoenix Tower example (RX only)            |
+| 179     | 126.900         | AM   | LAS APP       | Las Vegas Approach example (RX only)       |
+| 180     | 90.7            | FM   | WNCW NC       | WNCW North Carolina (FM preset, RX only)   |
+| 181     | 96.9            | FM   | WBT Charlotte | WBT Charlotte (FM preset, RX only)         |
+| 182     | 99.9            | FM   | KISW SEA      | KISW Seattle (FM preset, RX only)          |
+| 183     | 103.5           | FM   | WQHT NY       | Hot 97 New York (FM preset, RX only)       |
+| 184     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 185     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 186     | 446.100         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 187     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 188     | 145.670         | FM   | 2M Rptr 9     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 189     | 145.710         | FM   | 2M Rptr 10    | 2m repeater out, –0.6 MHz (amateur licence)|
+| 190     | 444.900         | FM   | 70CM Rptr 9   | 70cm repeater out, +5 MHz (amateur licence)|
+| 191     | 445.000         | FM   | 70CM Rptr 10  | 70cm repeater out, +5 MHz (amateur licence)|
+| 192     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 193     | 156.275         | FM   | MARINE 65A    | Marine port ops (RX only)                  |
+| 194     | 156.325         | FM   | MARINE 66A    | Marine port ops (RX only)                  |
+| 195     | 121.900         | AM   | BOS GND       | Boston Ground example (RX only)            |
+| 196     | 123.900         | AM   | HOU APP       | Houston Approach example (RX only)         |
+| 197     | 92.9            | FM   | WBOS BOS      | WBOS Boston (FM preset, RX only)           |
+| 198     | 100.3           | FM   | KILT HOU      | KILT Houston (FM preset, RX only)          |
+| 199     | 107.5           | FM   | KGLK HOU      | KGLK Houston (FM preset, RX only)          |
+
+20 web pages
+Below is a complete channel list tailored for the USA, designed for the Quansheng UV-K5 with the egzumer/uv-k5-firmware-custom firmware, filling all 200 memory slots (0–199) in Markdown format for easy copying. This list replaces the UK-specific frequencies from the previous response with US-relevant ones, including FRS, GMRS, MURS, amateur radio bands (2m, 70cm, 6m, etc.), NOAA weather channels, marine VHF, airband, FM radio presets, and experimental TX bands unlocked by the firmware. It adheres to FCC regulations for legal reception and transmission (where licensed) and maximizes the radio’s capabilities.
+
+The UV-K5’s stock TX range is 136–174 MHz (VHF) and 400–470 MHz (UHF), but the egzumer firmware extends this to 50–1300 MHz (hardware-limited beyond stock bands). I’ve included frequencies for practical use in the US, ensuring compliance with FCC rules (e.g., licence-free FRS/GMRS, amateur bands with a ham licence, RX-only for marine/airband unless licensed).
+
+Complete USA Channel List for Quansheng UV-K5 (egzumer Firmware)
+markdown
+
+Collapse
+
+Wrap
+
+Copy
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 462.5625        | FM   | FRS 1         | FRS/GMRS Ch 1, licence-free (2W max)       |
+| 1       | 462.5875        | FM   | FRS 2         | FRS/GMRS Ch 2, licence-free (2W max)       |
+| 2       | 462.6125        | FM   | FRS 3         | FRS/GMRS Ch 3, licence-free (2W max)       |
+| 3       | 462.6375        | FM   | FRS 4         | FRS/GMRS Ch 4, licence-free (2W max)       |
+| 4       | 462.6625        | FM   | FRS 5         | FRS/GMRS Ch 5, licence-free (2W max)       |
+| 5       | 462.6875        | FM   | FRS 6         | FRS/GMRS Ch 6, licence-free (2W max)       |
+| 6       | 462.7125        | FM   | FRS 7         | FRS/GMRS Ch 7, licence-free (2W max)       |
+| 7       | 467.5625        | FM   | FRS 8         | FRS Ch 8, licence-free (0.5W max)          |
+| 8       | 467.5875        | FM   | FRS 9         | FRS Ch 9, licence-free (0.5W max)          |
+| 9       | 467.6125        | FM   | FRS 10        | FRS Ch 10, licence-free (0.5W max)         |
+| 10      | 467.6375        | FM   | FRS 11        | FRS Ch 11, licence-free (0.5W max)         |
+| 11      | 467.6625        | FM   | FRS 12        | FRS Ch 12, licence-free (0.5W max)         |
+| 12      | 467.6875        | FM   | FRS 13        | FRS Ch 13, licence-free (0.5W max)         |
+| 13      | 467.7125        | FM   | FRS 14        | FRS Ch 14, licence-free (0.5W max)         |
+| 14      | 462.5500        | FM   | GMRS 15       | GMRS Ch 15, licence req (5W handheld)      |
+| 15      | 462.5750        | FM   | GMRS 16       | GMRS Ch 16, licence req (5W handheld)      |
+| 16      | 462.6000        | FM   | GMRS 17       | GMRS Ch 17, licence req (5W handheld)      |
+| 17      | 462.6250        | FM   | GMRS 18       | GMRS Ch 18, licence req (5W handheld)      |
+| 18      | 462.6500        | FM   | GMRS 19       | GMRS Ch 19, licence req (5W handheld)      |
+| 19      | 462.6750        | FM   | GMRS 20       | GMRS Ch 20, licence req (5W handheld)      |
+| 20      | 462.7000        | FM   | GMRS 21       | GMRS Ch 21, licence req (5W handheld)      |
+| 21      | 462.7250        | FM   | GMRS 22       | GMRS Ch 22, licence req (5W handheld)      |
+| 22      | 151.820         | FM   | MURS 1        | MURS Ch 1, licence-free (2W max)           |
+| 23      | 151.880         | FM   | MURS 2        | MURS Ch 2, licence-free (2W max)           |
+| 24      | 151.940         | FM   | MURS 3        | MURS Ch 3, licence-free (2W max)           |
+| 25      | 154.570         | FM   | MURS 4        | MURS Ch 4, licence-free (2W max)           |
+| 26      | 154.600         | FM   | MURS 5        | MURS Ch 5, licence-free (2W max)           |
+| 27      | 162.400         | FM   | NOAA 1        | NOAA Weather Channel 1 (RX only)           |
+| 28      | 162.425         | FM   | NOAA 2        | NOAA Weather Channel 2 (RX only)           |
+| 29      | 162.450         | FM   | NOAA 3        | NOAA Weather Channel 3 (RX only)           |
+| 30      | 162.475         | FM   | NOAA 4        | NOAA Weather Channel 4 (RX only)           |
+| 31      | 162.500         | FM   | NOAA 5        | NOAA Weather Channel 5 (RX only)           |
+| 32      | 162.525         | FM   | NOAA 6        | NOAA Weather Channel 6 (RX only)           |
+| 33      | 162.550         | FM   | NOAA 7        | NOAA Weather Channel 7 (RX only)           |
+| 34      | 146.520         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 35      | 146.550         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 36      | 145.230         | FM   | 2M Rptr 1     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 37      | 145.290         | FM   | 2M Rptr 2     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 38      | 446.000         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 39      | 446.050         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 40      | 444.100         | FM   | 70CM Rptr 1   | 70cm repeater out, +5 MHz (amateur licence)|
+| 41      | 444.200         | FM   | 70CM Rptr 2   | 70cm repeater out, +5 MHz (amateur licence)|
+| 42      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 43      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 44      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 45      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 46      | 157.100         | FM   | MARINE 22A    | US Coast Guard liaison (RX only)           |
+| 47      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 48      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 49      | 118.300         | AM   | LAX TWR       | Los Angeles Tower example (RX only)        |
+| 50      | 88.5            | FM   | NPR LA        | NPR Los Angeles (FM preset, RX only)       |
+| 51      | 91.5            | FM   | KUSC          | Classical KUSC LA (FM preset, RX only)     |
+| 52      | 93.5            | FM   | KDAY          | Hip-hop KDAY LA (FM preset, RX only)       |
+| 53      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 54      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 55      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 56      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 57      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 58      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 59      | 144.390         | FM   | APRS US       | APRS North America (amateur licence)       |
+| 60      | 145.350         | FM   | 2M Rptr 3     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 61      | 145.410         | FM   | 2M Rptr 4     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 62      | 444.300         | FM   | 70CM Rptr 3   | 70cm repeater out, +5 MHz (amateur licence)|
+| 63      | 444.400         | FM   | 70CM Rptr 4   | 70cm repeater out, +5 MHz (amateur licence)|
+| 64      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 65      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 66      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 67      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 68      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 69      | 156.925         | FM   | MARINE 78A    | Marine non-commercial (RX only)            |
+| 70      | 157.050         | FM   | MARINE 81A    | Marine USCG (RX only)                      |
+| 71      | 157.150         | FM   | MARINE 83A    | Marine USCG (RX only)                      |
+| 72      | 118.000         | AM   | JFK TWR       | New York JFK Tower example (RX only)       |
+| 73      | 124.400         | AM   | ORD APP       | Chicago O’Hare Approach (RX only)          |
+| 74      | 119.100         | AM   | ATL TWR       | Atlanta Tower example (RX only)            |
+| 75      | 125.900         | AM   | DFW APP       | Dallas/Fort Worth Approach (RX only)       |
+| 76      | 95.5            | FM   | WSB ATL       | WSB Atlanta (FM preset, RX only)           |
+| 77      | 97.1            | FM   | WDRV CHI      | The Drive Chicago (FM preset, RX only)     |
+| 78      | 101.9           | FM   | KQXT SA       | Q101.9 San Antonio (FM preset, RX only)    |
+| 79      | 104.5           | FM   | KFOG SF       | KFOG San Francisco (FM preset, RX only)    |
+| 80      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 81      | 52.525          | FM   | 6M FM Call    | 6m FM calling (amateur licence)            |
+| 82      | 145.790         | FM   | ISS Downlink  | ISS amateur downlink (amateur licence)     |
+| 83      | 144.600         | FM   | 2M Data       | 2m data freq example (amateur licence)     |
+| 84      | 432.600         | FM   | 70CM Data     | 70cm data freq example (amateur licence)   |
+| 85      | 1296.500        | FM   | 23CM Data     | 23cm data freq example (amateur licence)   |
+| 86      | 50.800          | FM   | 6M Beacon     | 6m beacon freq example (amateur licence)   |
+| 87      | 144.250         | FM   | 2M Beacon     | 2m beacon freq example (amateur licence)   |
+| 88      | 432.500         | FM   | 70CM Beacon   | 70cm beacon example (amateur licence)      |
+| 89      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon example (amateur licence)      |
+| 90      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 91      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 92      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 93      | 157.025         | FM   | MARINE 80A    | Marine non-commercial (RX only)            |
+| 94      | 157.075         | FM   | MARINE 21A    | Marine USCG (RX only)                      |
+| 95      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 96      | 122.800         | AM   | UNICOM        | Unicom general aviation (RX only)          |
+| 97      | 119.500         | AM   | DEN TWR       | Denver Tower example (RX only)             |
+| 98      | 125.000         | AM   | SEA APP       | Seattle Approach example (RX only)         |
+| 99      | 106.7           | FM   | KROQ LA       | KROQ Los Angeles (FM preset, RX only)      |
+| 100     | 145.170         | FM   | 2M Rptr 5     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 101     | 145.430         | FM   | 2M Rptr 6     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 102     | 444.500         | FM   | 70CM Rptr 5   | 70cm repeater out, +5 MHz (amateur licence)|
+| 103     | 444.600         | FM   | 70CM Rptr 6   | 70cm repeater out, +5 MHz (amateur licence)|
+| 104     | 156.375         | FM   | MARINE 67     | US small craft safety (RX only)            |
+| 105     | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 106     | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 107     | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 108     | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 109     | 157.200         | FM   | MARINE 24     | Marine public correspondence (RX only)     |
+| 110     | 157.250         | FM   | MARINE 25     | Marine public correspondence (RX only)     |
+| 111     | 157.300         | FM   | MARINE 26     | Marine public correspondence (RX only)     |
+| 112     | 157.350         | FM   | MARINE 27     | Marine public correspondence (RX only)     |
+| 113     | 157.400         | FM   | MARINE 28     | Marine public correspondence (RX only)     |
+| 114     | 118.700         | AM   | SFO TWR       | San Francisco Tower example (RX only)      |
+| 115     | 124.900         | AM   | MIA APP       | Miami Approach example (RX only)           |
+| 116     | 89.1            | FM   | WNYC NY       | WNYC New York (FM preset, RX only)         |
+| 117     | 94.7            | FM   | WLS CHI       | WLS Chicago (FM preset, RX only)           |
+| 118     | 98.5            | FM   | KYGO DEN      | KYGO Denver (FM preset, RX only)           |
+| 119     | 102.7           | FM   | KIIS LA       | KIIS-FM Los Angeles (FM preset, RX only)   |
+| 120     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 121     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 122     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 123     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 124     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 125     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 126     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 127     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 128     | 60.000          | FM   | VHF EXP 60    | VHF experimental (TX risky/illegal)        |
+| 129     | 70.000          | FM   | VHF EXP 70    | VHF experimental (TX risky/illegal)        |
+| 130     | 80.000          | FM   | VHF EXP 80    | VHF experimental (TX risky/illegal)        |
+| 131     | 90.000          | FM   | VHF EXP 90    | VHF experimental (TX risky/illegal)        |
+| 132     | 100.000         | FM   | VHF EXP 100   | VHF experimental (TX risky/illegal)        |
+| 133     | 110.000         | FM   | VHF EXP 110   | VHF experimental (TX risky/illegal)        |
+| 134     | 120.000         | FM   | VHF EXP 120   | VHF experimental (TX risky/illegal)        |
+| 135     | 130.000         | FM   | VHF EXP 130   | VHF experimental (TX risky/illegal)        |
+| 136     | 150.000         | FM   | VHF EXP 150   | VHF experimental (TX risky/illegal)        |
+| 137     | 160.000         | FM   | VHF EXP 160   | VHF experimental (TX risky/illegal)        |
+| 138     | 170.000         | FM   | VHF EXP 170   | VHF experimental (TX risky/illegal)        |
+| 139     | 180.000         | FM   | VHF EXP 180   | VHF experimental (TX risky/illegal)        |
+| 140     | 190.000         | FM   | VHF EXP 190   | VHF experimental (TX risky/illegal)        |
+| 141     | 200.000         | FM   | VHF EXP 200   | VHF experimental (TX risky/illegal)        |
+| 142     | 225.000         | FM   | MID EXP 225   | Mid-range experimental (RX only, TX illegal) |
+| 143     | 250.000         | FM   | MID EXP 250   | Mid-range experimental (RX only, TX illegal) |
+| 144     | 275.000         | FM   | MID EXP 275   | Mid-range experimental (RX only, TX illegal) |
+| 145     | 300.000         | FM   | MID EXP 300   | Mid-range experimental (RX only, TX illegal) |
+| 146     | 325.000         | FM   | MID EXP 325   | Mid-range experimental (RX only, TX illegal) |
+| 147     | 350.000         | FM   | MID EXP 350   | Mid-range experimental (RX only, TX illegal) |
+| 148     | 375.000         | FM   | MID EXP 375   | Mid-range experimental (RX only, TX illegal) |
+| 149     | 400.000         | FM   | UHF EXP 400   | UHF experimental (TX risky/illegal)        |
+| 150     | 425.000         | FM   | UHF EXP 425   | UHF experimental (TX risky/illegal)        |
+| 151     | 475.000         | FM   | UHF EXP 475   | UHF experimental (TX risky/illegal)        |
+| 152     | 500.000         | FM   | UHF EXP 500   | UHF experimental (TX risky/illegal)        |
+| 153     | 525.000         | FM   | UHF EXP 525   | UHF experimental (TX risky/illegal)        |
+| 154     | 550.000         | FM   | UHF EXP 550   | UHF experimental (TX risky/illegal)        |
+| 155     | 575.000         | FM   | UHF EXP 575   | UHF experimental (TX risky/illegal)        |
+| 156     | 600.000         | FM   | UHF EXP 600   | UHF experimental (TX risky/illegal)        |
+| 157     | 650.000         | FM   | UHF EXP 650   | UHF experimental (TX poor/illegal)         |
+| 158     | 700.000         | FM   | UHF EXP 700   | UHF experimental (TX poor/illegal)         |
+| 159     | 750.000         | FM   | SHF EXP 750   | SHF experimental (TX poor/illegal)         |
+| 160     | 800.000         | FM   | SHF EXP 800   | SHF experimental (TX poor/illegal)         |
+| 161     | 850.000         | FM   | SHF EXP 850   | SHF experimental (TX poor/illegal)         |
+| 162     | 900.000         | FM   | SHF EXP 900   | SHF experimental (TX poor/illegal)         |
+| 163     | 950.000         | FM   | SHF EXP 950   | SHF experimental (TX poor/illegal)         |
+| 164     | 1000.000        | FM   | SHF EXP 1000  | SHF experimental (TX poor/illegal)         |
+| 165     | 1050.000        | FM   | SHF EXP 1050  | SHF experimental (TX poor/illegal)         |
+| 166     | 1100.000        | FM   | SHF EXP 1100  | SHF experimental (TX poor/illegal)         |
+| 167     | 1150.000        | FM   | SHF EXP 1150  | SHF experimental (TX poor/illegal)         |
+| 168     | 1200.000        | FM   | SHF EXP 1200  | SHF experimental (TX poor/illegal)         |
+| 169     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 170     | 145.490         | FM   | 2M Rptr 7     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 171     | 145.510         | FM   | 2M Rptr 8     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 172     | 444.700         | FM   | 70CM Rptr 7   | 70cm repeater out, +5 MHz (amateur licence)|
+| 173     | 444.800         | FM   | 70CM Rptr 8   | 70cm repeater out, +5 MHz (amateur licence)|
+| 174     | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 175     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 176     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 177     | 157.175         | FM   | MARINE 23A    | Marine USCG (RX only)                      |
+| 178     | 120.200         | AM   | PHX TWR       | Phoenix Tower example (RX only)            |
+| 179     | 126.900         | AM   | LAS APP       | Las Vegas Approach example (RX only)       |
+| 180     | 90.7            | FM   | WNCW NC       | WNCW North Carolina (FM preset, RX only)   |
+| 181     | 96.9            | FM   | WBT Charlotte | WBT Charlotte (FM preset, RX only)         |
+| 182     | 99.9            | FM   | KISW SEA      | KISW Seattle (FM preset, RX only)          |
+| 183     | 103.5           | FM   | WQHT NY       | Hot 97 New York (FM preset, RX only)       |
+| 184     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 185     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 186     | 446.100         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 187     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 188     | 145.670         | FM   | 2M Rptr 9     | 2m repeater out, –0.6 MHz (amateur licence)|
+| 189     | 145.710         | FM   | 2M Rptr 10    | 2m repeater out, –0.6 MHz (amateur licence)|
+| 190     | 444.900         | FM   | 70CM Rptr 9   | 70cm repeater out, +5 MHz (amateur licence)|
+| 191     | 445.000         | FM   | 70CM Rptr 10  | 70cm repeater out, +5 MHz (amateur licence)|
+| 192     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 193     | 156.275         | FM   | MARINE 65A    | Marine port ops (RX only)                  |
+| 194     | 156.325         | FM   | MARINE 66A    | Marine port ops (RX only)                  |
+| 195     | 121.900         | AM   | BOS GND       | Boston Ground example (RX only)            |
+| 196     | 123.900         | AM   | HOU APP       | Houston Approach example (RX only)         |
+| 197     | 92.9            | FM   | WBOS BOS      | WBOS Boston (FM preset, RX only)           |
+| 198     | 100.3           | FM   | KILT HOU      | KILT Houston (FM preset, RX only)          |
+| 199     | 107.5           | FM   | KGLK HOU      | KGLK Houston (FM preset, RX only)          |
+
+
+Notes
+Legal Status in the USA (FCC Regulations)
+Licence-Free:
+FRS: Channels 0–13 (462.5625–467.7125 MHz, 2W max for 1–7, 0.5W max for 8–14).
+MURS: Channels 22–26 (151.820–154.600 MHz, 2W max).
+No GMRS licence needed for FRS power levels; full GMRS (14–21) requires a $35 FCC licence (no test).
+Amateur Radio: Requires an FCC amateur licence (Technician or higher):
+6m (53–54, 80–81, 86, 120–121, 184): 50–54 MHz.
+2m (34–37, 57, 60–61, 83, 87, 100–101, 122–123, 170–171, 185, 188–189): 144–148 MHz.
+70cm (38–41, 58, 62–63, 84, 88, 102–103, 124–125, 172–173, 186, 190–191): 420–450 MHz.
+23cm (55–56, 85, 89, 126–127, 169, 187): 1240–1300 MHz.
+Restricted Bands: RX-only unless specifically licensed (e.g., marine VHF or aviation):
+NOAA Weather: 27–33 (162.400–162.550 MHz, RX only).
+Marine VHF: 42–46, 64–71, 90–94, 104–113, 174–177, 192–194 (156–162 MHz, RX only unless licensed).
+Airband: 47–49, 72–75, 95–98, 114–115, 178–179, 195–196 (118–136 MHz, RX only).
+Experimental: 128–169 (50–1300 MHz outside allocated bands, TX illegal without FCC approval).
+Technical Considerations
+Stock TX Bands: 136–174 MHz (VHF), 400–470 MHz (UHF) offer ~5W and proper filtering.
+Unlocked TX Bands: Enabled via hidden menu (PTT + Side Button 1, set F Lock to “Custom” or “All”):
+50–136 MHz (6m, airband): ~2–4W, possible spurious emissions.
+174–400 MHz: Poor sensitivity, TX risky.
+470–1300 MHz (upper UHF, SHF): <1W, hardware-limited (BK4819 chip lacks filtering).
+Programming: Use CHIRP with egzumer driver (Radio > Download/Upload) or manual entry (VFO mode, F + M). FM presets (50–52, etc.) saved in FM mode (F + M).

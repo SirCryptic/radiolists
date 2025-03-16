@@ -1,0 +1,217 @@
+| Channel | Frequency (MHz) | Mode | Name          | Notes                                      |
+|---------|-----------------|------|---------------|--------------------------------------------|
+| 0       | 476.425         | FM   | PRS 1         | PRS Ch 1, licence-free (5W max)            |
+| 1       | 476.450         | FM   | PRS 2         | PRS Ch 2, licence-free (5W max)            |
+| 2       | 476.475         | FM   | PRS 3         | PRS Ch 3, licence-free (5W max)            |
+| 3       | 476.500         | FM   | PRS 4         | PRS Ch 4, licence-free (5W max)            |
+| 4       | 476.525         | FM   | PRS 5         | PRS Ch 5, emergency (5W max)               |
+| 5       | 476.550         | FM   | PRS 6         | PRS Ch 6, licence-free (5W max)            |
+| 6       | 476.575         | FM   | PRS 7         | PRS Ch 7, licence-free (5W max)            |
+| 7       | 476.600         | FM   | PRS 8         | PRS Ch 8, calling (5W max)                 |
+| 8       | 145.500         | FM   | 2M Calling    | 2m calling frequency (amateur licence)     |
+| 9       | 145.425         | FM   | 2M Simplex    | 2m simplex (amateur licence)               |
+| 10      | 146.625         | FM   | 2M Rptr ZL1A  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 11      | 146.675         | FM   | 2M Rptr ZL1B  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 12      | 433.500         | FM   | 70CM Calling  | 70cm calling frequency (amateur licence)   |
+| 13      | 433.400         | FM   | 70CM Simplex  | 70cm simplex (amateur licence)             |
+| 14      | 439.100         | FM   | 70CM Rptr ZL1C| 70cm repeater out, –5 MHz (amateur licence)|
+| 15      | 439.200         | FM   | 70CM Rptr ZL1D| 70cm repeater out, –5 MHz (amateur licence)|
+| 16      | 156.050         | FM   | MARINE 1      | Marine ship-to-ship (RX only unless licensed) |
+| 17      | 156.800         | FM   | MARINE 16     | Marine distress & calling (RX only)        |
+| 18      | 156.850         | FM   | MARINE 17     | Marine inter-ship (RX only)                |
+| 19      | 157.000         | FM   | MARINE 20     | Marine port ops (RX only)                  |
+| 20      | 157.025         | FM   | MARINE 80     | Marine non-commercial (RX only)            |
+| 21      | 121.500         | AM   | AIR EMG       | Aviation emergency (RX only)               |
+| 22      | 123.450         | AM   | AIR Chat      | Air-to-air chat (RX only)                  |
+| 23      | 118.100         | AM   | NZAA TWR      | Auckland Tower (RX only)                   |
+| 24      | 87.9            | FM   | The Edge      | The Edge Auckland (FM preset, RX only)     |
+| 25      | 89.4            | FM   | More FM       | More FM Auckland (FM preset, RX only)      |
+| 26      | 90.2            | FM   | RNZ National  | RNZ National Auckland (FM preset, RX only) |
+| 27      | 50.500          | FM   | 6M Calling    | 6m calling frequency (amateur licence)     |
+| 28      | 51.500          | FM   | 6M Simplex    | 6m simplex (amateur licence)               |
+| 29      | 1296.200        | FM   | 23CM Calling  | 23cm calling frequency (amateur licence)   |
+| 30      | 1296.000        | FM   | 23CM Simplex  | 23cm simplex (amateur licence)             |
+| 31      | 144.200         | SSB  | 2M SSB Call   | 2m SSB calling (amateur licence)           |
+| 32      | 432.100         | SSB  | 70CM SSB Call | 70cm SSB calling (amateur licence)         |
+| 33      | 144.800         | FM   | APRS NZ       | APRS New Zealand (amateur licence)         |
+| 34      | 146.750         | FM   | 2M Rptr ZL1E  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 35      | 146.875         | FM   | 2M Rptr ZL1F  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 36      | 439.300         | FM   | 70CM Rptr ZL1G| 70cm repeater out, –5 MHz (amateur licence)|
+| 37      | 439.400         | FM   | 70CM Rptr ZL1H| 70cm repeater out, –5 MHz (amateur licence)|
+| 38      | 156.300         | FM   | MARINE 6      | Marine safety (RX only)                    |
+| 39      | 156.400         | FM   | MARINE 8      | Marine ship-to-ship (RX only)              |
+| 40      | 156.450         | FM   | MARINE 9      | Marine ship-to-ship (RX only)              |
+| 41      | 156.625         | FM   | MARINE 72     | Marine non-commercial (RX only)            |
+| 42      | 156.675         | FM   | MARINE 73     | Marine port ops (RX only)                  |
+| 43      | 156.925         | FM   | MARINE 78     | Marine non-commercial (RX only)            |
+| 44      | 157.050         | FM   | MARINE 81     | Marine public correspondence (RX only)     |
+| 45      | 157.100         | FM   | MARINE 82     | Marine public correspondence (RX only)     |
+| 46      | 118.900         | AM   | NZCH TWR      | Christchurch Tower (RX only)               |
+| 47      | 125.200         | AM   | NZWN APP      | Wellington Approach (RX only)              |
+| 48      | 91.0            | FM   | ZM            | ZM Auckland (FM preset, RX only)           |
+| 49      | 92.1            | FM   | The Rock      | The Rock Auckland (FM preset, RX only)     |
+| 50      | 93.4            | FM   | The Sound     | The Sound Auckland (FM preset, RX only)    |
+| 51      | 50.200          | FM   | 6M SSB Call   | 6m SSB calling (amateur licence)           |
+| 52      | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 53      | 145.200         | FM   | 2M Alt Call   | 2m alternate calling (amateur licence)     |
+| 54      | 433.425         | FM   | 70CM Alt Call | 70cm alternate calling (amateur licence)   |
+| 55      | 156.525         | FM   | MARINE 70     | DSC distress (RX only)                     |
+| 56      | 156.575         | FM   | MARINE 71     | Marine non-commercial (RX only)            |
+| 57      | 156.725         | FM   | MARINE 74     | Marine port ops (RX only)                  |
+| 58      | 157.150         | FM   | MARINE 83     | Marine public correspondence (RX only)     |
+| 59      | 123.100         | AM   | SAR AIR       | Search & Rescue air freq (RX only)         |
+| 60      | 126.200         | AM   | NZQN APP      | Queenstown Approach (RX only)              |
+| 61      | 94.2            | FM   | Flava         | Flava Auckland (FM preset, RX only)        |
+| 62      | 95.8            | FM   | Mai FM        | Mai FM Auckland (FM preset, RX only)       |
+| 63      | 96.6            | FM   | Newstalk ZB   | Newstalk ZB Auckland (FM preset, RX only)  |
+| 64      | 50.800          | FM   | 6M Beacon     | 6m beacon (amateur licence)                |
+| 65      | 144.250         | FM   | 2M Beacon     | 2m beacon (amateur licence)                |
+| 66      | 432.500         | FM   | 70CM Beacon   | 70cm beacon (amateur licence)              |
+| 67      | 1297.000        | FM   | 23CM Beacon   | 23cm beacon (amateur licence)              |
+| 68      | 156.375         | FM   | MARINE 67     | Marine small craft safety (RX only)        |
+| 69      | 156.650         | FM   | MARINE 13     | Bridge-to-bridge (RX only)                 |
+| 70      | 156.600         | FM   | MARINE 12     | Marine port ops (RX only)                  |
+| 71      | 156.700         | FM   | MARINE 14     | Marine port ops (RX only)                  |
+| 72      | 156.875         | FM   | MARINE 77     | Marine inter-ship (RX only)                |
+| 73      | 119.500         | AM   | NZDN TWR      | Dunedin Tower (RX only)                    |
+| 74      | 125.100         | AM   | NZPM APP      | Palmerston North Approach (RX only)        |
+| 75      | 97.4            | FM   | The Hits      | The Hits Auckland (FM preset, RX only)     |
+| 76      | 98.2            | FM   | Hauraki       | Radio Hauraki Auckland (FM preset, RX only)|
+| 77      | 99.0            | FM   | Coast         | Coast Auckland (FM preset, RX only)        |
+| 78      | 146.925         | FM   | 2M Rptr ZL1I  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 79      | 147.000         | FM   | 2M Rptr ZL1J  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 80      | 439.500         | FM   | 70CM Rptr ZL1K| 70cm repeater out, –5 MHz (amateur licence)|
+| 81      | 439.600         | FM   | 70CM Rptr ZL1L| 70cm repeater out, –5 MHz (amateur licence)|
+| 82      | 156.475         | FM   | MARINE 69     | Marine non-commercial (RX only)            |
+| 83      | 157.200         | FM   | MARINE 84     | Marine public correspondence (RX only)     |
+| 84      | 157.250         | FM   | MARINE 85     | Marine public correspondence (RX only)     |
+| 85      | 157.300         | FM   | MARINE 86     | Marine public correspondence (RX only)     |
+| 86      | 157.350         | FM   | MARINE 87     | Marine public correspondence (RX only)     |
+| 87      | 157.400         | FM   | MARINE 88     | Marine public correspondence (RX only)     |
+| 88      | 119.900         | AM   | NZNS TWR      | Nelson Tower (RX only)                     |
+| 89      | 125.500         | AM   | NZNR APP      | Napier Approach (RX only)                  |
+| 90      | 99.8            | FM   | Magic         | Magic Auckland (FM preset, RX only)        |
+| 91      | 100.6           | FM   | Mix           | Mix Auckland (FM preset, RX only)          |
+| 92      | 101.4           | FM   | RNZ Concert   | RNZ Concert Auckland (FM preset, RX only)  |
+| 93      | 147.150         | FM   | 2M Rptr ZL1M  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 94      | 147.225         | FM   | 2M Rptr ZL1N  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 95      | 439.700         | FM   | 70CM Rptr ZL1O| 70cm repeater out, –5 MHz (amateur licence)|
+| 96      | 439.800         | FM   | 70CM Rptr ZL1P| 70cm repeater out, –5 MHz (amateur licence)|
+| 97      | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 98      | 119.300         | AM   | NZTG TWR      | Tauranga Tower (RX only)                   |
+| 99      | 102.2           | FM   | More FM Welly | More FM Wellington (FM preset, RX only)    |
+| 100     | 50.000          | FM   | 6M Low Edge   | 6m band edge (amateur licence)             |
+| 101     | 54.000          | FM   | 6M High Edge  | 6m band edge (amateur licence)             |
+| 102     | 144.000         | FM   | 2M Low Edge   | 2m band edge (amateur licence)             |
+| 103     | 148.000         | FM   | 2M High Edge  | 2m band edge (amateur licence)             |
+| 104     | 420.000         | FM   | 70CM Low Edge | 70cm band edge (amateur licence)           |
+| 105     | 450.000         | FM   | 70CM High Edge| 70cm band edge (amateur licence)           |
+| 106     | 1240.000        | FM   | 23CM Low Edge | 23cm band edge (amateur licence)           |
+| 107     | 1300.000        | FM   | 23CM High Edge| 23cm band edge (amateur licence)           |
+| 108     | 60.000          | FM   | VHF EXP 60    | Experimental (TX requires permit)          |
+| 109     | 70.000          | FM   | VHF EXP 70    | Experimental (TX requires permit)          |
+| 110     | 80.000          | FM   | VHF EXP 80    | Experimental (TX requires permit)          |
+| 111     | 90.000          | FM   | VHF EXP 90    | Experimental (TX requires permit)          |
+| 112     | 100.000         | FM   | VHF EXP 100   | Experimental (TX requires permit)          |
+| 113     | 110.000         | FM   | VHF EXP 110   | Experimental (TX requires permit)          |
+| 114     | 120.000         | FM   | VHF EXP 120   | Experimental (TX requires permit)          |
+| 115     | 130.000         | FM   | VHF EXP 130   | Experimental (TX requires permit)          |
+| 116     | 150.000         | FM   | VHF EXP 150   | Experimental (TX requires permit)          |
+| 117     | 160.000         | FM   | VHF EXP 160   | Experimental (TX requires permit)          |
+| 118     | 170.000         | FM   | VHF EXP 170   | Experimental (TX requires permit)          |
+| 119     | 180.000         | FM   | VHF EXP 180   | Experimental (TX requires permit)          |
+| 120     | 190.000         | FM   | VHF EXP 190   | Experimental (TX requires permit)          |
+| 121     | 200.000         | FM   | VHF EXP 200   | Experimental (TX requires permit)          |
+| 122     | 225.000         | FM   | MID EXP 225   | Experimental (TX requires permit)          |
+| 123     | 250.000         | FM   | MID EXP 250   | Experimental (TX requires permit)          |
+| 124     | 275.000         | FM   | MID EXP 275   | Experimental (TX requires permit)          |
+| 125     | 300.000         | FM   | MID EXP 300   | Experimental (TX requires permit)          |
+| 126     | 325.000         | FM   | MID EXP 325   | Experimental (TX requires permit)          |
+| 127     | 350.000         | FM   | MID EXP 350   | Experimental (TX requires permit)          |
+| 128     | 375.000         | FM   | MID EXP 375   | Experimental (TX requires permit)          |
+| 129     | 400.000         | FM   | UHF EXP 400   | Experimental (TX requires permit)          |
+| 130     | 425.000         | FM   | UHF EXP 425   | Experimental (TX requires permit)          |
+| 131     | 450.000         | FM   | UHF EXP 450   | Experimental (TX requires permit)          |
+| 132     | 475.000         | FM   | UHF EXP 475   | Experimental (TX requires permit)          |
+| 133     | 500.000         | FM   | UHF EXP 500   | Experimental (TX requires permit)          |
+| 134     | 525.000         | FM   | UHF EXP 525   | Experimental (TX requires permit)          |
+| 135     | 550.000         | FM   | UHF EXP 550   | Experimental (TX requires permit)          |
+| 136     | 575.000         | FM   | UHF EXP 575   | Experimental (TX requires permit)          |
+| 137     | 600.000         | FM   | UHF EXP 600   | Experimental (TX requires permit)          |
+| 138     | 650.000         | FM   | UHF EXP 650   | Experimental (TX requires permit)          |
+| 139     | 700.000         | FM   | UHF EXP 700   | Experimental (TX requires permit)          |
+| 140     | 750.000         | FM   | SHF EXP 750   | Experimental (TX requires permit)          |
+| 141     | 800.000         | FM   | SHF EXP 800   | Experimental (TX requires permit)          |
+| 142     | 850.000         | FM   | SHF EXP 850   | Experimental (TX requires permit)          |
+| 143     | 900.000         | FM   | SHF EXP 900   | Experimental (TX requires permit)          |
+| 144     | 950.000         | FM   | SHF EXP 950   | Experimental (TX requires permit)          |
+| 145     | 1000.000        | FM   | SHF EXP 1000  | Experimental (TX requires permit)          |
+| 146     | 1050.000        | FM   | SHF EXP 1050  | Experimental (TX requires permit)          |
+| 147     | 1100.000        | FM   | SHF EXP 1100  | Experimental (TX requires permit)          |
+| 148     | 1150.000        | FM   | SHF EXP 1150  | Experimental (TX requires permit)          |
+| 149     | 1200.000        | FM   | SHF EXP 1200  | Experimental (TX requires permit)          |
+| 150     | 1250.000        | FM   | 23CM Alt      | 23cm alternate freq (amateur licence)      |
+| 151     | 147.300         | FM   | 2M Rptr ZL1Q  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 152     | 147.375         | FM   | 2M Rptr ZL1R  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 153     | 439.875         | FM   | 70CM Rptr ZL1S| 70cm repeater out, –5 MHz (amateur licence)|
+| 154     | 439.900         | FM   | 70CM Rptr ZL1T| 70cm repeater out, –5 MHz (amateur licence)|
+| 155     | 156.225         | FM   | MARINE 64     | Marine ship-to-ship (RX only)              |
+| 156     | 156.275         | FM   | MARINE 65     | Marine port ops (RX only)                  |
+| 157     | 156.325         | FM   | MARINE 66     | Marine port ops (RX only)                  |
+| 158     | 156.775         | FM   | MARINE 75     | Marine navigation (RX only)                |
+| 159     | 156.825         | FM   | MARINE 76     | Marine navigation (RX only)                |
+| 160     | 119.650         | AM   | NZHN TWR      | Hamilton Tower (RX only)                   |
+| 161     | 125.050         | AM   | NZRO APP      | Rotorua Approach (RX only)                 |
+| 162     | 103.0           | FM   | George FM     | George FM Auckland (FM preset, RX only)    |
+| 163     | 104.6           | FM   | The Breeze    | The Breeze Auckland (FM preset, RX only)   |
+| 164     | 105.4           | FM   | RNZ National  | RNZ National Wellington (FM preset, RX only)|
+| 165     | 51.000          | FM   | 6M Alt Call   | 6m alternate calling (amateur licence)     |
+| 166     | 146.580         | FM   | 2M Simplex 2  | 2m simplex (amateur licence)               |
+| 167     | 433.450         | FM   | 70CM Simplex 2| 70cm simplex (amateur licence)             |
+| 168     | 1296.300        | FM   | 23CM Alt Call | 23cm alternate calling (amateur licence)   |
+| 169     | 147.450         | FM   | 2M Rptr ZL1U  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 170     | 147.525         | FM   | 2M Rptr ZL1V  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 171     | 439.925         | FM   | 70CM Rptr ZL1W| 70cm repeater out, –5 MHz (amateur licence)|
+| 172     | 439.950         | FM   | 70CM Rptr ZL1X| 70cm repeater out, –5 MHz (amateur licence)|
+| 173     | 156.750         | FM   | MARINE 15     | Marine inter-ship (RX only)                |
+| 174     | 119.450         | AM   | NZGS TWR      | Gisborne Tower (RX only)                   |
+| 175     | 106.2           | FM   | ZM Welly      | ZM Wellington (FM preset, RX only)         |
+| 176     | 145.575         | FM   | 2M Simplex 3  | 2m simplex (amateur licence)               |
+| 177     | 433.475         | FM   | 70CM Simplex 3| 70cm simplex (amateur licence)             |
+| 178     | 147.600         | FM   | 2M Rptr ZL1Y  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 179     | 147.675         | FM   | 2M Rptr ZL1Z  | 2m repeater out, –0.6 MHz (amateur licence)|
+| 180     | 440.000         | FM   | 70CM Rptr ZL1AA| 70cm repeater out, –5 MHz (amateur licence)|
+| 181     | 440.050         | FM   | 70CM Rptr ZL1AB| 70cm repeater out, –5 MHz (amateur licence)|
+| 182     | 119.200         | AM   | NZNP TWR      | New Plymouth Tower (RX only)               |
+| 183     | 107.0           | FM   | The Edge Welly| The Edge Wellington (FM preset, RX only)   |
+| 184     | 145.850         | FM   | 2M Simplex 4  | 2m simplex (amateur licence)               |
+| 185     | 433.525         | FM   | 70CM Simplex 4| 70cm simplex (amateur licence)             |
+| 186     | 145.525         | FM   | 2M Simplex 5  | 2m simplex (amateur licence)               |
+| 187     | 433.550         | FM   | 70CM Simplex 5| 70cm simplex (amateur licence)             |
+| 188     | 145.875         | FM   | 2M Simplex 6  | 2m simplex (amateur licence)               |
+| 189     | 433.575         | FM   | 70CM Simplex 6| 70cm simplex (amateur licence)             |
+| 190     | 145.900         | FM   | 2M Simplex 7  | 2m simplex (amateur licence)               |
+| 191     | 433.600         | FM   | 70CM Simplex 7| 70cm simplex (amateur licence)             |
+| 192     | 145.925         | FM   | 2M Simplex 8  | 2m simplex (amateur licence)               |
+| 193     | 433.625         | FM   | 70CM Simplex 8| 70cm simplex (amateur licence)             |
+| 194     | 145.950         | FM   | 2M Simplex 9  | 2m simplex (amateur licence)               |
+| 195     | 433.650         | FM   | 70CM Simplex 9| 70cm simplex (amateur licence)             |
+| 196     | 145.975         | FM   | 2M Simplex 10 | 2m simplex (amateur licence)               |
+| 197     | 433.675         | FM   | 70CM Simplex 10| 70cm simplex (amateur licence)             |
+| 198     | 146.000         | FM   | 2M Simplex 11 | 2m simplex (amateur licence)               |
+| 199     | 433.700         | FM   | 70CM Simplex 11| 70cm simplex (amateur licence)             |
+
+
+Notes for New Zealand
+Licence-Free Bands:
+PRS (Personal Radio Service): Channels 0–7 (476.425–476.600 MHz, 5W max, 25 kHz steps). Regulated under RSM’s General User Radio Licence (GURL) for Personal Radio Service, no individual licence required. Ch 5 is designated for emergencies, Ch 8 for calling. PRS is similar to Australia’s UHF CB but tailored for New Zealand.
+Amateur Radio: Requires a licence from NZART or RSM (callsign prefix ZL):
+6m: 27–28, 51–52, 64, 100–101, 165 (50–54 MHz, up to 25W General, 120W Advanced).
+2m: 8–11, 31, 34–35, 53, 65, 78–79, 93–94, 102–103, 151–152, 166–167, 169–170, 176, 178–179, 184, 186–198 (144–148 MHz, up to 25W General, 120W Advanced).
+70cm: 12–15, 32, 36–37, 54, 66, 80–81, 95–96, 104–105, 153–154, 167–168, 171–172, 177, 180–181, 185, 187–199 (420–450 MHz, up to 25W General, 120W Advanced).
+23cm: 29–30, 67, 106–107, 150, 168 (1240–1300 MHz, up to 25W General, 120W Advanced).
+Marine VHF: Channels 16–20, 38–45, etc., are standard international maritime frequencies (RX-only unless licensed, typically for maritime operators).
+Airband: Channels 21–23, 46–47, etc., are international aviation frequencies (RX-only).
+FM Presets: Channels 24–26, 48–50, etc., reflect popular New Zealand stations (e.g., The Edge, RNZ), mostly Auckland/Wellington-based (RX-only).
+Experimental: Channels 108–149 (50–1300 MHz) require RSM permits for TX, per Radiocommunications Act 1989.
+Technical Considerations: Stock TX bands (136–174 MHz, 400–470 MHz) are optimal; unlocked bands (50–136 MHz, 470–1300 MHz) require permits for TX due to RSM regulations.
